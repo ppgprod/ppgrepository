@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_a5SLQKa0Eea-_pa0Q-pl8A" dataPackage="_a5SLWaa0Eea-_pa0Q-pl8A" DatabaseType="HBase" Port="2181" Username="ppgprodadmin" ServerName="ppgprod3.ppgprod.com,ppgprod4.ppgprod.com,ppgprod2.ppgprod.com" SID="HBase" DbmsId="mysql_id" ProductId="HBASE">
+    <parameters xmi:id="_a5SLQaa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_a5SLQqa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
+    <parameters xmi:id="_a5SLQ6a0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_a5SLRKa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="ppgprod2.ppgprod.com:8030"/>
+    <parameters xmi:id="_a5SLRaa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+    <parameters xmi:id="_a5SLRqa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://ppgprod1.ppgprod.com:8020"/>
+    <parameters xmi:id="_a5SLR6a0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_a5SLSKa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_a5SLSaa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/app"/>
+    <parameters xmi:id="_a5SLSqa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_USERNAME" value="ppgprodadmin"/>
+    <parameters xmi:id="_a5SLS6a0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_flxlAKazEea-_pa0Q-pl8A"/>
+    <parameters xmi:id="_a5SLTKa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_a5SLTaa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_a5SLTqa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_4"/>
+    <parameters xmi:id="_a5SLT6a0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ppgprod2.ppgprod.com:8050"/>
+    <parameters xmi:id="_a5SLUKa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ppgprod2.ppgprod.com:10020"/>
+    <parameters xmi:id="_a5SLUaa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_4"/>
+    <parameters xmi:id="_a5SLUqa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_a5SLU6a0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_DB_SERVER" value="ppgprod3.ppgprod.com,ppgprod4.ppgprod.com,ppgprod2.ppgprod.com"/>
+    <parameters xmi:id="_a5SLVKa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
+    <parameters xmi:id="_a5SLVaa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
+    <parameters xmi:id="_a5SLVqa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_a5SLV6a0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_a5SLWKa0Eea-_pa0Q-pl8A" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_a5SLWaa0Eea-_pa0Q-pl8A" name="HBase" dataManager="_a5SLQKa0Eea-_pa0Q-pl8A"/>
+</xmi:XMI>
