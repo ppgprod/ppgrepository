@@ -268,20 +268,6 @@
       <relatedItems xmi:id="_RcSorqbgEeaPz5yv_7D-XQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_RcSor6bgEeaPz5yv_7D-XQ" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
-    <ItemsRelations xmi:id="_RcSosKbgEeaPz5yv_7D-XQ">
-      <baseItem xmi:id="_RcSosabgEeaPz5yv_7D-XQ" id="_KNBogOdtEdu08_wAFUaozw" version="0.1" type="job"/>
-      <relatedItems xmi:id="_RcSosqbgEeaPz5yv_7D-XQ" id="_dn7XwGT9Edyrh8knyihGHw" version="Latest" type="context"/>
-      <relatedItems xmi:id="_RcSos6bgEeaPz5yv_7D-XQ" id="Numeric" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_RcSotKbgEeaPz5yv_7D-XQ" id="Relational" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_RcSotabgEeaPz5yv_7D-XQ" id="TalendString" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_RcSotqbgEeaPz5yv_7D-XQ" id="DemoRoutines" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_RcSot6bgEeaPz5yv_7D-XQ" id="GetRandomPhoneNum" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_RcSouKbgEeaPz5yv_7D-XQ" id="DataOperation" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_RcSouabgEeaPz5yv_7D-XQ" id="StringHandling" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_RcSouqbgEeaPz5yv_7D-XQ" id="TalendDataGenerator" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_RcSou6bgEeaPz5yv_7D-XQ" id="TalendDate" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_RcSovKbgEeaPz5yv_7D-XQ" id="Mathematical" version="Latest" type="routine"/>
-    </ItemsRelations>
     <ItemsRelations xmi:id="_RcSoyqbgEeaPz5yv_7D-XQ">
       <baseItem xmi:id="_RcSoy6bgEeaPz5yv_7D-XQ" id="_CL2roB1jEd-XVfHSJU420w" version="0.1" type="job"/>
       <relatedItems xmi:id="_RcSozKbgEeaPz5yv_7D-XQ" id="Numeric" version="Latest" type="routine"/>
@@ -3088,6 +3074,23 @@
       <relatedItems xmi:id="_oG6LqqoAEeaEZoSSToXmTg" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_oG6Lq6oAEeaEZoSSToXmTg" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_oG6LrKoAEeaEZoSSToXmTg" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_ok5vMKoAEeaEZoSSToXmTg">
+      <baseItem xmi:id="_ok5vMaoAEeaEZoSSToXmTg" id="_L4M4IB1CEd-XVfHSJU420w" version="0.1" type="job"/>
+      <relatedItems xmi:id="_ok5vMqoAEeaEZoSSToXmTg" id="_dn7XwGT9Edyrh8knyihGHw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_ok5vM6oAEeaEZoSSToXmTg" id="_WpUb4B1DEd-XVfHSJU420w" version="Latest" type="property"/>
+      <relatedItems xmi:id="_ok5vNKoAEeaEZoSSToXmTg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ok5vNaoAEeaEZoSSToXmTg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ok5vNqoAEeaEZoSSToXmTg" id="DemoRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ok5vN6oAEeaEZoSSToXmTg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ok5vOKoAEeaEZoSSToXmTg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ok5vOaoAEeaEZoSSToXmTg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ok5vOqoAEeaEZoSSToXmTg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ok5vO6oAEeaEZoSSToXmTg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ok5vPKoAEeaEZoSSToXmTg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ok5vPaoAEeaEZoSSToXmTg" id="GetRandomPhoneNum" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_ok5vPqoAEeaEZoSSToXmTg" id="_WpUb4B1DEd-XVfHSJU420w - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_ok5vP6oAEeaEZoSSToXmTg" id="__TIYkB1CEd-XVfHSJU420w - livres" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_Jlm5cKazEea-_pa0Q-pl8A" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Jlm5caazEea-_pa0Q-pl8A" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
