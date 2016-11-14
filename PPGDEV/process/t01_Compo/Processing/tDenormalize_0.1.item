@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
-  <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="externalSortProgram" prompt="Define the path of the external Sort Program:" promptNeeded="true" type="id_String" value="C:/GnuWin32/bin/sort.exe"/>
-  </context>
+  <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="DIRECTORY" name="COMP_DEFAULT_FILE_DIR" value="D:\TOS-All-r17341-V3.0.0M3\workspace" contextMode="false"/>
     <elementParameter field="CHECK" name="displaySubjobs" value="true" contextMode="false"/>
     <elementParameter field="TEXT" name="AUTHOR" value="training@talend.com" contextMode="false"/>
     <elementParameter field="TEXT" name="STATUS" value="" contextMode="false"/>
-    <elementParameter field="TEXT" name="NAME" value="tExternalSortRow" contextMode="false"/>
+    <elementParameter field="TEXT" name="NAME" value="tDenormalize" contextMode="false"/>
     <elementParameter field="TEXT" name="VERSION" value="0.1" contextMode="false"/>
     <elementParameter field="TEXT" name="PURPOSE" value="" contextMode="false"/>
     <elementParameter field="TEXT" name="DESCRIPTION" value="" contextMode="false"/>
@@ -82,7 +80,7 @@
     <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
     <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
   </parameters>
-  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="192">
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" contextMode="false"/>
     <elementParameter field="TEXT" name="COMPONENT_NAME" value="tRowGenerator" contextMode="false"/>
     <elementParameter field="TEXT" name="TRANSLATED_COMPONENT_NAME" value="tRowGenerator" contextMode="false"/>
@@ -94,22 +92,18 @@
     <elementParameter field="CHECK" name="DUMMY" value="false" contextMode="false"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="false" contextMode="false"/>
     <elementParameter field="TEXT" name="HELP" value="org.talend.help.tRowGenerator" contextMode="false"/>
-    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="true" contextMode="false"/>
     <elementParameter field="TEXT" name="CURRENT_OS" value="Windows XP" contextMode="false"/>
     <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" contextMode="false"/>
     <elementParameter field="CHECK" name="REPOSITORY_ALLOW_AUTO_SWITCH" value="false" contextMode="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="BUILT_IN" contextMode="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="" contextMode="false"/>
-    <elementParameter field="TEXT" name="NB_ROWS" value="100" contextMode="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="5" contextMode="false"/>
     <elementParameter field="TABLE" name="VALUES" contextMode="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="number"/>
-      <elementValue elementRef="ARRAY" value="1,2,3,4,5,6,7,8,9,10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="txt"/>
-      <elementValue elementRef="ARRAY" value="&quot;text1&quot;, &quot;text2&quot;, &quot;text3&quot;, &quot;text4&quot;, &quot;text5&quot;, &quot;text6&quot;, &quot;text7&quot;, &quot;text8&quot;, &quot;text9&quot;, &quot;text10&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
-      <elementValue elementRef="ARRAY" value="&quot;2007-01-21&quot;, &quot;2007-02-22&quot;, &quot;2007-03-23&quot;, &quot;2006-04-24&quot;, &quot;2006-05-25&quot;, &quot;2006-06-26&quot;, &quot;2005-07-27&quot;, &quot;2005-08-28&quot;, &quot;2005-08-29&quot;, &quot;2004-11-21&quot;"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="flag"/>
-      <elementValue elementRef="ARRAY" value="true,false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="os"/>
+      <elementValue elementRef="ARRAY" value="&quot;redhat&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="version"/>
+      <elementValue elementRef="ARRAY" value="&quot;3.0&quot;,&quot;5.0&quot;,&quot;8.0&quot;"/>
     </elementParameter>
     <elementParameter field="EXTERNAL" name="MAP" value="" contextMode="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__" contextMode="false"/>
@@ -117,52 +111,11 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" contextMode="false"/>
     <elementParameter field="MEMO" name="COMMENT" value="" contextMode="false"/>
     <metadata connector="FLOW" name="tRowGenerator_1">
-      <column comment="" key="false" length="3" name="number" nullable="false" pattern="" sourceType="" type="id_Integer"/>
-      <column comment="" key="false" length="20" name="txt" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="10" name="date" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="5" name="flag" nullable="false" pattern="" sourceType="" type="id_Boolean"/>
+      <column comment="" defaultValue="" key="false" name="os" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" name="version" nullable="false" pattern="" sourceType="" type="id_String"/>
     </metadata>
   </node>
-  <node componentName="tExternalSortRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="192">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tExternalSortRow_1" contextMode="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tExternalSortRow" contextMode="false"/>
-    <elementParameter field="TEXT" name="TRANSLATED_COMPONENT_NAME" value="tExternalSortRow" contextMode="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" contextMode="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Processing" contextMode="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="false" contextMode="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="true" contextMode="false"/>
-    <elementParameter field="CHECK" name="DUMMY" value="false" contextMode="false"/>
-    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="false" contextMode="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tExternalSortRow" contextMode="false"/>
-    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
-    <elementParameter field="TEXT" name="CURRENT_OS" value="Windows XP" contextMode="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" contextMode="false"/>
-    <elementParameter field="CHECK" name="REPOSITORY_ALLOW_AUTO_SWITCH" value="false" contextMode="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="BUILT_IN" contextMode="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="" contextMode="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/talend_file/outputSorted.txt&quot;" contextMode="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;" contextMode="false"/>
-    <elementParameter field="TABLE" name="CRITERIA" contextMode="false">
-      <elementValue elementRef="COLNAME" value="number"/>
-      <elementValue elementRef="SORT" value="num"/>
-      <elementValue elementRef="ORDER" value="asc"/>
-    </elementParameter>
-    <elementParameter field="FILE" name="SORT_CMDPATH" value="context.externalSortProgram" contextMode="false"/>
-    <elementParameter field="TEXT" name="MAX_MEMORY" value="&quot;200M&quot;" contextMode="false"/>
-    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="" contextMode="false"/>
-    <elementParameter field="CHECK" name="ADD_EOF" value="false" contextMode="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__" contextMode="false"/>
-    <elementParameter field="TEXT" name="HINT" value="__UNIQUE_NAME__" contextMode="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" contextMode="false"/>
-    <elementParameter field="MEMO" name="COMMENT" value="" contextMode="false"/>
-    <metadata connector="FLOW" name="tExternalSortRow_1">
-      <column comment="" key="false" length="3" name="number" nullable="false" pattern="" sourceType="" type="id_Integer"/>
-      <column comment="" key="false" length="20" name="txt" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="10" name="date" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="5" name="flag" nullable="false" pattern="" sourceType="" type="id_Boolean"/>
-    </metadata>
-  </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="192">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" contextMode="false"/>
     <elementParameter field="TEXT" name="COMPONENT_NAME" value="tLogRow" contextMode="false"/>
     <elementParameter field="TEXT" name="TRANSLATED_COMPONENT_NAME" value="tLogRow" contextMode="false"/>
@@ -187,25 +140,50 @@
     <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" contextMode="false"/>
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" contextMode="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" contextMode="false"/>
-    <elementParameter field="TABLE" name="LENGTHS" contextMode="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="number"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="txt"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="flag"/>
-    </elementParameter>
+    <elementParameter field="TABLE" name="LENGTHS" contextMode="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__" contextMode="false"/>
     <elementParameter field="TEXT" name="HINT" value="__UNIQUE_NAME__" contextMode="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" contextMode="false"/>
     <elementParameter field="MEMO" name="COMMENT" value="" contextMode="false"/>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="false"/>
     <metadata connector="FLOW" name="tLogRow_1">
-      <column comment="" key="false" length="3" name="number" nullable="false" pattern="" sourceType="" type="id_Integer"/>
-      <column comment="" key="false" length="20" name="txt" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="10" name="date" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="5" name="flag" nullable="false" pattern="" sourceType="" type="id_Boolean"/>
+      <column comment="" defaultValue="" key="false" name="os" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" name="version" nullable="false" pattern="" sourceType="" type="id_String"/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tExternalSortRow_1">
+  <node componentName="tDenormalize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDenormalize_1" contextMode="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tDenormalize" contextMode="false"/>
+    <elementParameter field="TEXT" name="TRANSLATED_COMPONENT_NAME" value="tDenormalize" contextMode="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)" contextMode="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Processing/Fields" contextMode="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="false" contextMode="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true" contextMode="false"/>
+    <elementParameter field="CHECK" name="DUMMY" value="false" contextMode="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="false" contextMode="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tDenormalize" contextMode="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
+    <elementParameter field="TEXT" name="CURRENT_OS" value="Windows XP" contextMode="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" contextMode="false"/>
+    <elementParameter field="CHECK" name="REPOSITORY_ALLOW_AUTO_SWITCH" value="false" contextMode="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="BUILT_IN" contextMode="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="" contextMode="false"/>
+    <elementParameter field="TABLE" name="DENORMALIZE_COLUMNS" contextMode="false">
+      <elementValue elementRef="INPUT_COLUMN" value="version"/>
+      <elementValue elementRef="DELIMITER" value="&quot;;&quot;"/>
+      <elementValue elementRef="MERGE" value="true"/>
+    </elementParameter>
+    <elementParameter field="LABEL" name="NOTE" value="" contextMode="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__" contextMode="false"/>
+    <elementParameter field="TEXT" name="HINT" value="__UNIQUE_NAME__" contextMode="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" contextMode="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value="" contextMode="false"/>
+    <metadata connector="FLOW" name="tDenormalize_1">
+      <column comment="" defaultValue="" key="false" name="os" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" name="version" nullable="false" pattern="" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tDenormalize_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false" contextMode="false"/>
     <elementParameter field="CHECK" name="USEROWLABEL" value="true" contextMode="false"/>
     <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;" contextMode="false"/>
@@ -216,7 +194,7 @@
     <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" contextMode="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tExternalSortRow_1" offsetLabelX="0" offsetLabelY="0" source="tExternalSortRow_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDenormalize_1" offsetLabelX="0" offsetLabelY="0" source="tDenormalize_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false" contextMode="false"/>
     <elementParameter field="CHECK" name="USEROWLABEL" value="true" contextMode="false"/>
     <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;" contextMode="false"/>
@@ -227,7 +205,7 @@
     <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" contextMode="false"/>
   </connection>
-  <note opaque="true" posX="128" posY="32" sizeHeight="96" sizeWidth="545" text="Uses an external sort application to sort input data based on one or several columns,&#xD;&#xA;by sort type and order &#xD;&#xA;&#xD;&#xA;On the component tExternalSortRow, check the filepath of the generated output">
+  <note opaque="true" posX="96" posY="64" sizeHeight="64" sizeWidth="513" text="Denormalizes the input flow based on one column. ">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="255;255;203" contextMode="false"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0" contextMode="false"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="false" contextMode="false"/>
