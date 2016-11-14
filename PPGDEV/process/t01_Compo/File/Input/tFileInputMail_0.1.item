@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
-  <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="root" prompt="Set the path of the dir to store the example files folder:" promptNeeded="false" repositoryContextId="_dn7XwGT9Edyrh8knyihGHw" type="id_String" value="C:\TalendDemoFiles\"/>
-  </context>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="demo">
   <context confirmationNeeded="false" name="demo">
+    <contextParameter comment="This var is just used on t04_Context/repositoryContext" name="sampleInt" prompt="please define an sample int:" promptNeeded="false" type="id_Integer" value="100"/>
     <contextParameter comment="" name="root" prompt="Set the path of the dir to store the example files folder:" promptNeeded="false" repositoryContextId="_dn7XwGT9Edyrh8knyihGHw" type="id_String" value="C:\TalendDemoFiles\"/>
   </context>
   <parameters>
@@ -14,7 +12,7 @@
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
     <elementParameter field="TEXT" name="AUTHOR" value="training@talend.com"/>
     <elementParameter field="TEXT" name="STATUS" value=""/>
-    <elementParameter field="TEXT" name="NAME" value="tFileInputPositional"/>
+    <elementParameter field="TEXT" name="NAME" value="tFileInputMail"/>
     <elementParameter field="TEXT" name="VERSION" value="0.1"/>
     <elementParameter field="TEXT" name="PURPOSE" value=""/>
     <elementParameter field="TEXT" name="DESCRIPTION" value=""/>
@@ -103,77 +101,53 @@
     <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
     <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
   </parameters>
-  <node componentName="tFileInputPositional" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputPositional_1"/>
+  <node componentName="tFileInputMail" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputMail_1"/>
     <elementParameter field="CHECK" name="START" value="true"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.root.concat(&quot;talend_files_0.1/in/FileInput/positional.txt&quot;)"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
-    <elementParameter field="CHECK" name="USE_BYTE" value="false"/>
-    <elementParameter field="CHECK" name="ADVANCED_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="PATTERN" value="&quot;3,10,10,*&quot;"/>
-    <elementParameter field="TABLE" name="FORMATS">
-      <elementValue elementRef="SCHEMA_COLUMN" value="number"/>
-      <elementValue elementRef="SIZE" value="10"/>
-      <elementValue elementRef="PADDING_CHAR" value="' '"/>
-      <elementValue elementRef="ALIGN" value="'L'"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="txt"/>
-      <elementValue elementRef="SIZE" value="10"/>
-      <elementValue elementRef="PADDING_CHAR" value="' '"/>
-      <elementValue elementRef="ALIGN" value="'L'"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.root.concat(&quot;talend_files_0.1/in/FileInput/mail/mail.eml&quot;)"/>
+    <elementParameter field="DIRECTORY" name="ATTACHMENT_PATH" value="context.root.concat(&quot;talend_files_0.1/out/&quot;)"/>
+    <elementParameter field="TABLE" name="MAIL_PARTS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="subject"/>
+      <elementValue elementRef="MAIL_PART" value="&quot;subject&quot;"/>
+      <elementValue elementRef="MULTI_VALUE" value="false"/>
+      <elementValue elementRef="PART_SEPARATOR" value="&quot;&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="to"/>
+      <elementValue elementRef="MAIL_PART" value="&quot;to&quot;"/>
+      <elementValue elementRef="MULTI_VALUE" value="false"/>
+      <elementValue elementRef="PART_SEPARATOR" value="&quot;&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="from"/>
+      <elementValue elementRef="MAIL_PART" value="&quot;from&quot;"/>
+      <elementValue elementRef="MULTI_VALUE" value="false"/>
+      <elementValue elementRef="PART_SEPARATOR" value="&quot;&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
-      <elementValue elementRef="SIZE" value="10"/>
-      <elementValue elementRef="PADDING_CHAR" value="' '"/>
-      <elementValue elementRef="ALIGN" value="'L'"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="flag"/>
-      <elementValue elementRef="SIZE" value="10"/>
-      <elementValue elementRef="PADDING_CHAR" value="' '"/>
-      <elementValue elementRef="ALIGN" value="'L'"/>
+      <elementValue elementRef="MAIL_PART" value="&quot;date&quot;"/>
+      <elementValue elementRef="MULTI_VALUE" value="false"/>
+      <elementValue elementRef="PART_SEPARATOR" value="&quot;&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Received"/>
+      <elementValue elementRef="MAIL_PART" value="&quot;Received&quot;"/>
+      <elementValue elementRef="MULTI_VALUE" value="false"/>
+      <elementValue elementRef="PART_SEPARATOR" value="&quot;&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="body"/>
+      <elementValue elementRef="MAIL_PART" value="&quot;body&quot;"/>
+      <elementValue elementRef="MULTI_VALUE" value="false"/>
+      <elementValue elementRef="PART_SEPARATOR" value="&quot;&quot;"/>
     </elementParameter>
-    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
-    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
-    <elementParameter field="TEXT" name="HEADER" value="0"/>
-    <elementParameter field="TEXT" name="FOOTER" value="0"/>
-    <elementParameter field="TEXT" name="LIMIT" value=""/>
-    <elementParameter field="CHECK" name="PROCESS_LONG_ROW" value="false"/>
-    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
-    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="','"/>
-    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="'.'"/>
-    <elementParameter field="CHECK" name="TRIMALL" value="true"/>
-    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
-    <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="number"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="txt"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="flag"/>
-      <elementValue elementRef="TRIM" value="false"/>
-    </elementParameter>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="HINT" value="__UNIQUE_NAME__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
-    <metadata connector="FLOW" name="tFileInputPositional_1">
-      <column comment="" key="false" length="3" name="number" nullable="false" pattern="" sourceType="" type="id_Integer"/>
-      <column comment="" key="false" length="20" name="txt" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="10" name="date" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="5" name="flag" nullable="false" pattern="" sourceType="" type="id_String"/>
-    </metadata>
-    <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="3" name="number" nullable="false" pattern="" sourceType="" type="id_Integer"/>
-      <column comment="" key="false" length="20" name="txt" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="10" name="date" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="5" name="flag" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String"/>
+    <metadata connector="FLOW" name="tFileInputMail_1">
+      <column comment="" defaultValue="" key="false" length="255" name="subject" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="255" name="to" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="255" name="from" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="10" name="date" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Received" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="255" name="body" nullable="false" pattern="" sourceType="" type="id_String"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="160">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
@@ -187,13 +161,17 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS">
-      <elementValue elementRef="SCHEMA_COLUMN" value="number"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="subject"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="txt"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="to"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="from"/>
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
       <elementValue elementRef="LENGTH" value="10"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="flag"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Received"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="body"/>
       <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="TEXT" name="HINT" value="__UNIQUE_NAME__"/>
@@ -203,25 +181,33 @@
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="false"/>
     <metadata connector="FLOW" name="tLogRow_1">
-      <column comment="" key="false" length="3" name="number" nullable="false" pattern="" sourceType="" type="id_Integer"/>
-      <column comment="" key="false" length="20" name="txt" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="10" name="date" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="5" name="flag" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="255" name="subject" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="255" name="to" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="255" name="from" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="10" name="date" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="10" name="Received" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="255" name="body" nullable="false" pattern="" sourceType="" type="id_String"/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputPositional_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputPositional_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputMail_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputMail_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
-      <elementValue elementRef="TRACE_COLUMN" value="number"/>
+      <elementValue elementRef="TRACE_COLUMN" value="subject"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="txt"/>
+      <elementValue elementRef="TRACE_COLUMN" value="to"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="from"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
       <elementValue elementRef="TRACE_COLUMN" value="date"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="flag"/>
+      <elementValue elementRef="TRACE_COLUMN" value="Received"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="body"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
@@ -234,7 +220,7 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1"/>
   </connection>
-  <note opaque="true" posX="32" posY="32" sizeHeight="64" sizeWidth="385" text="tFileInputPositional reads a given file row by row&#xD;&#xA;and extracts fields based on a pattern. ">
+  <note opaque="true" posX="32" posY="32" sizeHeight="64" sizeWidth="513" text="The tFileInputMail reads the header and content parts of an email file defined.">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="255;255;203"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="false"/>
@@ -250,8 +236,8 @@
     <elementParameter field="COLOR" name="NOTE_LINECOLOR" value="237;201;122"/>
   </note>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputPositional_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value=""/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputMail_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="50;50;250"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
 </talendfile:ProcessType>
