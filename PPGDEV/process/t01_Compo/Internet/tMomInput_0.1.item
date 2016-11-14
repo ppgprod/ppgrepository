@@ -6,7 +6,7 @@
     <elementParameter field="CHECK" name="displaySubjobs" value="true" contextMode="false"/>
     <elementParameter field="TEXT" name="AUTHOR" value="training@talend.com" contextMode="false"/>
     <elementParameter field="TEXT" name="STATUS" value="" contextMode="false"/>
-    <elementParameter field="TEXT" name="NAME" value="tMomOutput" contextMode="false"/>
+    <elementParameter field="TEXT" name="NAME" value="tMomInput" contextMode="false"/>
     <elementParameter field="TEXT" name="VERSION" value="0.1" contextMode="false"/>
     <elementParameter field="TEXT" name="PURPOSE" value="" contextMode="false"/>
     <elementParameter field="TEXT" name="DESCRIPTION" value="" contextMode="false"/>
@@ -80,45 +80,14 @@
     <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
     <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
   </parameters>
-  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" contextMode="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tRowGenerator" contextMode="false"/>
-    <elementParameter field="TEXT" name="TRANSLATED_COMPONENT_NAME" value="tRowGenerator" contextMode="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" contextMode="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Misc" contextMode="false"/>
-    <elementParameter field="CHECK" name="START" value="true" contextMode="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" contextMode="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="true" contextMode="false"/>
-    <elementParameter field="CHECK" name="DUMMY" value="false" contextMode="false"/>
-    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="false" contextMode="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tRowGenerator" contextMode="false"/>
-    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="true" contextMode="false"/>
-    <elementParameter field="TEXT" name="CURRENT_OS" value="Windows XP" contextMode="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" contextMode="false"/>
-    <elementParameter field="CHECK" name="REPOSITORY_ALLOW_AUTO_SWITCH" value="false" contextMode="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="BUILT_IN" contextMode="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="" contextMode="false"/>
-    <elementParameter field="TEXT" name="NB_ROWS" value="10" contextMode="false"/>
-    <elementParameter field="TABLE" name="VALUES" contextMode="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="message"/>
-      <elementValue elementRef="ARRAY" value="&quot;message example&quot; "/>
-    </elementParameter>
-    <elementParameter field="EXTERNAL" name="MAP" value="" contextMode="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__ : the message" contextMode="false"/>
-    <elementParameter field="TEXT" name="HINT" value="__UNIQUE_NAME__" contextMode="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" contextMode="false"/>
-    <elementParameter field="MEMO" name="COMMENT" value="" contextMode="false"/>
-    <metadata connector="FLOW" name="tRowGenerator_1">
-      <column comment="" key="false" name="message" nullable="false" pattern="" sourceType="" type="id_String"/>
-    </metadata>
-  </node>
-  <node componentName="tMomOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMomOutput_2" contextMode="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMomOutput" contextMode="false"/>
-    <elementParameter field="TEXT" name="TRANSLATED_COMPONENT_NAME" value="tMomOutput" contextMode="false"/>
+  <node componentName="tMomInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMomInput_1" contextMode="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMomInput" contextMode="false"/>
+    <elementParameter field="TEXT" name="TRANSLATED_COMPONENT_NAME" value="tMomInput" contextMode="false"/>
     <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" contextMode="false"/>
     <elementParameter field="TEXT" name="FAMILY" value="Internet" contextMode="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="false" contextMode="false"/>
+    <elementParameter field="CHECK" name="START" value="true" contextMode="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" contextMode="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="true" contextMode="false"/>
     <elementParameter field="CHECK" name="DUMMY" value="false" contextMode="false"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="false" contextMode="false"/>
@@ -126,27 +95,73 @@
     <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
     <elementParameter field="TEXT" name="CURRENT_OS" value="Windows XP" contextMode="false"/>
     <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" contextMode="false"/>
+    <elementParameter field="CHECK" name="KEEPLISTENING" value="true" contextMode="false"/>
+    <elementParameter field="CHECK" name="STARTSERVER" value="false" contextMode="false"/>
+    <elementParameter field="CHECK" name="USEMAX" value="false" contextMode="false"/>
+    <elementParameter field="TEXT" name="TIMEOUT" value="1" contextMode="false"/>
+    <elementParameter field="TEXT" name="MAXMSG" value="1000" contextMode="false"/>
     <elementParameter field="CLOSED_LIST" name="SERVER" value="WebSphere" contextMode="false"/>
     <elementParameter field="TEXT" name="SERVERADDRESS" value="&quot;localhost&quot;" contextMode="false"/>
     <elementParameter field="TEXT" name="SERVERPORT" value="&quot;1414&quot;" contextMode="false"/>
-    <elementParameter field="TEXT" name="TO" value="&quot;&quot;" contextMode="false"/>
+    <elementParameter field="TEXT" name="FROM" value="&quot;&quot;" contextMode="false"/>
     <elementParameter field="CLOSED_LIST" name="MSGTYPE" value="Topic" contextMode="false"/>
     <elementParameter field="TEXT" name="CHANNEL" value="&quot;DC.SVRCONN&quot;" contextMode="false"/>
     <elementParameter field="CHECK" name="REPOSITORY_ALLOW_AUTO_SWITCH" value="false" contextMode="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="BUILT_IN" contextMode="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="" contextMode="false"/>
-    <elementParameter field="TEXT" name="QM" value="&quot;&quot;" contextMode="false"/>
-    <elementParameter field="TEXT" name="QUEUE" value="&quot;&quot;" contextMode="false"/>
+    <elementParameter field="TEXT" name="QM" value="&quot;MQ_0000&quot;" contextMode="false"/>
+    <elementParameter field="TEXT" name="QUEUE" value="&quot;XQ_8888&quot;" contextMode="false"/>
     <elementParameter field="CHECK" name="IS_USE_MESSAGE_ID" value="false" contextMode="false"/>
+    <elementParameter field="TEXT" name="MSG_ID" value="&quot;&quot;" contextMode="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__" contextMode="false"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__" contextMode="false"/>
+    <elementParameter field="TEXT" name="HINT" value="__UNIQUE_NAME__" contextMode="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" contextMode="false"/>
     <elementParameter field="MEMO" name="COMMENT" value="" contextMode="false"/>
-    <metadata connector="FLOW" name="tMomOutput_2">
-      <column defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String"/>
+    <metadata connector="FLOW" name="tMomInput_1">
+      <column comment="" defaultValue="" key="false" length="255" name="from" nullable="true" precision="0" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String"/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tMomOutput_2">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" contextMode="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tLogRow" contextMode="false"/>
+    <elementParameter field="TEXT" name="TRANSLATED_COMPONENT_NAME" value="tLogRow" contextMode="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="0.101 (ALPHA)" contextMode="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Logs &amp; Errors" contextMode="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="false" contextMode="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true" contextMode="false"/>
+    <elementParameter field="CHECK" name="DUMMY" value="false" contextMode="false"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="false" contextMode="false"/>
+    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tLogRow" contextMode="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
+    <elementParameter field="TEXT" name="CURRENT_OS" value="Windows XP" contextMode="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" contextMode="false"/>
+    <elementParameter field="CHECK" name="REPOSITORY_ALLOW_AUTO_SWITCH" value="false" contextMode="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="BUILT_IN" contextMode="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="" contextMode="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true" contextMode="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false" contextMode="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false" contextMode="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" contextMode="false"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" contextMode="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" contextMode="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" contextMode="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" contextMode="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" contextMode="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="from"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="message"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__" contextMode="false"/>
+    <elementParameter field="TEXT" name="HINT" value="__UNIQUE_NAME__" contextMode="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" contextMode="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value="" contextMode="false"/>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="false"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column comment="" defaultValue="" key="false" length="255" name="from" nullable="true" precision="0" sourceType="" type="id_String"/>
+      <column comment="" defaultValue="" key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tMomInput_1" offsetLabelX="0" offsetLabelY="0" source="tMomInput_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false" contextMode="false"/>
     <elementParameter field="CHECK" name="USEROWLABEL" value="true" contextMode="false"/>
     <elementParameter field="TEXT" name="METTERLABEL" value="&quot;MyLabel&quot;" contextMode="false"/>
@@ -157,7 +172,7 @@
     <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" contextMode="false"/>
   </connection>
-  <note opaque="true" posX="64" posY="32" sizeHeight="64" sizeWidth="513" text="Fetchs a message from a queue on a Message-Oriented&#xD;&#xA;middleware system and passes it to the next component. ">
+  <note opaque="true" posX="32" posY="32" sizeHeight="64" sizeWidth="385" text="Fetchs a message from a queue on a Message-Oriented&#xD;&#xA;middleware system and passes it to the next component.">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="255;255;203" contextMode="false"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0" contextMode="false"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="false" contextMode="false"/>
@@ -175,7 +190,7 @@
   <subjob>
     <elementParameter field="CHECK" name="COLLAPSED" value="false" contextMode="false"/>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="false" contextMode="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" contextMode="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMomInput_1" contextMode="false"/>
     <elementParameter field="TEXT" name="SUBJOB_TITLE" value="" contextMode="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="50;50;250" contextMode="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250" contextMode="false"/>
