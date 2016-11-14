@@ -11,7 +11,7 @@
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
     <elementParameter field="TEXT" name="AUTHOR" value="nfrancisco@talend.com"/>
     <elementParameter field="TEXT" name="STATUS" value="DEV"/>
-    <elementParameter field="TEXT" name="NAME" value="tFileOutputMSPositional"/>
+    <elementParameter field="TEXT" name="NAME" value="tFileOutputMSDelimited"/>
     <elementParameter field="TEXT" name="VERSION" value="0.1"/>
     <elementParameter field="TEXT" name="PURPOSE" value="tFileOutputMSPositional"/>
     <elementParameter field="TEXT" name="DESCRIPTION" value="tFileOutputMSPositional"/>
@@ -112,7 +112,7 @@
   <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1"/>
     <elementParameter field="CHECK" name="START" value="true"/>
-    <elementParameter field="TEXT" name="NB_ROWS" value="5"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="2"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
       <elementValue elementRef="ARRAY" value="Numeric.sequence(&quot;s1&quot;,1,1)"/>
@@ -125,63 +125,62 @@
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <metadata connector="FLOW" label="row1" name="row1">
-      <column comment="" key="true" length="5" name="id" nullable="false" pattern="" precision="0" sourceType="" type="id_Integer"/>
+      <column comment="" key="true" length="0" name="id" nullable="false" pattern="" sourceType="" type="id_Integer"/>
       <column comment="" key="false" name="pays" nullable="true" pattern="" sourceType="" type="id_String"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputMSPositional" componentVersion="0.102" offsetLabelX="-9" offsetLabelY="5" posX="512" posY="128" sizeX="32" sizeY="96">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputMSPositional_1"/>
-    <elementParameter field="FILE" name="FILE_NAME" value="context.root.concat(&quot;talend_files_0.1/out/FileOutputMSPositional.csv&quot;)"/>
+  <node componentName="tFileOutputMSDelimited" componentVersion="0.102" offsetLabelX="-6" offsetLabelY="15" posX="608" posY="128" sizeX="32" sizeY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputMSDelimited_2"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.root.concat(&quot;talend_files_0.1/out/FileOutputMSDelimited.csv&quot;)"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="USEMULTISEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="BASED_ON_INPUT_SCHEMAS" value="true"/>
     <elementParameter field="TABLE" name="SCHEMAS">
       <elementValue elementRef="SCHEMA" value="row1"/>
       <elementValue elementRef="PARENT_ROW" value=""/>
       <elementValue elementRef="PARENT_KEY_COLUMN" value=""/>
       <elementValue elementRef="KEY_COLUMN" value="&quot;id&quot;"/>
-      <elementValue elementRef="PATTERN" value="&quot;5,10&quot;"/>
-      <elementValue elementRef="PADDING_CHAR" value="' '"/>
-      <elementValue elementRef="ALIGN" value="'L'"/>
-      <elementValue elementRef="KEEP" value="'A'"/>
+      <elementValue elementRef="FIELD_SEPARATOR" value=""/>
       <elementValue elementRef="SCHEMA" value="row2"/>
       <elementValue elementRef="PARENT_ROW" value="row1"/>
       <elementValue elementRef="PARENT_KEY_COLUMN" value="&quot;id&quot;"/>
       <elementValue elementRef="KEY_COLUMN" value="&quot;id&quot;"/>
-      <elementValue elementRef="PATTERN" value="&quot;5,10&quot;"/>
-      <elementValue elementRef="PADDING_CHAR" value="' '"/>
-      <elementValue elementRef="ALIGN" value="'L'"/>
-      <elementValue elementRef="KEEP" value="'A'"/>
+      <elementValue elementRef="FIELD_SEPARATOR" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
-    <metadata connector="FLOW" name="tFileOutputMSPositional_1">
-      <column comment="" key="true" length="5" name="id" nullable="false" pattern="" precision="0" sourceType="" type="id_Integer"/>
+    <metadata connector="FLOW" name="tFileOutputMSDelimited_2">
+      <column comment="" key="true" length="0" name="id" nullable="false" pattern="" sourceType="" type="id_Integer"/>
       <column comment="" key="false" name="pays" nullable="true" pattern="" sourceType="" type="id_String"/>
     </metadata>
     <metadata connector="FLOW" label="row1" name="row1">
-      <column comment="" key="true" length="5" name="id" nullable="false" pattern="" sourceType="" type="id_String"/>
+      <column comment="" key="true" length="0" name="id" nullable="false" pattern="" sourceType="" type="id_Integer"/>
       <column comment="" key="false" name="pays" nullable="true" pattern="" sourceType="" type="id_String"/>
     </metadata>
     <metadata connector="FLOW" label="row2" name="row2">
-      <column comment="" key="true" length="5" name="id" nullable="false" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="10" name="pays" nullable="true" pattern="" sourceType="" type="id_String"/>
-      <column comment="" key="false" length="10" name="matricule" nullable="true" pattern="" sourceType="" type="id_String"/>
+      <column comment="" key="true" length="0" name="id" nullable="false" pattern="" sourceType="" type="id_Integer"/>
+      <column comment="" key="false" name="pays" nullable="true" pattern="" sourceType="" type="id_String"/>
     </metadata>
   </node>
-  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_2"/>
     <elementParameter field="TEXT" name="NB_ROWS" value="5"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
-      <elementValue elementRef="ARRAY" value="Numeric.sequence(&quot;s2&quot;,1,1)"/>
+      <elementValue elementRef="ARRAY" value="1,2"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="pays"/>
       <elementValue elementRef="ARRAY" value="&quot;USA&quot;"/>
     </elementParameter>
@@ -191,11 +190,11 @@
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <metadata connector="FLOW" label="row2" name="row2">
-      <column comment="" key="true" length="5" name="id" nullable="false" pattern="" sourceType="" type="id_Integer"/>
-      <column comment="" key="false" length="10" name="pays" nullable="true" pattern="" precision="0" sourceType="" type="id_String"/>
+      <column comment="" key="true" length="0" name="id" nullable="false" pattern="" sourceType="" type="id_Integer"/>
+      <column comment="" key="false" name="pays" nullable="true" pattern="" sourceType="" type="id_String"/>
     </metadata>
   </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="10" mergeOrder="1" metaname="row1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tFileOutputMSPositional_1">
+  <connection connectorName="FLOW" label="row1" lineStyle="10" mergeOrder="1" metaname="row1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tFileOutputMSDelimited_2">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
       <elementValue elementRef="TRACE_COLUMN" value="id"/>
@@ -214,7 +213,7 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1"/>
   </connection>
-  <connection connectorName="FLOW" label="row2" lineStyle="10" mergeOrder="2" metaname="row2" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_2" target="tFileOutputMSPositional_1">
+  <connection connectorName="FLOW" label="row2" lineStyle="10" mergeOrder="2" metaname="row2" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_2" target="tFileOutputMSDelimited_2">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
       <elementValue elementRef="TRACE_COLUMN" value="id"/>
