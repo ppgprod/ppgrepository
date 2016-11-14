@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_9glI0KoJEea328NbZiqboA" DatabaseType="Hive" URL="jdbc:hive2://ppgprod1.ppgprod.com:10000/default" Port="10000" Username="vvelugur" ServerName="ppgprod1.ppgprod.com" SID="default" DbmsId="hive_id" ProductId="HIVE">
+  <parameters xmi:id="_9glI0aoJEea328NbZiqboA" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+  <parameters xmi:id="_9glI0qoJEea328NbZiqboA" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="ppgprod2.ppgprod.com:8030"/>
+  <parameters xmi:id="_9glI06oJEea328NbZiqboA" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
+  <parameters xmi:id="_9glI1KoJEea328NbZiqboA" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://ppgprod1.ppgprod.com:8020"/>
+  <parameters xmi:id="_9glI1aoJEea328NbZiqboA" key="CONN_PARA_KEY_USERNAME" value="vvelugur"/>
+  <parameters xmi:id="_9glI1qoJEea328NbZiqboA" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_i6W4IKoJEea328NbZiqboA"/>
+  <parameters xmi:id="_9glI16oJEea328NbZiqboA" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_9glI2KoJEea328NbZiqboA" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_4"/>
+  <parameters xmi:id="_9glI2aoJEea328NbZiqboA" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="ppgprod2.ppgprod.com:8050"/>
+  <parameters xmi:id="_9glI2qoJEea328NbZiqboA" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ppgprod2.ppgprod.com:10020"/>
+  <parameters xmi:id="_9glI26oJEea328NbZiqboA" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_4"/>
+  <parameters xmi:id="_9glI3KoJEea328NbZiqboA" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+  <parameters xmi:id="_9glI3aoJEea328NbZiqboA" key="CONN_PARA_KEY_DB_SERVER" value="ppgprod1.ppgprod.com"/>
+  <parameters xmi:id="_9glI3qoJEea328NbZiqboA" key="HIVE_AUTHENTICATION_USERNAME" value="hive"/>
+  <parameters xmi:id="_9glI36oJEea328NbZiqboA" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+  <parameters xmi:id="_9glI4KoJEea328NbZiqboA" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_9glI4aoJEea328NbZiqboA" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
+  <parameters xmi:id="_9glI4qoJEea328NbZiqboA" key="HIVE_AUTHENTICATION_PASSWORD" value="SECRET:hive-site:1:javax.jdo.option.ConnectionPassword"/>
+  <parameters xmi:id="_9glI46oJEea328NbZiqboA" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+  <parameters xmi:id="_9glI5KoJEea328NbZiqboA" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
+  <parameters xmi:id="_9glI5aoJEea328NbZiqboA" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
+  <parameters xmi:id="_9glI5qoJEea328NbZiqboA" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
+  <parameters xmi:id="_9glI56oJEea328NbZiqboA" key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE"/>
+  <parameters xmi:id="_9glI6KoJEea328NbZiqboA" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_9glI6aoJEea328NbZiqboA" key="HIVE_AUTHENTICATION_METASTOREURL" value="thrift://ppgprod4.ppgprod.com:9083"/>
+  <parameters xmi:id="_9glI6qoJEea328NbZiqboA" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+  <parameters xmi:id="_9glI66oJEea328NbZiqboA" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+  <parameters xmi:id="_9glI7KoJEea328NbZiqboA" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+</TalendMetadata:DatabaseConnection>
