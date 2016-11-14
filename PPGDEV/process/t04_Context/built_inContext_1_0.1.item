@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
-  <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="uri" prompt="Set the uri:" promptNeeded="true" type="id_String" value="http://talendforge.org/file_fetch.txt"/>
-    <contextParameter comment="" name="destination" prompt="Set a default Dir path:" promptNeeded="true" type="id_String" value="C:/talend_files"/>
-    <contextParameter comment="" name="filename" prompt="filename" promptNeeded="false" type="id_String" value="built_inContext_prompt_out.txt"/>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="dev">
+  <context confirmationNeeded="false" name="dev">
+    <contextParameter comment="" name="uri" prompt="Set the uri:" promptNeeded="false" type="id_String" value="http://talendforge.org/file_fetch.txt"/>
+    <contextParameter comment="" name="destination" prompt="Set a default Dir path:" promptNeeded="false" type="id_String" value="C:/talend_files"/>
+    <contextParameter comment="" name="filename" prompt="filename" promptNeeded="false" type="id_String" value="built_inContext_outDev.txt"/>
+  </context>
+  <context confirmationNeeded="false" name="prod">
+    <contextParameter comment="" name="uri" prompt="Set the uri:" promptNeeded="false" type="id_String" value="http://talendforge.org/file_fetch.txt"/>
+    <contextParameter comment="" name="destination" prompt="Set a default Dir path:" promptNeeded="false" type="id_String" value="C:/talend_files"/>
+    <contextParameter comment="" name="filename" prompt="filename" promptNeeded="false" type="id_String" value="built_inContext_outProd.txt"/>
   </context>
   <parameters>
     <elementParameter field="DIRECTORY" name="COMP_DEFAULT_FILE_DIR" value="D:\TOS-All-r14257-V2.4.0RC2\workspace" contextMode="false"/>
     <elementParameter field="CHECK" name="displaySubjobs" value="true" contextMode="false"/>
     <elementParameter field="TEXT" name="AUTHOR" value="training@talend.com" contextMode="false"/>
     <elementParameter field="TEXT" name="STATUS" value="" contextMode="false"/>
-    <elementParameter field="TEXT" name="NAME" value="built_inContext_prompt" contextMode="false"/>
+    <elementParameter field="TEXT" name="NAME" value="built_inContext_1" contextMode="false"/>
     <elementParameter field="TEXT" name="VERSION" value="0.1" contextMode="false"/>
     <elementParameter field="TEXT" name="PURPOSE" value="" contextMode="false"/>
     <elementParameter field="TEXT" name="DESCRIPTION" value="" contextMode="false"/>
@@ -82,7 +87,7 @@
     <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
     <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
   </parameters>
-  <node componentName="tFileFetch" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="160">
+  <node componentName="tFileFetch" componentVersion="0.101" offsetLabelX="-1" offsetLabelY="2" posX="224" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileFetch_1" contextMode="false"/>
     <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileFetch" contextMode="false"/>
     <elementParameter field="TEXT" name="TRANSLATED_COMPONENT_NAME" value="tFileFetch" contextMode="false"/>
