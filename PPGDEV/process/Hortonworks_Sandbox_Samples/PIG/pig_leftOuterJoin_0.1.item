@@ -369,7 +369,7 @@
       <elementValue elementRef="INPUT_COLUMN" value="dept_id"/>
       <elementValue elementRef="LOOKUP_COLUMN" value="id"/>
     </elementParameter>
-    <elementParameter field="CLOSED_LIST" name="JOIN_MODE" value="right-outer-join"/>
+    <elementParameter field="CLOSED_LIST" name="JOIN_MODE" value="left-outer-join"/>
     <elementParameter field="CHECK" name="OPTIMIZE" value="false"/>
     <elementParameter field="CLOSED_LIST" name="USING" value="replicated"/>
     <elementParameter field="CHECK" name="USE_PARTITION" value="false"/>
