@@ -278,7 +278,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_3o-SQLANEeGGeP0LspsB3Q-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_QHcMwKxfEeGdy-T2skU_Bw-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
@@ -477,7 +477,7 @@
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
   </node>
-  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="608">
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="736">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_4"/>
     <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;jdo2-api-2.3-ec.jar&quot;"/>
     <elementParameter field="TABLE" name="HOTLIBS"/>
@@ -487,7 +487,7 @@
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
   </node>
-  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="736">
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="736">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_5"/>
     <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;libfb303-0.7.0.jar&quot;"/>
     <elementParameter field="TABLE" name="HOTLIBS"/>
@@ -497,7 +497,7 @@
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
   </node>
-  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="736">
+  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="736">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_6"/>
     <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;libthrift-0.7.0.jar&quot;"/>
     <elementParameter field="TABLE" name="HOTLIBS"/>
@@ -516,8 +516,6 @@
       <elementValue elementRef="VALUE" value="&quot;jdo2-api-2.3-ec.jar&quot;"/>
       <elementValue elementRef="VALUE" value="&quot;libfb303-0.7.0.jar&quot;"/>
       <elementValue elementRef="VALUE" value="&quot;libthrift-0.7.0.jar&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;datanucleus-core-2.0.3.jar&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;datanucleus-rdbms-2.0.3.jar&quot;"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
@@ -590,10 +588,7 @@
       <elementValue elementRef="FAMILY_COLUMN" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
-    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES">
-      <elementValue elementRef="PROPERTY" value="&quot;hive.metastore.execute.setugi&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;true&quot;"/>
-    </elementParameter>
+    <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
     <elementParameter field="TABLE" name="DRIVER_JAR"/>
     <elementParameter field="TABLE" name="ADVANCED_PROPERTIES"/>
     <elementParameter field="CHECK" name="DEFINE_REGISTER_JAR" value="true"/>
@@ -657,11 +652,11 @@
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <metadata connector="FLOW" name="tPigAggregate_1">
       <column comment="" key="false" name="department" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" name="user_count" nullable="true" pattern="" sourceType="" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" name="user_count" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="PIGCOMBINE" name="PIGCOMBINE">
       <column comment="" key="false" name="department" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" name="user_count" nullable="true" pattern="" sourceType="" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" name="user_count" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tPigStoreResult" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="992">
@@ -669,41 +664,41 @@
     <elementParameter field="CHECK" name="END_OF_FLOW" value="true"/>
     <elementParameter field="TEXT" name="OUTPUT_FILENAME" value="context.hdfs_test_dir + &quot;/data/out&quot;"/>
     <elementParameter field="CHECK" name="RM_OUTPUT" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="STORE" value="HCatStorer"/>
+    <elementParameter field="CLOSED_LIST" name="STORE" value="PigStorage"/>
     <elementParameter field="TEXT" name="CUSTOM_STORER" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="FIELD_SEPARATOR_CHAR" value="&quot;;&quot;"/>
-    <elementParameter field="TEXT" name="THRIFT_SERVER" value="&quot;thrift://&quot; + context.hive_host + &quot;:&quot; + context.hive_port"/>
-    <elementParameter field="TEXT" name="DATABASE_NAME" value="&quot;talend&quot;"/>
-    <elementParameter field="TEXT" name="TABLE_NAME" value="&quot;department&quot;"/>
-    <elementParameter field="TEXT" name="PARTITION_KEYVALUE" value="&quot;ts=today&quot;"/>
+    <elementParameter field="TEXT" name="THRIFT_SERVER" value="&quot;thrift://localhost:9083&quot;"/>
+    <elementParameter field="TEXT" name="DATABASE_NAME" value="&quot;default&quot;"/>
+    <elementParameter field="TEXT" name="TABLE_NAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PARTITION_KEYVALUE" value="&quot;&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
     <elementParameter field="CLOSED_LIST" name="HBASE_VERSION" value="HDP_1_2"/>
     <elementParameter field="TABLE" name="CUSTOM_JARS"/>
     <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="&quot;localhost&quot;"/>
     <elementParameter field="TEXT" name="ZOOKEEPER_CLIENT_PORT" value="&quot;2181&quot;"/>
     <elementParameter field="TEXT" name="HBASE_TABLE" value="&quot;&quot;"/>
-    <elementParameter field="COLUMN_LIST" name="ROWKEY_COLUMN" value="name"/>
+    <elementParameter field="COLUMN_LIST" name="ROWKEY_COLUMN" value="department"/>
     <elementParameter field="CHECK" name="CONTAIN_ROW_KEY_COLUMN_IN_HBASE_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="department"/>
       <elementValue elementRef="FAMILY_COLUMN" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="user_count"/>
       <elementValue elementRef="FAMILY_COLUMN" value=""/>
     </elementParameter>
     <elementParameter field="TABLE" name="DRIVER_JAR"/>
-    <elementParameter field="CHECK" name="DEFINE_REGISTER_JAR" value="true"/>
+    <elementParameter field="CHECK" name="DEFINE_REGISTER_JAR" value="false"/>
     <elementParameter field="LABEL" name="REGISTER_JAR_NOTE" value="When filling in the Jar path information below, make sure that the JAR files are available on the execution server."/>
     <elementParameter field="TABLE" name="REGISTER_JAR">
       <elementValue elementRef="SCHEMA_COLUMN" value="datanucleus-core"/>
-      <elementValue elementRef="JAR_PATH" value="context.pigload_uri + &quot;/datanucleus-core-2.0.3.jar&quot;"/>
+      <elementValue elementRef="JAR_PATH" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="datanucleus-rdbms"/>
-      <elementValue elementRef="JAR_PATH" value="context.pigload_uri + &quot;/datanucleus-rdbms-2.0.3.jar&quot;"/>
+      <elementValue elementRef="JAR_PATH" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="hcatalog"/>
-      <elementValue elementRef="JAR_PATH" value="context.pigload_uri + &quot;/hcatalog-0.4.0.jar&quot;"/>
+      <elementValue elementRef="JAR_PATH" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="hive-exec"/>
-      <elementValue elementRef="JAR_PATH" value="context.pigload_uri + &quot;/hive-exec-0.8.1.jar&quot;"/>
+      <elementValue elementRef="JAR_PATH" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="hive-metastore"/>
-      <elementValue elementRef="JAR_PATH" value="context.pigload_uri + &quot;/hive-metastore-0.8.1.jar&quot;"/>
+      <elementValue elementRef="JAR_PATH" value=""/>
     </elementParameter>
     <elementParameter field="TABLE" name="HBASESTORAGE_PARAMETER"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -712,8 +707,8 @@
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="ASSOCIATED_PIG_LOAD" value="UNRELEVANT"/>
     <metadata connector="FLOW" name="tPigStoreResult_1">
-      <column comment="" key="false" name="name" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" name="user_count" nullable="true" pattern="" sourceType="" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" name="department" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="user_count" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="REGISTERJAR" name="REGISTERJAR">
       <column defaultValue="" key="false" length="255" name="datanucleus-core" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -723,117 +718,40 @@
       <column defaultValue="" key="false" length="255" name="hive-metastore" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tHCatalogOperation" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="576" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHCatalogOperation_3"/>
-    <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
-    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_1_2"/>
-    <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value=""/>
-    <elementParameter field="TEXT" name="TEMPLETON_HOST" value="context.templeton_host"/>
-    <elementParameter field="TEXT" name="TEMPLETON_PORT" value="context.templeton_port"/>
-    <elementParameter field="CHECK" name="USE_KRB" value="false"/>
-    <elementParameter field="TEXT" name="KRB_PRINC" value="&quot;HTTP/__hostname__&quot;"/>
-    <elementParameter field="TEXT" name="KRB_REALM" value="&quot;EXAMPLE.COM&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="OPERATION_ON" value="OP_TABLE"/>
-    <elementParameter field="CLOSED_LIST" name="OPERATION" value="DROP_IF_EXIST_CREATE"/>
-    <elementParameter field="CHECK" name="CREATE_TABLE_IF_NOT_EXIST" value="false"/>
-    <elementParameter field="TEXT" name="DATABASE_NAME" value="&quot;talend&quot;"/>
-    <elementParameter field="CLOSED_LIST" name="OPTION" value="none"/>
-    <elementParameter field="CHECK" name="SET_USER_GROUP" value="false"/>
-    <elementParameter field="TEXT" name="USER_GROUP" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="SET_PERMISSIONS" value="false"/>
-    <elementParameter field="TEXT" name="PERMISSIONS" value="&quot;rwxrw-r-x&quot;"/>
-    <elementParameter field="TEXT" name="DB_LOCATION" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="DB_DESCRIPTION" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="TABLE_NAME" value="&quot;department&quot;"/>
-    <elementParameter field="TEXT" name="PARTITION_NAME" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="USERNAME" value="context.user"/>
-    <elementParameter field="CHECK" name="SET_FILE_LOCATION" value="false"/>
-    <elementParameter field="TEXT" name="FILE_LOCATION" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="CREATE_EXTERNAL" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="STORAGE_FORMAT" value="TEXTFILE"/>
-    <elementParameter field="CHECK" name="SET_PARTITIONS" value="true"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TEXT" name="TABLE_COMMENT" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="SET_HDFS_LOCATION" value="false"/>
-    <elementParameter field="TEXT" name="HDFS_LOCATION" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="SET_ROW_FORMAT" value="true"/>
-    <elementParameter field="CHECK" name="SET_FIELD_TERMINATED_BY" value="true"/>
-    <elementParameter field="TEXT" name="FIELD_TERMINATED_BY" value="&quot;\\;&quot;"/>
-    <elementParameter field="CHECK" name="SET_COLLECTION_ITEM_TERMINATED_BY" value="false"/>
-    <elementParameter field="TEXT" name="COLLECTION_ITEM_TERMINATED_BY" value="&quot;\u0002&quot;"/>
-    <elementParameter field="CHECK" name="SET_MAP_KEY_TERMINATED_BY" value="false"/>
-    <elementParameter field="TEXT" name="MAP_KEY_TERMINATED_BY" value="&quot;\u0003&quot;"/>
-    <elementParameter field="CHECK" name="SET_LINES_TERMINATED_BY" value="false"/>
-    <elementParameter field="TEXT" name="LINES_TERMINATED_BY" value="&quot;\n&quot;"/>
-    <elementParameter field="TABLE" name="TEMPLETON_PROPERTIES"/>
-    <elementParameter field="CHECK" name="ACTIVATE_LOG" value="true"/>
-    <elementParameter field="DIRECTORY" name="STDOUT" value="&quot;/Users/deepesh/Talend/v511-patched/TOS_BD-r84309-V5.1.1/workspace&quot;"/>
-    <elementParameter field="DIRECTORY" name="STDERR" value="&quot;/Users/deepesh/Talend/v511-patched/TOS_BD-r84309-V5.1.1/workspace&quot;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
-    <elementParameter field="MEMO" name="COMMENT" value=""/>
-    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
-    <metadata connector="FLOW" name="tHCatalogOperation_3">
-      <column comment="" key="false" name="name" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" name="user_count" nullable="true" pattern="" sourceType="" type="id_Long" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="PARTITION" name="PARTITION">
-      <column comment="" key="false" name="ts" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="736">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_7"/>
-    <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;datanucleus-core-2.0.3.jar&quot;"/>
-    <elementParameter field="TABLE" name="HOTLIBS"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
-    <elementParameter field="MEMO" name="COMMENT" value=""/>
-    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
-  </node>
-  <node componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="736">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_8"/>
-    <elementParameter field="MODULE_LIST" name="LIBRARY" value="&quot;datanucleus-rdbms-2.0.3.jar&quot;"/>
-    <elementParameter field="TABLE" name="HOTLIBS"/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
-    <elementParameter field="MEMO" name="COMMENT" value=""/>
-    <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
-  </node>
-  <node componentName="tHCatalogInput" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="128" posY="1120">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHCatalogInput_1"/>
+  <node componentName="tHDFSInput" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="1120">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSInput_1"/>
     <elementParameter field="CHECK" name="END_OF_FLOW" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value=""/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
-    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_1_2"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="HDP_1_2"/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value=""/>
-    <elementParameter field="TEXT" name="TEMPLETON_HOST" value="context.templeton_host"/>
-    <elementParameter field="TEXT" name="TEMPLETON_PORT" value="context.templeton_port"/>
+    <elementParameter field="CLOSED_LIST" name="AUTHENTICATION_MODE" value="USERNAME"/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
-    <elementParameter field="TEXT" name="KRB_PRINC" value="&quot;HTTP/__hostname__&quot;"/>
-    <elementParameter field="TEXT" name="KRB_REALM" value="&quot;EXAMPLE.COM&quot;"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;nn/_HOST@EXAMPLE.COM&quot;"/>
-    <elementParameter field="TEXT" name="DATABASE_NAME" value="&quot;talend&quot;"/>
-    <elementParameter field="TEXT" name="TABLE_NAME" value="&quot;department&quot;"/>
-    <elementParameter field="TEXT" name="PARTITION_NAME" value="&quot;ts='today'&quot;"/>
+    <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://&quot; + context.namenode_host + &quot;:&quot; + context.namenode_port"/>
     <elementParameter field="TEXT" name="USERNAME" value="context.user"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="GROUP" value="&quot;supergroup&quot;"/>
+    <elementParameter field="FILE_HADOOP" name="FILENAME" value="context.hdfs_test_dir + &quot;/data/out/part-r-00000&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TYPEFILE" value="TEXT"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
     <elementParameter field="CHECK" name="CUSTOM_ENCODING" value="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="COLUMN_LIST" name="KEYCOLUMN" value="department"/>
+    <elementParameter field="COLUMN_LIST" name="VALUECOLUMN" value="department"/>
+    <elementParameter field="LABEL" name="NOTE" value="NOTE : Only boolean, byte, byte[], double, float, integer, long, short, string are currently supported for key class and value columns fields"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="COMPRESSION" value="GZIP"/>
     <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
-    <elementParameter field="CHECK" name="ACTIVATE_LOG" value="true"/>
-    <elementParameter field="DIRECTORY" name="STDOUT" value="&quot;/Users/deepesh/Talend/v511-patched/TOS_BD-r84309-V5.1.1/workspace&quot;"/>
-    <elementParameter field="DIRECTORY" name="STDERR" value="&quot;/Users/deepesh/Talend/v511-patched/TOS_BD-r84309-V5.1.1/workspace&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
-    <metadata connector="FLOW" name="tHCatalogInput_1">
-      <column comment="" key="false" name="name" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" name="user_count" nullable="true" pattern="" sourceType="" type="id_Long" usefulColumn="true"/>
+    <metadata connector="FLOW" name="tHDFSInput_1">
+      <column comment="" key="false" name="department" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="user_count" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="1120">
@@ -851,7 +769,7 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS">
-      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="department"/>
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="user_count"/>
       <elementValue elementRef="LENGTH" value="10"/>
@@ -863,8 +781,8 @@
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="false"/>
     <metadata connector="FLOW" name="tLogRow_1">
-      <column comment="" key="false" name="name" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" name="user_count" nullable="true" pattern="" sourceType="" type="id_Long" usefulColumn="true"/>
+      <column comment="" key="false" name="department" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" name="user_count" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHDFSDelete_1" offsetLabelX="0" offsetLabelY="0" source="tHDFSDelete_1" target="tHCatalogOperation_1">
@@ -901,7 +819,7 @@
     <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
     <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHCatalogOperation_2" offsetLabelX="0" offsetLabelY="0" source="tHCatalogOperation_2" target="tHCatalogOperation_3">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHCatalogOperation_2" offsetLabelX="0" offsetLabelY="0" source="tHCatalogOperation_2" target="tFixedFlowInput_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
     <elementParameter field="RADIO" name="DEPARTITIONER" value="false"/>
     <elementParameter field="RADIO" name="REPARTITIONER" value="false"/>
@@ -1183,7 +1101,7 @@
     <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
     <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_6" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_6" target="tLibraryLoad_7">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_6" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_6" target="tForeach_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
     <elementParameter field="RADIO" name="DEPARTITIONER" value="false"/>
     <elementParameter field="RADIO" name="REPARTITIONER" value="false"/>
@@ -1279,7 +1197,7 @@
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
     <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tPigLoad_1" offsetLabelX="0" offsetLabelY="0" source="tPigLoad_1" target="tHCatalogInput_1">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tPigLoad_1" offsetLabelX="0" offsetLabelY="0" source="tPigLoad_1" target="tHDFSInput_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
     <elementParameter field="RADIO" name="DEPARTITIONER" value="false"/>
     <elementParameter field="RADIO" name="REPARTITIONER" value="false"/>
@@ -1299,7 +1217,7 @@
   <connection connectorName="PIGCOMBINE" label="row3" lineStyle="0" metaname="PIGCOMBINE" offsetLabelX="0" offsetLabelY="0" source="tPigAggregate_1" target="tPigStoreResult_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
-      <elementValue elementRef="TRACE_COLUMN" value="name"/>
+      <elementValue elementRef="TRACE_COLUMN" value="department"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
       <elementValue elementRef="TRACE_COLUMN" value="user_count"/>
@@ -1333,61 +1251,10 @@
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
     <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHCatalogOperation_3" offsetLabelX="0" offsetLabelY="0" source="tHCatalogOperation_3" target="tFixedFlowInput_1">
-    <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
-    <elementParameter field="RADIO" name="DEPARTITIONER" value="false"/>
-    <elementParameter field="RADIO" name="REPARTITIONER" value="false"/>
-    <elementParameter field="RADIO" name="NONE" value="true"/>
-    <elementParameter field="TEXT" name="NUM_PARTITIONS" value="5"/>
-    <elementParameter field="TEXT" name="QUEUE_SIZE" value="10000"/>
-    <elementParameter field="CHECK" name="HASH_PARTITION" value="false"/>
-    <elementParameter field="TABLE" name="HASH_KEYS"/>
-    <elementParameter field="TEXT" name="QUEUE_SIZE" value="10000"/>
-    <elementParameter field="CHECK" name="IS_SORTING" value="true"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk14"/>
-    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
-    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
-    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_7" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_7" target="tLibraryLoad_8">
-    <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
-    <elementParameter field="RADIO" name="DEPARTITIONER" value="false"/>
-    <elementParameter field="RADIO" name="REPARTITIONER" value="false"/>
-    <elementParameter field="RADIO" name="NONE" value="true"/>
-    <elementParameter field="TEXT" name="NUM_PARTITIONS" value="5"/>
-    <elementParameter field="TEXT" name="QUEUE_SIZE" value="10000"/>
-    <elementParameter field="CHECK" name="HASH_PARTITION" value="false"/>
-    <elementParameter field="TABLE" name="HASH_KEYS"/>
-    <elementParameter field="TEXT" name="QUEUE_SIZE" value="10000"/>
-    <elementParameter field="CHECK" name="IS_SORTING" value="true"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk15"/>
-    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
-    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
-    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_8" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_8" target="tForeach_1">
-    <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
-    <elementParameter field="RADIO" name="DEPARTITIONER" value="false"/>
-    <elementParameter field="RADIO" name="REPARTITIONER" value="false"/>
-    <elementParameter field="RADIO" name="NONE" value="true"/>
-    <elementParameter field="TEXT" name="NUM_PARTITIONS" value="5"/>
-    <elementParameter field="TEXT" name="QUEUE_SIZE" value="10000"/>
-    <elementParameter field="CHECK" name="HASH_PARTITION" value="false"/>
-    <elementParameter field="TABLE" name="HASH_KEYS"/>
-    <elementParameter field="TEXT" name="QUEUE_SIZE" value="10000"/>
-    <elementParameter field="CHECK" name="IS_SORTING" value="true"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk16"/>
-    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
-    <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
-    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
-  </connection>
-  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tHCatalogInput_1" offsetLabelX="0" offsetLabelY="0" source="tHCatalogInput_1" target="tLogRow_1">
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tHDFSInput_1" offsetLabelX="0" offsetLabelY="0" source="tHDFSInput_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
-      <elementValue elementRef="TRACE_COLUMN" value="name"/>
+      <elementValue elementRef="TRACE_COLUMN" value="department"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
       <elementValue elementRef="TRACE_COLUMN" value="user_count"/>
@@ -1482,22 +1349,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHCatalogOperation_3"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_7"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_8"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHCatalogInput_1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSInput_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
