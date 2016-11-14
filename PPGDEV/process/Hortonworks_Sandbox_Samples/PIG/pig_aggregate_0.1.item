@@ -288,15 +288,23 @@
       <column defaultValue="" key="false" length="255" name="libthrift" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPigCode" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="448">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPigCode_1"/>
-    <elementParameter field="MEMO" name="SCRIPT_CODE" value="B = GROUP tPigLoad_1_row2_RESULT BY year;                                                                                         &#xA;tPigCode_1_row3_RESULT = FOREACH B GENERATE group as year, SUM(tPigLoad_1_row2_RESULT.fatalities) as annual_fatalities;                                        &#xA;"/>
-    <elementParameter field="CHECK" name="ESCAPE" value="true"/>
+  <node componentName="tPigAggregate" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPigAggregate_1"/>
+    <elementParameter field="TABLE" name="KEY_FIELDS">
+      <elementValue elementRef="INPUT_COLUMN" value="year"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="OPERATIONS">
+      <elementValue elementRef="OUTPUT_COLUMN" value="annual_fatalities"/>
+      <elementValue elementRef="FUNCTION" value="SUM"/>
+      <elementValue elementRef="INPUT_COLUMN" value="fatalities"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="INCREASE_PARALLELISM" value="false"/>
+    <elementParameter field="TEXT" name="REDUCE_NUMBER" value="2"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
-    <metadata connector="FLOW" name="tPigCode_1">
+    <metadata connector="FLOW" name="tPigAggregate_1">
       <column comment="" key="true" name="year" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" name="annual_fatalities" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
@@ -522,7 +530,7 @@
     <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
     <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
   </connection>
-  <connection connectorName="PIGCOMBINE" label="row2" lineStyle="0" metaname="PIGCOMBINE" offsetLabelX="0" offsetLabelY="0" source="tPigLoad_1" target="tPigCode_1">
+  <connection connectorName="PIGCOMBINE" label="row2" lineStyle="0" metaname="PIGCOMBINE" offsetLabelX="0" offsetLabelY="0" source="tPigLoad_1" target="tPigAggregate_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
       <elementValue elementRef="TRACE_COLUMN" value="year"/>
@@ -579,7 +587,7 @@
     <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
     <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
   </connection>
-  <connection connectorName="PIGCOMBINE" label="row3" lineStyle="0" metaname="PIGCOMBINE" offsetLabelX="0" offsetLabelY="0" source="tPigCode_1" target="tPigStoreResult_1">
+  <connection connectorName="PIGCOMBINE" label="row3" lineStyle="0" metaname="PIGCOMBINE" offsetLabelX="0" offsetLabelY="0" source="tPigAggregate_1" target="tPigStoreResult_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
       <elementValue elementRef="TRACE_COLUMN" value="year"/>
