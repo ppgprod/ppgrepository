@@ -643,20 +643,6 @@
       <relatedItems xmi:id="_RcbykqbgEeaPz5yv_7D-XQ" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Rcbyk6bgEeaPz5yv_7D-XQ" id="Mathematical" version="Latest" type="routine"/>
     </ItemsRelations>
-    <ItemsRelations xmi:id="_Rcby1qbgEeaPz5yv_7D-XQ">
-      <baseItem xmi:id="_Rcby16bgEeaPz5yv_7D-XQ" id="_A845UIh5Ed23i9syGA5qIA" version="0.1" type="job"/>
-      <relatedItems xmi:id="_Rcby2KbgEeaPz5yv_7D-XQ" id="_agCZsMvyEdu0-pmJiEk0sg" version="Latest" type="property"/>
-      <relatedItems xmi:id="_Rcby2abgEeaPz5yv_7D-XQ" id="Numeric" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_Rcby2qbgEeaPz5yv_7D-XQ" id="Relational" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_Rcby26bgEeaPz5yv_7D-XQ" id="TalendString" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_Rcby3KbgEeaPz5yv_7D-XQ" id="DemoRoutines" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_Rcby3abgEeaPz5yv_7D-XQ" id="GetRandomPhoneNum" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_Rcby3qbgEeaPz5yv_7D-XQ" id="DataOperation" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_Rcby36bgEeaPz5yv_7D-XQ" id="StringHandling" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_Rcby4KbgEeaPz5yv_7D-XQ" id="TalendDataGenerator" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_Rcby4abgEeaPz5yv_7D-XQ" id="TalendDate" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_Rcby4qbgEeaPz5yv_7D-XQ" id="Mathematical" version="Latest" type="routine"/>
-    </ItemsRelations>
     <ItemsRelations xmi:id="_RcdAiKbgEeaPz5yv_7D-XQ">
       <baseItem xmi:id="_RcdngKbgEeaPz5yv_7D-XQ" id="_uxvYEOdsEdu08_wAFUaozw" version="0.1" type="job"/>
       <relatedItems xmi:id="_RcdngabgEeaPz5yv_7D-XQ" id="Numeric" version="Latest" type="routine"/>
@@ -3090,6 +3076,21 @@
       <relatedItems xmi:id="_D5BnuaoBEeaEZoSSToXmTg" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_D5BnuqoBEeaEZoSSToXmTg" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_D5Bnu6oBEeaEZoSSToXmTg" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_EYQhYKoBEeaEZoSSToXmTg">
+      <baseItem xmi:id="_EYQhYaoBEeaEZoSSToXmTg" id="__L6dMIhzEd23i9syGA5qIA" version="0.1" type="job"/>
+      <relatedItems xmi:id="_EYQhYqoBEeaEZoSSToXmTg" id="_agCZsMvyEdu0-pmJiEk0sg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_EYQhY6oBEeaEZoSSToXmTg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EYQhZKoBEeaEZoSSToXmTg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EYQhZaoBEeaEZoSSToXmTg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EYQhZqoBEeaEZoSSToXmTg" id="DemoRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EYQhZ6oBEeaEZoSSToXmTg" id="GetRandomPhoneNum" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EYQhaKoBEeaEZoSSToXmTg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EYQhaaoBEeaEZoSSToXmTg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EYQhaqoBEeaEZoSSToXmTg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EYQha6oBEeaEZoSSToXmTg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EYQhbKoBEeaEZoSSToXmTg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EYQhbaoBEeaEZoSSToXmTg" id="_ybVF0IYyEd2LiJCMkQvw3A - exercice5" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_Jlm5cKazEea-_pa0Q-pl8A" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Jlm5caazEea-_pa0Q-pl8A" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
