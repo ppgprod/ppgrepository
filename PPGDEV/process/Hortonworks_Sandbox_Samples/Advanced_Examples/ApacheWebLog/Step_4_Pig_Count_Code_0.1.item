@@ -104,8 +104,8 @@
     <routinesParameter id="_mctk0BMZEeK4J6qjBJ0c-A" name="DqStringHandling"/>
     <routinesParameter id="_mdGmYBMZEeK4J6qjBJ0c-A" name="MDM"/>
   </parameters>
-  <node componentName="tPigLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="256">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPigLoad_1"/>
+  <node componentName="tPigLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPigLoad_2"/>
     <elementParameter field="CHECK" name="START" value="true"/>
     <elementParameter field="CHECK" name="END_OF_FLOW" value="false"/>
     <elementParameter field="RADIO" name="LOCAL" value="false"/>
@@ -158,10 +158,10 @@
       <elementValue elementRef="FAMILY_COLUMN" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="agent"/>
       <elementValue elementRef="FAMILY_COLUMN" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ipadresses"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ipaddresses"/>
       <elementValue elementRef="FAMILY_COLUMN" value=""/>
     </elementParameter>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TABLE" name="HADOOP_ADVANCED_PROPERTIES"/>
     <elementParameter field="TABLE" name="DRIVER_JAR"/>
     <elementParameter field="TABLE" name="ADVANCED_PROPERTIES"/>
@@ -188,7 +188,7 @@
     <elementParameter field="MEMO" name="COMMENT" value="Read Weblog files"/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <elementParameter field="CLOSED_LIST" name="ENGINE" value="MAPREDUCE"/>
-    <metadata connector="FLOW" name="tPigLoad_1">
+    <metadata connector="FLOW" name="tPigLoad_2">
       <column comment="" key="false" length="50" name="host" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="10" name="identity" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="user" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -202,7 +202,7 @@
       <column comment="" defaultValue="" key="false" length="11" name="bytes" nullable="true" pattern="null" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="refer" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="agent" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="100" name="ipadresses" nullable="true" pattern="" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="ipaddresses" nullable="true" pattern="" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
     </metadata>
     <metadata connector="PIGCOMBINE" name="PIGCOMBINE">
       <column comment="" key="false" length="50" name="host" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -218,7 +218,7 @@
       <column comment="" defaultValue="" key="false" length="11" name="bytes" nullable="true" pattern="null" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="refer" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="agent" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="100" name="ipadresses" nullable="true" pattern="" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="ipaddresses" nullable="true" pattern="" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
     </metadata>
     <metadata connector="REGISTERJAR" name="REGISTERJAR">
       <column defaultValue="" key="false" length="255" name="hcatalog" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -258,7 +258,7 @@
       <column comment="" defaultValue="" key="false" length="11" name="bytes" nullable="true" pattern="null" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="refer" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="agent" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="100" name="ipadresses" nullable="true" pattern="" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="ipaddresses" nullable="true" pattern="" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
     </metadata>
     <metadata connector="PIGCOMBINE" name="PIGCOMBINE">
       <column comment="" key="false" length="50" name="host" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -274,7 +274,7 @@
       <column comment="" defaultValue="" key="false" length="11" name="bytes" nullable="true" pattern="null" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="refer" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="agent" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="100" name="ipadresses" nullable="true" pattern="" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="ipaddresses" nullable="true" pattern="" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tPigFilterColumns" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="256">
@@ -284,39 +284,38 @@
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <metadata connector="FLOW" name="tPigFilterColumns_1">
-      <column comment="" key="false" length="50" name="host" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="code" nullable="true" pattern="null" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
     <metadata connector="PIGCOMBINE" name="PIGCOMBINE">
-      <column comment="" key="false" length="50" name="host" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="code" nullable="true" pattern="null" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPigAggregate" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="256">
+  <node componentName="tPigAggregate" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPigAggregate_1"/>
     <elementParameter field="TABLE" name="KEY_FIELDS">
-      <elementValue elementRef="INPUT_COLUMN" value="host"/>
+      <elementValue elementRef="INPUT_COLUMN" value="code"/>
     </elementParameter>
     <elementParameter field="TABLE" name="OPERATIONS">
       <elementValue elementRef="OUTPUT_COLUMN" value="count"/>
       <elementValue elementRef="FUNCTION" value="COUNT"/>
-      <elementValue elementRef="INPUT_COLUMN" value="host"/>
+      <elementValue elementRef="INPUT_COLUMN" value="code"/>
     </elementParameter>
     <elementParameter field="CHECK" name="INCREASE_PARALLELISM" value="false"/>
     <elementParameter field="TEXT" name="REDUCE_NUMBER" value="2"/>
-    <elementParameter field="TEXT" name="LABEL" value="Count Hits"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <metadata connector="FLOW" name="tPigAggregate_1">
-      <column comment="" key="false" length="50" name="host" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" name="count" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="code" nullable="true" pattern="null" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" name="count" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="PIGCOMBINE" name="PIGCOMBINE">
-      <column comment="" key="false" length="50" name="host" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" name="count" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="code" nullable="true" pattern="null" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" name="count" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPigSort" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="256">
+  <node componentName="tPigSort" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPigSort_1"/>
     <elementParameter field="TABLE" name="SORT_KEY">
       <elementValue elementRef="INPUT_COLUMN" value="count"/>
@@ -330,18 +329,18 @@
     <elementParameter field="MEMO" name="COMMENT" value=""/>
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <metadata connector="FLOW" name="tPigSort_1">
-      <column comment="" key="false" length="50" name="host" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" name="count" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="code" nullable="true" pattern="null" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" name="count" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="PIGCOMBINE" name="PIGCOMBINE">
-      <column comment="" key="false" length="50" name="host" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" name="count" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="code" nullable="true" pattern="null" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" name="count" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPigStoreResult" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="256">
+  <node componentName="tPigStoreResult" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPigStoreResult_2"/>
     <elementParameter field="CHECK" name="END_OF_FLOW" value="true"/>
-    <elementParameter field="TEXT" name="OUTPUT_FILENAME" value="context.hdfs_test_dir  + &quot;/apache_ip_cnt&quot;"/>
+    <elementParameter field="TEXT" name="OUTPUT_FILENAME" value="context.hdfs_test_dir  + &quot;/apache_code_cnt&quot;"/>
     <elementParameter field="CHECK" name="RM_OUTPUT" value="true"/>
     <elementParameter field="CLOSED_LIST" name="STORE" value="PigStorage"/>
     <elementParameter field="TEXT" name="CUSTOM_STORER" value="&quot;&quot;"/>
@@ -356,10 +355,10 @@
     <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="&quot;localhost&quot;"/>
     <elementParameter field="TEXT" name="ZOOKEEPER_CLIENT_PORT" value="&quot;2181&quot;"/>
     <elementParameter field="TEXT" name="HBASE_TABLE" value="&quot;&quot;"/>
-    <elementParameter field="COLUMN_LIST" name="ROWKEY_COLUMN" value="host"/>
+    <elementParameter field="COLUMN_LIST" name="ROWKEY_COLUMN" value="code"/>
     <elementParameter field="CHECK" name="CONTAIN_ROW_KEY_COLUMN_IN_HBASE_COLUMN" value="false"/>
     <elementParameter field="TABLE" name="MAPPING">
-      <elementValue elementRef="SCHEMA_COLUMN" value="host"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="code"/>
       <elementValue elementRef="FAMILY_COLUMN" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="count"/>
       <elementValue elementRef="FAMILY_COLUMN" value=""/>
@@ -386,8 +385,8 @@
     <elementParameter field="CHECK" name="VALIDATION_RULES" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="ASSOCIATED_PIG_LOAD" value="UNRELEVANT"/>
     <metadata connector="FLOW" name="tPigStoreResult_2">
-      <column comment="" key="false" length="50" name="host" nullable="true" pattern="null" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" name="count" nullable="true" pattern="" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="5" name="code" nullable="true" pattern="null" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" name="count" nullable="true" pattern="" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REGISTERJAR" name="REGISTERJAR">
       <column defaultValue="" key="false" length="255" name="datanucleus-core" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -397,7 +396,7 @@
       <column defaultValue="" key="false" length="255" name="hive-metastore" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <connection connectorName="PIGCOMBINE" label="row1" lineStyle="0" metaname="PIGCOMBINE" offsetLabelX="0" offsetLabelY="0" source="tPigLoad_1" target="tPigFilterRow_1">
+  <connection connectorName="PIGCOMBINE" label="row1" lineStyle="0" metaname="PIGCOMBINE" offsetLabelX="0" offsetLabelY="0" source="tPigLoad_2" target="tPigFilterRow_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
       <elementValue elementRef="TRACE_COLUMN" value="host"/>
@@ -540,16 +539,43 @@
   <connection connectorName="PIGCOMBINE" label="row2" lineStyle="0" metaname="PIGCOMBINE" offsetLabelX="0" offsetLabelY="0" source="tPigFilterColumns_1" target="tPigAggregate_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
-      <elementValue elementRef="TRACE_COLUMN" value="id"/>
+      <elementValue elementRef="TRACE_COLUMN" value="host"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="firstname"/>
+      <elementValue elementRef="TRACE_COLUMN" value="identity"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="lastname"/>
+      <elementValue elementRef="TRACE_COLUMN" value="user"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="city"/>
+      <elementValue elementRef="TRACE_COLUMN" value="date"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="time"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="diffgmt"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="rtype"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="file"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="proto"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="bytes"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="refer"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="agent"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
@@ -583,10 +609,10 @@
   <connection connectorName="PIGCOMBINE" label="row3" lineStyle="0" metaname="PIGCOMBINE" offsetLabelX="0" offsetLabelY="0" source="tPigAggregate_1" target="tPigSort_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
-      <elementValue elementRef="TRACE_COLUMN" value="count"/>
+      <elementValue elementRef="TRACE_COLUMN" value="code"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="city"/>
+      <elementValue elementRef="TRACE_COLUMN" value="count"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
@@ -686,8 +712,8 @@
   </note>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPigLoad_1"/>
-    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Show Different Pig Components used to count the different IP visiters"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPigLoad_2"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Show Different Pig Components used to count the different return Codes"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
