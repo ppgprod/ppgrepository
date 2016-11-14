@@ -19,12 +19,13 @@
     <parameters xmi:id="_9gwIAKoJEea328NbZiqboA" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="ppgprod2.ppgprod.com:10020"/>
     <parameters xmi:id="_9gwIAaoJEea328NbZiqboA" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_4"/>
     <parameters xmi:id="_9gwIAqoJEea328NbZiqboA" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
-    <parameters xmi:id="_9gwIA6oJEea328NbZiqboA" key="CONN_PARA_KEY_DB_SERVER" value="ppgprod3.ppgprod.com,ppgprod4.ppgprod.com,ppgprod2.ppgprod.com"/>
+    <parameters xmi:id="_9gwIA6oJEea328NbZiqboA" key="CONN_PARA_KEY_DB_SERVER" value="ppgprod1.ppgprod.com"/>
     <parameters xmi:id="_9gwIBKoJEea328NbZiqboA" key="CONN_PARA_KEY_DB_PRODUCT" value="HBASE"/>
     <parameters xmi:id="_9gwIBaoJEea328NbZiqboA" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
     <parameters xmi:id="_9gwIBqoJEea328NbZiqboA" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
     <parameters xmi:id="_9gwIB6oJEea328NbZiqboA" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
     <parameters xmi:id="_9gwICKoJEea328NbZiqboA" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_htWAgKoLEea328NbZiqboA" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_9gwICaoJEea328NbZiqboA" name="HBase" dataManager="_9gwH8KoJEea328NbZiqboA"/>
 </xmi:XMI>
