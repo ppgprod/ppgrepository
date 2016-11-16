@@ -3,5 +3,6 @@
   <connectionList>_9elkwKoJEea328NbZiqboA</connectionList>
   <connectionList>_9emy4KoJEea328NbZiqboA</connectionList>
   <connectionList>_9gUDEKoJEea328NbZiqboA</connectionList>
+  <connectionList>_ocMDcKxCEeaROuRRzM0bzQ</connectionList>
   <parameters xmi:id="_9dVnkaoJEea328NbZiqboA" key="CONN_PARA_KEY_YARN_HOSTNAME" value="ppgprod2.ppgprod.com"/>
 </TalendHadoopCluster:HadoopClusterConnection>
