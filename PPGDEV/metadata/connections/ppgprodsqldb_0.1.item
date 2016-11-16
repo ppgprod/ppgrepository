@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_eqxacKxHEeaROuRRzM0bzQ" name="ppgprodsqldb" id="_RRSQ0KxHEeaROuRRzM0bzQ" label="ppgprodsqldb" dataPackage="_fBQAwKxHEeaROuRRzM0bzQ" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://ppgprodsqlserver.database.windows.net:1433/ppgprodsqldb;" dbVersionString="HDB_1_0" Port="1433" Username="ppg-admin" Password="DF4VbqDiaPdlxz8IqqaL/w==" ServerName="ppgprodsqlserver.database.windows.net" DatasourceName="" FileFieldName="" SID="ppgprodsqldb" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_eqxacaxHEeaROuRRzM0bzQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_erfMIKxHEeaROuRRzM0bzQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_ernH8KxHEeaROuRRzM0bzQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_ernH8axHEeaROuRRzM0bzQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_ernH8qxHEeaROuRRzM0bzQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_ernH86xHEeaROuRRzM0bzQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_ernH9KxHEeaROuRRzM0bzQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_ernH9axHEeaROuRRzM0bzQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_e1gq0KxHEeaROuRRzM0bzQ" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_e1gq0axHEeaROuRRzM0bzQ" tag="DB ProductVersion" value="12.00.1605"/>
+    <taggedValue xmi:id="_e1hR4KxHEeaROuRRzM0bzQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_eqxacqxHEeaROuRRzM0bzQ" key="CONN_PARA_KEY_USERNAME" value="ppg-admin"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_fBQAwKxHEeaROuRRzM0bzQ" name="ppgprodsqldb" dataManager="_eqxacKxHEeaROuRRzM0bzQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAwaxHEeaROuRRzM0bzQ" name="db_accessadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAwqxHEeaROuRRzM0bzQ" name="db_backupoperator"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAw6xHEeaROuRRzM0bzQ" name="db_datareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAxKxHEeaROuRRzM0bzQ" name="db_datawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAxaxHEeaROuRRzM0bzQ" name="db_ddladmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAxqxHEeaROuRRzM0bzQ" name="db_denydatareader"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAx6xHEeaROuRRzM0bzQ" name="db_denydatawriter"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAyKxHEeaROuRRzM0bzQ" name="db_owner"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAyaxHEeaROuRRzM0bzQ" name="db_securityadmin"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAyqxHEeaROuRRzM0bzQ" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAy6xHEeaROuRRzM0bzQ" name="guest"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAzKxHEeaROuRRzM0bzQ" name="INFORMATION_SCHEMA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_fBQAzaxHEeaROuRRzM0bzQ" name="sys"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
