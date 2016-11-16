@@ -4,7 +4,7 @@
   <parameters xmi:id="_9glI0qoJEea328NbZiqboA" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="ppgprod2.ppgprod.com:8030"/>
   <parameters xmi:id="_9glI06oJEea328NbZiqboA" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="true"/>
   <parameters xmi:id="_9glI1KoJEea328NbZiqboA" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://ppgprod1.ppgprod.com:8020"/>
-  <parameters xmi:id="_9glI1aoJEea328NbZiqboA" key="CONN_PARA_KEY_USERNAME" value="vvelugur"/>
+  <parameters xmi:id="_9glI1aoJEea328NbZiqboA" key="CONN_PARA_KEY_USERNAME" value="ppgprodadmin"/>
   <parameters xmi:id="_9glI1qoJEea328NbZiqboA" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_i6W4IKoJEea328NbZiqboA"/>
   <parameters xmi:id="_9glI16oJEea328NbZiqboA" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
   <parameters xmi:id="_9glI2KoJEea328NbZiqboA" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_4"/>
