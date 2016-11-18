@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore">
+  <model:JobletProcess>
+    <parameters>
+      <routinesParameter id="_Jt_ZYKazEea-_pa0Q-pl8A" name="DataOperation"/>
+      <routinesParameter id="_JuE48KazEea-_pa0Q-pl8A" name="Mathematical"/>
+      <routinesParameter id="_Jug90KazEea-_pa0Q-pl8A" name="Numeric"/>
+      <routinesParameter id="_Jul2UKazEea-_pa0Q-pl8A" name="Relational"/>
+      <routinesParameter id="_JqdkQKazEea-_pa0Q-pl8A" name="SQLike"/>
+      <routinesParameter id="_JurV4KazEea-_pa0Q-pl8A" name="StringHandling"/>
+      <routinesParameter id="_Juw1cKazEea-_pa0Q-pl8A" name="TalendDataGenerator"/>
+      <routinesParameter id="_Ju8boKazEea-_pa0Q-pl8A" name="TalendDate"/>
+      <routinesParameter id="_JvCiQKazEea-_pa0Q-pl8A" name="TalendString"/>
+      <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
+      <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+      <routinesParameter id="_G417gAc-EeKqOMQjhZ_0wQ" name="KeyManagementForSqoop"/>
+    </parameters>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+</xmi:XMI>
