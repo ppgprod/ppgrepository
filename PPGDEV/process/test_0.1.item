@@ -121,7 +121,7 @@
     <elementParameter field="CHECK" name="CROSS_PLATFORM_SUBMISSION" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="CONNECTION_MODE" value="STANDALONE"/>
     <elementParameter field="CLOSED_LIST" name="HIVE_SERVER" value="HIVE2"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;ppgprod1.ppgprod.com&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.154.190.70&quot;"/>
     <elementParameter field="TEXT" name="PORT" value="&quot;8020&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;default&quot;"/>
     <elementParameter field="TEXT" name="TYPE" value="Hive" show="false"/>
@@ -154,8 +154,8 @@
     <elementParameter field="TEXT" name="MAPRED_JT" value="&quot;localhost:50300&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_RESOURCE_MANAGER" value="false"/>
     <elementParameter field="TEXT" name="RESOURCE_MANAGER" value="&quot;localhost:8032&quot;" show="false"/>
-    <elementParameter field="CHECK" name="SET_FS_DEFAULT_NAME" value="false"/>
-    <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://localhost:8020&quot;" show="false"/>
+    <elementParameter field="CHECK" name="SET_FS_DEFAULT_NAME" value="true"/>
+    <elementParameter field="TEXT" name="FS_DEFAULT_NAME" value="&quot;hdfs://10.154.190.70:8020&quot;"/>
     <elementParameter field="CHECK" name="SET_SCHEDULER_ADDRESS" value="false"/>
     <elementParameter field="TEXT" name="RESOURCEMANAGER_SCHEDULER_ADDRESS" value="&quot;localhost:8030&quot;" show="false"/>
     <elementParameter field="CHECK" name="SET_JOBHISTORY_ADDRESS" value="false"/>
