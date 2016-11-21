@@ -182,7 +182,7 @@
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
     <elementParameter field="LABEL" name="PARQUET_NOTE" value="Parquet is only supported if the distribution uses embedded&#xA;&#x9;&#x9;&#x9;&#x9;Hive version 0.10 or later.&#xA;&#x9;&#x9;&#x9;" show="false"/>
     <elementParameter field="CHECK" name="USE_PARQUET" value="false"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select id, name from employee&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  USORACLE_FND_LOOKUP_VALUES.newColumn, &#xA;  USORACLE_FND_LOOKUP_VALUES.newColumn1, &#xA;  USORACLE_FND_LOOKUP_VALUES.newColumn2, &#xA;  USORACLE_FND_LOOKUP_VALUES.newColumn3&#xA;FROM default.USORACLE_FND_LOOKUP_VALUES&quot;"/>
     <elementParameter field="CHECK" name="STORE_BY_HBASE" value="false"/>
     <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="&quot;localhost&quot;" show="false"/>
     <elementParameter field="TEXT" name="ZOOKEEPER_CLIENT_PORT" value="&quot;2181&quot;" show="false"/>
