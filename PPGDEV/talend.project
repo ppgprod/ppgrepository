@@ -327,4 +327,6 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_rTfsMbB-Eea6B6ykYCMHxA" login="vvelugur@company.com" firstName="venkata" lastName="veluguri" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_A6bYYLB_Eea6B6ykYCMHxA" login="adarsh@company.com" firstName="adarsh" lastName="singh" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_8OdGkLCAEeaBVdM7Xtj33A" login="yuvraaj@company.com" firstName="yuvraaj" lastName="kumar" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_8OdGkbCAEeaBVdM7Xtj33A" login="nagendra@company.com" firstName="nagendra" lastName="singh" type="DQ" additionnalData="{}"/>
 </xmi:XMI>
