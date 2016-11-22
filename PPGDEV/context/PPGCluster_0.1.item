@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_Px-8YK_YEeav5_cRvfDV9A" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_Px-8Ya_YEeav5_cRvfDV9A" comment="" name="PPGCluster_NameNodeUri" prompt="PPGCluster_NameNodeUri?" promptNeeded="false" type="id_String" value="hdfs://ppgprod1.ppgprod.com:8020"/>
-  <contextParameter xmi:id="_Px-8Yq_YEeav5_cRvfDV9A" comment="" name="PPGCluster_JobHistory" prompt="PPGCluster_JobHistory?" promptNeeded="false" type="id_String" value="ppgprod2.ppgprod.com:10020"/>
-  <contextParameter xmi:id="_Px-8Y6_YEeav5_cRvfDV9A" comment="" name="PPGCluster_StagingDirectory" prompt="PPGCluster_StagingDirectory?" promptNeeded="false" type="id_String" value="/user"/>
-  <contextParameter xmi:id="_Px-8ZK_YEeav5_cRvfDV9A" comment="" name="PPGCluster_ResourceManager" prompt="PPGCluster_ResourceManager?" promptNeeded="false" type="id_String" value="ppgprod2.ppgprod.com:8050"/>
-  <contextParameter xmi:id="_Px-8Za_YEeav5_cRvfDV9A" comment="" name="PPGCluster_ResourceManagerScheduler" prompt="PPGCluster_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value="ppgprod2.ppgprod.com:8030"/>
-  <contextParameter xmi:id="_Px-8Zq_YEeav5_cRvfDV9A" comment="" name="PPGCluster_User" prompt="PPGCluster_User?" promptNeeded="false" type="id_String" value="ppgprodadmin"/>
-</talendfile:ContextType>
