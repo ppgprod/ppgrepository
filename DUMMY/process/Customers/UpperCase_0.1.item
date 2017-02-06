@@ -253,7 +253,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="CustUpperCase">
-        <mapperTableEntries name="first_name" expression="row1.first_name " type="id_String" nullable="true"/>
+        <mapperTableEntries name="first_name" expression="row1.first_name + row1.last_name " type="id_String" nullable="true"/>
         <mapperTableEntries name="last_name" expression="row1.last_name " type="id_String" nullable="true"/>
         <mapperTableEntries name="company_name" expression="row1.company_name " type="id_String" nullable="true"/>
         <mapperTableEntries name="address" expression="StringHandling.UPCASE(row1.address) " type="id_String" nullable="true"/>
