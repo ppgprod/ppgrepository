@@ -252,7 +252,7 @@
       <outputTables sizeState="INTERMEDIATE" name="CustUpperCase">
         <mapperTableEntries name="s1" expression="Numeric.sequence(&quot;s1&quot;,1,1) " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="first_name" expression="row1.first_name + &quot; &quot; +row1.last_name " type="id_String" nullable="true"/>
-        <mapperTableEntries name="last_name" expression="StripQuotes(row1.last_name) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="last_name" expression="row1.last_name " type="id_String" nullable="true"/>
         <mapperTableEntries name="company_name" expression="row1.company_name " type="id_String" nullable="true"/>
         <mapperTableEntries name="address" expression="StringHandling.UPCASE(row1.address) " type="id_String" nullable="true"/>
         <mapperTableEntries name="city" expression="StringHandling.UPCASE(row1.city) " type="id_String" nullable="true"/>
