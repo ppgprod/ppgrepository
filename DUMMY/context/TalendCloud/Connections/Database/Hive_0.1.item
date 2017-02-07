@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_zbXCoO1wEeaJIunkBweHtA" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_zbXCoe1wEeaJIunkBweHtA" comment="" name="connection_hive_host" prompt="connection_hive_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zbXCou1wEeaJIunkBweHtA" comment="" name="connection_hive_port" prompt="connection_hive_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zbXCo-1wEeaJIunkBweHtA" comment="" name="connection_hive_username" prompt="connection_hive_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zbXCpO1wEeaJIunkBweHtA" comment="" name="connection_hive_database" prompt="connection_hive_database?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zbXCpe1wEeaJIunkBweHtA" comment="" name="connection_hive_password" prompt="connection_hive_password?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_zbXCpu1wEeaJIunkBweHtA" confirmationNeeded="false" name="Studio">
+    <contextParameter xmi:id="_zbXCp-1wEeaJIunkBweHtA" comment="" name="connection_hive_host" prompt="connection_hive_host?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zbXCqO1wEeaJIunkBweHtA" comment="" name="connection_hive_port" prompt="connection_hive_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zbXCqe1wEeaJIunkBweHtA" comment="" name="connection_hive_username" prompt="connection_hive_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zbXCqu1wEeaJIunkBweHtA" comment="" name="connection_hive_database" prompt="connection_hive_database?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_zbXCq-1wEeaJIunkBweHtA" comment="" name="connection_hive_password" prompt="connection_hive_password?" promptNeeded="false" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

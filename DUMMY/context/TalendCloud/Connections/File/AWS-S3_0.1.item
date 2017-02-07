@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_zb1jwO1wEeaJIunkBweHtA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_zb1jwe1wEeaJIunkBweHtA" comment="" name="connection_awss3_access_key" prompt="connection_awss3_access_key?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_zb1jwu1wEeaJIunkBweHtA" comment="" name="connection_awss3_secret_key" prompt="connection_awss3_secret_key?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>
