@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_Z1yCUO0-EeaTSJz6zSsabQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_Z1yCUe0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_User" prompt="PPGDEVCLUSTER_User?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_Z1yCUu0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_ResourceManagerScheduler" prompt="PPGDEVCLUSTER_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value="vm-ppg-qa3:8030"/>
+    <contextParameter xmi:id="_Z1yCU-0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_ResourceManager" prompt="PPGDEVCLUSTER_ResourceManager?" promptNeeded="false" type="id_String" value="vm-ppg-qa3:8050"/>
+    <contextParameter xmi:id="_Z1yCVO0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_NameNodeUri" prompt="PPGDEVCLUSTER_NameNodeUri?" promptNeeded="false" type="id_String" value="hdfs://vm-ppg-qa1:8020"/>
+    <contextParameter xmi:id="_Z1yCVe0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_JobHistory" prompt="PPGDEVCLUSTER_JobHistory?" promptNeeded="false" type="id_String" value="vm-ppg-qa3:10020"/>
+    <contextParameter xmi:id="_Z1yCVu0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_StagingDirectory" prompt="PPGDEVCLUSTER_StagingDirectory?" promptNeeded="false" type="id_String" value="/user"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_Z1yCV-0-EeaTSJz6zSsabQ" confirmationNeeded="false" name="ppgdev">
+    <contextParameter xmi:id="_Z1yCWO0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_User" prompt="PPGDEVCLUSTER_User?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter xmi:id="_Z1yCWe0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_ResourceManagerScheduler" prompt="PPGDEVCLUSTER_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value="vm-ppg-qa3:8030"/>
+    <contextParameter xmi:id="_Z1yCWu0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_ResourceManager" prompt="PPGDEVCLUSTER_ResourceManager?" promptNeeded="false" type="id_String" value="vm-ppg-qa3:8050"/>
+    <contextParameter xmi:id="_Z1yCW-0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_NameNodeUri" prompt="PPGDEVCLUSTER_NameNodeUri?" promptNeeded="false" type="id_String" value="hdfs://vm-ppg-qa1:8020"/>
+    <contextParameter xmi:id="_Z1yCXO0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_JobHistory" prompt="PPGDEVCLUSTER_JobHistory?" promptNeeded="false" type="id_String" value="vm-ppg-qa3:10020"/>
+    <contextParameter xmi:id="_Z1yCXe0-EeaTSJz6zSsabQ" comment="" name="PPGDEVCLUSTER_StagingDirectory" prompt="PPGDEVCLUSTER_StagingDirectory?" promptNeeded="false" type="id_String" value="/user"/>
+  </talendfile:ContextType>
+</xmi:XMI>
