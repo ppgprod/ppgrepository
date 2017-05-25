@@ -11,7 +11,7 @@
     <parameters xmi:id="_fpftuEFOEeeSw-3lHVvc-w" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
     <parameters xmi:id="_fpftuUFOEeeSw-3lHVvc-w" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user"/>
     <parameters xmi:id="_fpftukFOEeeSw-3lHVvc-w" key="CONN_PARA_KEY_USERNAME" value=""/>
-    <parameters xmi:id="_fpftu0FOEeeSw-3lHVvc-w" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_YrOwgEFNEeeSw-3lHVvc-w"/>
+    <parameters xmi:id="_fpftu0FOEeeSw-3lHVvc-w" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID"/>
     <parameters xmi:id="_fpftvEFOEeeSw-3lHVvc-w" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
     <parameters xmi:id="_fpftvUFOEeeSw-3lHVvc-w" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
     <parameters xmi:id="_fpftvkFOEeeSw-3lHVvc-w" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_4"/>
