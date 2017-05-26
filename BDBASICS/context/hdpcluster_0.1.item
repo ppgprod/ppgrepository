@@ -3,7 +3,7 @@
   <contextParameter xmi:id="_VrPU0UFOEeeSw-3lHVvc-w" comment="" name="hdpcluster_JobHistory" prompt="hdpcluster_JobHistory?" promptNeeded="false" type="id_String" value="vmtalend4bdhdp:10020"/>
   <contextParameter xmi:id="_VrPU0kFOEeeSw-3lHVvc-w" comment="" name="hdpcluster_ResourceManager" prompt="hdpcluster_ResourceManager?" promptNeeded="false" type="id_String" value="vmtalend4bdhdp:8050"/>
   <contextParameter xmi:id="_VrPU00FOEeeSw-3lHVvc-w" comment="" name="hdpcluster_NameNodeUri" prompt="hdpcluster_NameNodeUri?" promptNeeded="false" type="id_String" value="hdfs://vmtalend4bdhdp:8020"/>
-  <contextParameter xmi:id="_VrPU1EFOEeeSw-3lHVvc-w" comment="" name="hdpcluster_StagingDirectory" prompt="hdpcluster_StagingDirectory?" promptNeeded="false" type="id_String" value="/user"/>
+  <contextParameter xmi:id="_VrPU1EFOEeeSw-3lHVvc-w" comment="" name="hdpcluster_StagingDirectory" prompt="hdpcluster_StagingDirectory?" promptNeeded="false" type="id_String" value="/user/students"/>
   <contextParameter xmi:id="_VrPU1UFOEeeSw-3lHVvc-w" comment="" name="hdpcluster_ResourceManagerScheduler" prompt="hdpcluster_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value="vmtalend4bdhdp:8030"/>
   <contextParameter xmi:id="_VrPU1kFOEeeSw-3lHVvc-w" comment="" name="hdpcluster_User" prompt="hdpcluster_User?" promptNeeded="false" type="id_String" value=""/>
 </talendfile:ContextType>
