@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_AIH3kEHQEeeffNOAlDnwow" name="HIVEConnection_New" id="_8cpRgEFlEeeXdY0mEnimqw" label="HIVEConnection_New" dataPackage="_DA96IEFmEeeXdY0mEnimqw" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://52.170.94.156:10000/default" dbVersionString="STANDALONE" Port="10000" Username="root" Password="Ok+OYG36hRUIzzlonTJOSQ==" ServerName="52.170.94.156" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" StandardSQL="true">
+    <taggedValue xmi:id="_Bmv-4EFmEeeXdY0mEnimqw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_BnGkMEFmEeeXdY0mEnimqw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_BnSKYEFmEeeXdY0mEnimqw" tag="Status" value=""/>
+    <taggedValue xmi:id="_BnSKYUFmEeeXdY0mEnimqw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_BnSKYkFmEeeXdY0mEnimqw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_BnSKY0FmEeeXdY0mEnimqw" tag="Description" value=""/>
+    <taggedValue xmi:id="_BnSKZEFmEeeXdY0mEnimqw" tag="Author" value=""/>
+    <taggedValue xmi:id="_BnSKZUFmEeeXdY0mEnimqw" tag="otherParameter"/>
+    <taggedValue xmi:id="_Bxl88EFmEeeXdY0mEnimqw" tag="DB ProductName" value="Apache Hive"/>
+    <taggedValue xmi:id="_Bxl88UFmEeeXdY0mEnimqw" tag="DB ProductVersion" value="1.2.1000.2.5.5.0-157"/>
+    <parameters xmi:id="_Bmv-4UFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_DB_PORT"/>
+    <parameters xmi:id="_Bmv-4kFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USE_YARN" value="true"/>
+    <parameters xmi:id="_Bmv-40FmEeeXdY0mEnimqw" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="52.170.94.156:8030"/>
+    <parameters xmi:id="_Bmv-5EFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="false"/>
+    <parameters xmi:id="_Bmv-5UFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://52.170.94.156:8020"/>
+    <parameters xmi:id="_Bmv-5kFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_Bmv-50FmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_AGhVEEHQEeeffNOAlDnwow"/>
+    <parameters xmi:id="_Bmv-6EFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Bmv-6UFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_4"/>
+    <parameters xmi:id="_Bmv-6kFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="52.170.94.156:8050"/>
+    <parameters xmi:id="_Bmv-60FmEeeXdY0mEnimqw" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="52.170.94.156:10020"/>
+    <parameters xmi:id="_Bmv-7EFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_4"/>
+    <parameters xmi:id="_Bmv-7UFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_Bmv-7kFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_DB_SERVER" value="52.170.94.156"/>
+    <parameters xmi:id="_Bmv-70FmEeeXdY0mEnimqw" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
+    <parameters xmi:id="_Bmv-8EFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Bmv-8UFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HIVE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_Bmv-8kFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USE_KRB" value="false"/>
+    <parameters xmi:id="_Bmv-80FmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HBASE_DISTRIBUTION" value="HORTONWORKS"/>
+    <parameters xmi:id="_Bmv-9EFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_STAGING_DIRECTORY" value="/user/students"/>
+    <parameters xmi:id="_Bmv-9UFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HADOOP_CUSTOM_JARS"/>
+    <parameters xmi:id="_Bmv-9kFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_NAME_NODE_PRINCIPAL" value="nn/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Bmv-90FmEeeXdY0mEnimqw" key="CONN_PARA_KEY_DB_PRODUCT" value="HIVE"/>
+    <parameters xmi:id="_Bmv--EFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HIVE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_Bmv--UFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HBASE_AUTHENTICATION_USE_MAPRTICKET" value="false"/>
+    <parameters xmi:id="_Bmv--kFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HIVE_MODE" value="STANDALONE"/>
+    <parameters xmi:id="_Bmv--0FmEeeXdY0mEnimqw" key="HIVE_SERVER_VERSION" value="HIVE2"/>
+    <parameters xmi:id="_Bmv-_EFmEeeXdY0mEnimqw" key="HIVE_AUTHENTICATION_HIVEPRINCIPLA" value="hive/_HOST@EXAMPLE.COM"/>
+    <parameters xmi:id="_Bmv-_UFmEeeXdY0mEnimqw" key="HIVE_AUTHENTICATION_METASTOREURL" value=""/>
+    <parameters xmi:id="_Bmv-_kFmEeeXdY0mEnimqw" key="HIVE_AUTHENTICATION_DRIVERCLASS" value=""/>
+    <parameters xmi:id="_Bmv-_0FmEeeXdY0mEnimqw" key="HIVE_AUTHENTICATION_USERNAME" value=""/>
+    <parameters xmi:id="_Bmv_AEFmEeeXdY0mEnimqw" key="HIVE_AUTHENTICATION_PASSWORD" value=""/>
+    <parameters xmi:id="_Bmv_AUFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_KEYTAB_PRINCIPLA" value=""/>
+    <parameters xmi:id="_Bmv_AkFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_KEYTAB" value=""/>
+    <parameters xmi:id="_Bmv_A0FmEeeXdY0mEnimqw" key="HIVE_EXECUTION_ENGINE"/>
+    <parameters xmi:id="_Bmv_BEFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USE_SSL" value="false"/>
+    <parameters xmi:id="_Bmv_BUFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
+    <parameters xmi:id="_Bmv_BkFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_DA96IEFmEeeXdY0mEnimqw" name="default" dataManager="_AIH3kEHQEeeffNOAlDnwow"/>
+</xmi:XMI>
