@@ -8,14 +8,14 @@
     <parameters xmi:id="_ohPRBEF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="52.170.94.156:8030"/>
     <parameters xmi:id="_ohPRBUF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="false"/>
     <parameters xmi:id="_ohPRBkF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://52.170.94.156:8020"/>
-    <parameters xmi:id="_ohPRB0F7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_ohPRB0F7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_USERNAME" value="hdfs"/>
     <parameters xmi:id="_ohPRCEF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_kqh-oEFOEeevV6IQVrv63w"/>
     <parameters xmi:id="_ohPRCUF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
     <parameters xmi:id="_ohPRCkF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_4"/>
     <parameters xmi:id="_ohPRC0F7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="52.170.94.156:8050"/>
     <parameters xmi:id="_ohPRDEF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="52.170.94.156:10020"/>
     <parameters xmi:id="_ohPRDUF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_4"/>
-    <parameters xmi:id="_ohPRDkF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
+    <parameters xmi:id="_ohPRDkF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
     <parameters xmi:id="_ohPRD0F7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_DB_SERVER" value="52.170.94.156"/>
     <parameters xmi:id="_ohPREEF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_DB_TYPE" value="HBase"/>
     <parameters xmi:id="_ohPREUF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
