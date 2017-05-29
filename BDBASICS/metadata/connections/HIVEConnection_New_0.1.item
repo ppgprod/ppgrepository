@@ -23,7 +23,7 @@
     <parameters xmi:id="_Bmv-6kFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="52.170.94.156:8050"/>
     <parameters xmi:id="_Bmv-60FmEeeXdY0mEnimqw" key="CONN_PARA_KEY_JOBHISTORY_ADDRESS" value="52.170.94.156:10020"/>
     <parameters xmi:id="_Bmv-7EFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HIVE_VERSION" value="HDP_2_4"/>
-    <parameters xmi:id="_Bmv-7UFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="false"/>
+    <parameters xmi:id="_Bmv-7UFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USE_DATANODE_HOSTNAME" value="true"/>
     <parameters xmi:id="_Bmv-7kFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_DB_SERVER" value="52.170.94.156"/>
     <parameters xmi:id="_Bmv-70FmEeeXdY0mEnimqw" key="CONN_PARA_KEY_DB_TYPE" value="Hive"/>
     <parameters xmi:id="_Bmv-8EFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_JOB_TRACKER_PRINCIPAL" value="yarn/_HOST@EXAMPLE.COM"/>
