@@ -214,17 +214,19 @@
       <column comment="" key="false" length="50" name="CustomerName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="CustomerAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="StateCode" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="2" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="StateName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="RegisterTime" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="23" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="Sum" nullable="true" pattern="" precision="2" sourceType="" type="id_Float" originalLength="11" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="CustomerswithStateName">
         <mapperTableEntries name="ID" expression="row1.ID " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="CustomerName" expression="row1.CustomerName " type="id_String" nullable="true"/>
         <mapperTableEntries name="CustomerAddress" expression="row1.CustomerAddress " type="id_String" nullable="true"/>
         <mapperTableEntries name="StateCode" expression="row2.StateCode " type="id_String" nullable="true"/>
+        <mapperTableEntries name="StateName" expression="row2.StateName " type="id_String" nullable="true"/>
         <mapperTableEntries name="RegisterTime" expression="row1.RegisterTime " type="id_String" nullable="true"/>
         <mapperTableEntries name="Sum" expression="row1.Sum " type="id_Float" nullable="true"/>
       </outputTables>
@@ -345,6 +347,7 @@
       <column comment="" key="false" length="50" name="CustomerName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="CustomerAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="StateCode" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="2" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="StateName" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="RegisterTime" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="23" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="Sum" nullable="true" pattern="" precision="2" sourceType="" type="id_Float" originalLength="11" usefulColumn="true"/>
     </metadata>
@@ -354,6 +357,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="CustomerswithStateName" lineStyle="0" metaname="CustomerswithStateName" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="StateName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="CustomerswithStateName" show="false"/>
   </connection>
