@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_fUtfkEFFEeevV6IQVrv63w" label="BDBasics" description="Development Project" language="java" technicalLabel="BDBASICS" creationDate="2017-05-25T15:53:13.866+0530" author="_fUtfkUFFEeevV6IQVrv63w" productVersion="Talend Data Fabric-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/ppgprod/ppgrepository.git&quot;,&quot;login&quot;:&quot;ppgprod&quot;,&quot;passwd&quot;:&quot;yTUTP5eyiZbJnYYBtSxuyg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" itemsRelationVersion="1.3">
+  <TalendProperties:Project xmi:id="_fUtfkEFFEeevV6IQVrv63w" label="BDBasics" description="Development Project" language="java" technicalLabel="BDBASICS" creationDate="2017-05-25T06:23:13.866-0400" author="_fUtfkUFFEeevV6IQVrv63w" productVersion="Talend Data Fabric-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/ppgprod/ppgrepository.git&quot;,&quot;login&quot;:&quot;ppgprod&quot;,&quot;passwd&quot;:&quot;yTUTP5eyiZbJnYYBtSxuyg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" itemsRelationVersion="1.3">
     <technicalStatus xmi:id="_hlGN0EFFEeevV6IQVrv63w" label="development" code="DEV"/>
     <technicalStatus xmi:id="_hlGN0UFFEeevV6IQVrv63w" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_hlGN0kFFEeevV6IQVrv63w" label="production" code="PROD"/>
@@ -251,6 +251,24 @@
       <relatedItems xmi:id="_0E__j0TmEee0ILbWnWDzJA" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_0E__kETmEee0ILbWnWDzJA" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_0E__kUTmEee0ILbWnWDzJA" id="MDM" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_V0Pd4EWCEeebkoSoLoPs2Q">
+      <baseItem xmi:id="_V0Pd4UWCEeebkoSoLoPs2Q" id="_BpZVMEWCEeebkoSoLoPs2Q" version="0.1" type="job"/>
+      <relatedItems xmi:id="_V0Pd4kWCEeebkoSoLoPs2Q" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd40WCEeebkoSoLoPs2Q" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd5EWCEeebkoSoLoPs2Q" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd5UWCEeebkoSoLoPs2Q" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd5kWCEeebkoSoLoPs2Q" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd50WCEeebkoSoLoPs2Q" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd6EWCEeebkoSoLoPs2Q" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd6UWCEeebkoSoLoPs2Q" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd6kWCEeebkoSoLoPs2Q" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd60WCEeebkoSoLoPs2Q" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd7EWCEeebkoSoLoPs2Q" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd7UWCEeebkoSoLoPs2Q" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd7kWCEeebkoSoLoPs2Q" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd70WCEeebkoSoLoPs2Q" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_V0Pd8EWCEeebkoSoLoPs2Q" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
     <migrationTask xmi:id="_hi4nUEFFEeevV6IQVrv63w" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_hi4nUUFFEeevV6IQVrv63w" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
