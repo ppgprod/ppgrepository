@@ -208,7 +208,6 @@
       <column comment="" key="false" length="50" name="CustomerName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="CustomerAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="StateCode" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="2" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="StateID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="RegisterTime" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="23" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="Sum" nullable="true" pattern="" precision="2" sourceType="" type="id_Float" originalLength="11" usefulColumn="true"/>
     </metadata>
@@ -220,7 +219,6 @@
         <mapperTableEntries name="CustomerName" expression="row1.CustomerName " type="id_String" nullable="true"/>
         <mapperTableEntries name="CustomerAddress" expression="row1.CustomerAddress " type="id_String" nullable="true"/>
         <mapperTableEntries name="StateCode" expression="row2.StateCode " type="id_String" nullable="true"/>
-        <mapperTableEntries name="StateID" expression="row1.StateID " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="RegisterTime" expression="row1.RegisterTime " type="id_String" nullable="true"/>
         <mapperTableEntries name="Sum" expression="row1.Sum " type="id_Float" nullable="true"/>
       </outputTables>
@@ -335,7 +333,6 @@
       <column comment="" key="false" length="50" name="CustomerName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="CustomerAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="StateCode" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="2" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="StateID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="23" name="RegisterTime" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="23" usefulColumn="true"/>
       <column comment="" key="false" length="11" name="Sum" nullable="true" pattern="" precision="2" sourceType="" type="id_Float" originalLength="11" usefulColumn="true"/>
     </metadata>
