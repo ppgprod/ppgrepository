@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_wNz5kEX5Eee83e9Prv0ZdQ" dataPackage="_wNz5kUX5Eee83e9Prv0ZdQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_wNz5kUX5Eee83e9Prv0ZdQ" dataManager="_wNz5kEX5Eee83e9Prv0ZdQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_wNz5kkX5Eee83e9Prv0ZdQ" id="_wNyrcEX5Eee83e9Prv0ZdQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wNz5k0X5Eee83e9Prv0ZdQ" name="ID" label="ID" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_wNz5lEX5Eee83e9Prv0ZdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wNz5lUX5Eee83e9Prv0ZdQ" name="CustomerName" label="CustomerName" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_wNz5lkX5Eee83e9Prv0ZdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wNz5l0X5Eee83e9Prv0ZdQ" name="CustomerAddress" label="CustomerAddress" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_wNz5mEX5Eee83e9Prv0ZdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wNz5mUX5Eee83e9Prv0ZdQ" name="StateID" label="StateID" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_wNz5mkX5Eee83e9Prv0ZdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wNz5m0X5Eee83e9Prv0ZdQ" name="RegisterTime" label="RegisterTime" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_wNz5nEX5Eee83e9Prv0ZdQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wNz5nUX5Eee83e9Prv0ZdQ" name="Sum" label="Sum" length="11" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_wNz5nkX5Eee83e9Prv0ZdQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
