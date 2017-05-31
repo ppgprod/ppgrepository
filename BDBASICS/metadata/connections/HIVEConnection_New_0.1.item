@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_BmuJsEFmEeeXdY0mEnimqw" name="HIVEConnection_New" id="_8cpRgEFlEeeXdY0mEnimqw" label="HIVEConnection_New" dataPackage="_DA96IEFmEeeXdY0mEnimqw" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://52.170.94.156:10000/default" dbVersionString="STANDALONE" Port="10000" Username="root" Password="Ok+OYG36hRUIzzlonTJOSQ==" ServerName="52.170.94.156" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" StandardSQL="true">
+  <TalendMetadata:DatabaseConnection xmi:id="_BmuJsEFmEeeXdY0mEnimqw" name="HIVEConnection_New" id="_8cpRgEFlEeeXdY0mEnimqw" label="HIVEConnection_New" dataPackage="_vP-5AEXxEee83e9Prv0ZdQ" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://52.170.94.156:10000/default" dbVersionString="STANDALONE" Port="10000" Username="root" Password="Ok+OYG36hRUIzzlonTJOSQ==" ServerName="52.170.94.156" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" StandardSQL="true">
     <taggedValue xmi:id="_Bmv-4EFmEeeXdY0mEnimqw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_BnGkMEFmEeeXdY0mEnimqw" tag="package filter" value=""/>
     <taggedValue xmi:id="_BnSKYEFmEeeXdY0mEnimqw" tag="Status" value=""/>
@@ -47,8 +47,8 @@
     <parameters xmi:id="_Bmv_AkFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_KEYTAB" value=""/>
     <parameters xmi:id="_Bmv_A0FmEeeXdY0mEnimqw" key="HIVE_EXECUTION_ENGINE"/>
     <parameters xmi:id="_Bmv_BEFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USE_SSL" value="false"/>
-    <parameters xmi:id="_Bmv_BUFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
-    <parameters xmi:id="_Bmv_BkFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+    <parameters xmi:id="_kEH6AEXwEee83e9Prv0ZdQ" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
+    <parameters xmi:id="_kEH6AUXwEee83e9Prv0ZdQ" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Schema xmi:id="_DA96IEFmEeeXdY0mEnimqw" name="default" dataManager="_BmuJsEFmEeeXdY0mEnimqw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_vP-5AEXxEee83e9Prv0ZdQ" name="default" dataManager="_BmuJsEFmEeeXdY0mEnimqw"/>
 </xmi:XMI>
