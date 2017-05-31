@@ -799,7 +799,7 @@
   <node componentName="tFileDelete" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileDelete_1" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/StudentFiles/DIBasics/Dev/shop.zip&quot;" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/StudentFiles/DIBasics/Dev/shop.zip&quot;"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/StudentFiles/DIBasics/Dev/&quot;"/>
     <elementParameter field="TEXT" name="PATH" value="&quot;C:/Talend Software/Talend-Studio-20160704_1411-V6.2.1/workspace/delete_folder or delete_file&quot;" show="false"/>
     <elementParameter field="CHECK" name="FAILON" value="true"/>
     <elementParameter field="CHECK" name="FOLDER" value="true"/>
