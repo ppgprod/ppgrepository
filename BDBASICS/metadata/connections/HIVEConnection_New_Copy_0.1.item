@@ -17,7 +17,7 @@
     <parameters xmi:id="_Bmv-5EFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USE_CUSTOM_CONFS" value="false"/>
     <parameters xmi:id="_Bmv-5UFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_NAME_NODE_URL" value="hdfs://52.170.94.156:8020"/>
     <parameters xmi:id="_Bmv-5kFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USERNAME" value="root"/>
-    <parameters xmi:id="_Bmv-50FmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID" value="_AGhVEEHQEeeffNOAlDnwow"/>
+    <parameters xmi:id="_Bmv-50FmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HADOOP_CLUSTER_ID"/>
     <parameters xmi:id="_Bmv-6EFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_JOB_HISTORY_PRINCIPAL" value="mapred/_HOST@EXAMPLE.COM"/>
     <parameters xmi:id="_Bmv-6UFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_HBASE_VERSION" value="HDP_2_4"/>
     <parameters xmi:id="_Bmv-6kFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_JOB_TRACKER_URL" value="52.170.94.156:8050"/>
