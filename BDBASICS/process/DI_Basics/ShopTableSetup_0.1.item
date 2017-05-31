@@ -21,6 +21,27 @@
     <contextParameter comment="" name="ShopMetadata_FieldSeparator" prompt="ShopMetadata_FieldSeparator?" promptNeeded="false" repositoryContextId="_GRoEUEYhEeeZO6otuELF0Q" type="id_String" value="&quot;;&quot;"/>
     <contextParameter comment="" name="ShopMetadata_RowSeparator" prompt="ShopMetadata_RowSeparator?" promptNeeded="false" repositoryContextId="_GRoEUEYhEeeZO6otuELF0Q" type="id_String" value="&quot;\n&quot;"/>
   </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="LocalMySQL_Login" prompt="LocalMySQL_Login?" promptNeeded="false" repositoryContextId="_cNLWoEYWEeeZO6otuELF0Q" type="id_String" value="root"/>
+    <contextParameter comment="" name="LocalMySQL_Server" prompt="LocalMySQL_Server?" promptNeeded="false" repositoryContextId="_cNLWoEYWEeeZO6otuELF0Q" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="LocalMySQL_Password" prompt="LocalMySQL_Password?" promptNeeded="false" repositoryContextId="_cNLWoEYWEeeZO6otuELF0Q" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter comment="" name="LocalMySQL_Port" prompt="LocalMySQL_Port?" promptNeeded="false" repositoryContextId="_cNLWoEYWEeeZO6otuELF0Q" type="id_String" value="3306"/>
+    <contextParameter comment="" name="LocalMySQL_Database" prompt="LocalMySQL_Database?" promptNeeded="false" repositoryContextId="_cNLWoEYWEeeZO6otuELF0Q" type="id_String" value="training"/>
+    <contextParameter comment="" name="LocalMySQL_AdditionalParams" prompt="LocalMySQL_AdditionalParams?" promptNeeded="false" repositoryContextId="_cNLWoEYWEeeZO6otuELF0Q" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="refCustomers_RowSeparator" prompt="refCustomers_RowSeparator?" promptNeeded="false" repositoryContextId="_RIq3cEYCEeeL0pM9jjZ-Tg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="refCustomers_FieldSeparator" prompt="refCustomers_FieldSeparator?" promptNeeded="false" repositoryContextId="_RIq3cEYCEeeL0pM9jjZ-Tg" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="refCustomers_File" prompt="refCustomers_File?" promptNeeded="false" repositoryContextId="_RIq3cEYCEeeL0pM9jjZ-Tg" type="id_File" value="C:/StudentFiles/DIBasics/refCustomer.csv"/>
+    <contextParameter comment="" name="refCustomers_Header" prompt="refCustomers_Header?" promptNeeded="false" repositoryContextId="_RIq3cEYCEeeL0pM9jjZ-Tg" type="id_Integer" value="6"/>
+    <contextParameter comment="" name="refCustomers_Encoding" prompt="refCustomers_Encoding?" promptNeeded="false" repositoryContextId="_RIq3cEYCEeeL0pM9jjZ-Tg" type="id_String" value="US-ASCII"/>
+    <contextParameter comment="" name="RetailProducts_FieldSeparator" prompt="RetailProducts_FieldSeparator?" promptNeeded="false" repositoryContextId="_kjk7gEYDEeeZO6otuELF0Q" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="RetailProducts_RowSeparator" prompt="RetailProducts_RowSeparator?" promptNeeded="false" repositoryContextId="_kjk7gEYDEeeZO6otuELF0Q" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="RetailProducts_File" prompt="RetailProducts_File?" promptNeeded="false" repositoryContextId="_kjk7gEYDEeeZO6otuELF0Q" type="id_File" value="C:/StudentFiles/DIBasics/refProducts.csv"/>
+    <contextParameter comment="" name="RetailProducts_Encoding" prompt="RetailProducts_Encoding?" promptNeeded="false" repositoryContextId="_kjk7gEYDEeeZO6otuELF0Q" type="id_String" value="US-ASCII"/>
+    <contextParameter comment="" name="ShopMetadata_RowSeparator" prompt="ShopMetadata_RowSeparator?" promptNeeded="false" repositoryContextId="_GRoEUEYhEeeZO6otuELF0Q" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="ShopMetadata_FieldSeparator" prompt="ShopMetadata_FieldSeparator?" promptNeeded="false" repositoryContextId="_GRoEUEYhEeeZO6otuELF0Q" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="ShopMetadata_Encoding" prompt="ShopMetadata_Encoding?" promptNeeded="false" repositoryContextId="_GRoEUEYhEeeZO6otuELF0Q" type="id_String" value="US-ASCII"/>
+    <contextParameter comment="" name="ShopMetadata_File" prompt="ShopMetadata_File?" promptNeeded="false" repositoryContextId="_GRoEUEYhEeeZO6otuELF0Q" type="id_File" value="C:/StudentFiles/DIBasics/Dev/shop1.csv"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
