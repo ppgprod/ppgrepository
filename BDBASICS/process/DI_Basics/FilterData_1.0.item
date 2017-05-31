@@ -3,7 +3,7 @@
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="4" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
@@ -257,7 +257,7 @@
         <mapperTableEntries name="StateName" expression="row2.StateName " type="id_String" nullable="true"/>
         <mapperTableEntries name="StateCode" expression="row2.StateCode " type="id_String" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="CA_States" expressionFilter="&quot;CA&quot;.equals(  row2.StateCode)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="CA_States" expressionFilter="&quot;VA&quot;.equals(  row2.StateCode)" activateExpressionFilter="true">
         <mapperTableEntries name="ID" expression="row1.ID" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="CustomerName" expression="row1.CustomerName" type="id_String" nullable="true"/>
         <mapperTableEntries name="CustomerAddress" expression="row1.CustomerAddress" type="id_String" nullable="true"/>
@@ -433,7 +433,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_3" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/StudentFiles/DIBasics/OUT/CA_StateCodes.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/StudentFiles/DIBasics/OUT/VA_StateCodes.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
