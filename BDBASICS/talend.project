@@ -443,6 +443,7 @@
       <relatedItems xmi:id="_d1lY_kWUEeebkoSoLoPs2Q" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_d1lY_0WUEeebkoSoLoPs2Q" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_d1lZAEWUEeebkoSoLoPs2Q" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_xZKtUEWUEeebkoSoLoPs2Q" id="_XQ3HsEWUEeebkoSoLoPs2Q" version="Latest" type="context"/>
     </ItemsRelations>
     <migrationTask xmi:id="_hi4nUEFFEeevV6IQVrv63w" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_hi4nUUFFEeevV6IQVrv63w" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
