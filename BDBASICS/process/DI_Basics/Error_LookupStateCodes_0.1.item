@@ -137,7 +137,7 @@
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CustomerName"/>
       <elementValue elementRef="TRIM" value="false"/>
@@ -157,7 +157,7 @@
     <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CustomerID"/>
       <elementValue elementRef="DECODE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CustomerName"/>
       <elementValue elementRef="DECODE" value="false"/>
@@ -175,7 +175,7 @@
     <elementParameter field="TEXT" name="LABEL" value="Customer Data"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_2">
-      <column comment="" key="false" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CustomerID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="CustomerName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="CustomerAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="StateID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -183,7 +183,7 @@
       <column comment="" key="false" length="11" name="Sum" nullable="true" pattern="" precision="2" sourceType="" type="id_Float" originalLength="11" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CustomerID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="CustomerName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="CustomerAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="StateID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -205,7 +205,7 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="CustomerswithStateName">
-      <column comment="" key="false" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CustomerID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="CustomerName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="CustomerAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="StateCode" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="2" usefulColumn="true"/>
@@ -213,10 +213,10 @@
       <column comment="" key="false" length="11" name="Sum" nullable="true" pattern="" precision="2" sourceType="" type="id_Float" originalLength="11" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="CustomerswithStateName">
-        <mapperTableEntries name="ID" expression="row1.ID " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="CustomerID" expression="row1.CustomerID " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="CustomerName" expression="row1.CustomerName " type="id_String" nullable="true"/>
         <mapperTableEntries name="CustomerAddress" expression="row1.CustomerAddress " type="id_String" nullable="true"/>
         <mapperTableEntries name="StateCode" expression="row2.StateCode " type="id_String" nullable="true"/>
@@ -224,7 +224,7 @@
         <mapperTableEntries name="Sum" expression="row1.Sum " type="id_Float" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="ID" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="CustomerID" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="CustomerName" type="id_String" nullable="true"/>
         <mapperTableEntries name="CustomerAddress" type="id_String" nullable="true"/>
         <mapperTableEntries name="StateID" type="id_Integer" nullable="true"/>
@@ -330,7 +330,7 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileOutputDelimited_1">
-      <column comment="" key="false" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CustomerID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="CustomerName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="100" name="CustomerAddress" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="100" usefulColumn="true"/>
       <column comment="" key="false" length="2" name="StateCode" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="2" usefulColumn="true"/>
