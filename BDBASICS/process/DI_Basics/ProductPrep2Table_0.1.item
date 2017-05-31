@@ -129,7 +129,7 @@
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_Nl2g4EYWEeeZO6otuELF0Q" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DBTYPE" value="MYSQL"/>
-    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="CREATE_TABLE"/>
+    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="DROP_IF_EXIST_CREATE"/>
     <elementParameter field="CHECK" name="CASESENSITIVE" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="HOST" value="context.LocalMySQL_Server"/>
