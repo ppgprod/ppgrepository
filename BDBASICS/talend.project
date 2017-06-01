@@ -833,6 +833,7 @@
       <relatedItems xmi:id="_40aVoUcCEeeKjfKrT10Huw" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_40aVokcCEeeKjfKrT10Huw" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_40aVo0cCEeeKjfKrT10Huw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_YjPe0EcDEeeKjfKrT10Huw" id="_BYoO0EcCEeeKjfKrT10Huw - userbase" version="Latest" type="schema"/>
     </ItemsRelations>
     <deletedFolders>process/User2/BDBasics</deletedFolders>
     <deletedFolders>process/User2</deletedFolders>
