@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_ohPRAEF7Eee8ceayjS1uZQ" name="xxxx" id="_OPaYcEF6Eee8ceayjS1uZQ" label="xxxx" dataPackage="_oiIo4EF7Eee8ceayjS1uZQ" DatabaseType="HBase" URL="127.0.0.1" Port="2181" Username="root" ServerName="52.170.94.156" SID="HBase" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="HBASE" StandardSQL="true">
+  <TalendMetadata:DatabaseConnection xmi:id="_ohPRAEF7Eee8ceayjS1uZQ" name="HBaseConnection" id="_OPaYcEF6Eee8ceayjS1uZQ" label="HBaseConnection" dataPackage="_oiIo4EF7Eee8ceayjS1uZQ" DatabaseType="HBase" URL="127.0.0.1" Port="2181" Username="root" Password="" ServerName="52.170.94.156" SID="HBase" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="HBASE" StandardSQL="true">
     <taggedValue xmi:id="_ohPRAUF7Eee8ceayjS1uZQ" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_oh-34EF7Eee8ceayjS1uZQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_SsQvsEaHEeeq2ryjAzpGRg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_SsQvsUaHEeeq2ryjAzpGRg" tag="Description" value=""/>
+    <taggedValue xmi:id="_SsQvskaHEeeq2ryjAzpGRg" tag="Author" value="user1@company.com"/>
+    <taggedValue xmi:id="_SsQvs0aHEeeq2ryjAzpGRg" tag="Status" value=""/>
     <parameters xmi:id="_ohPRAkF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
     <parameters xmi:id="_ohPRA0F7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_USE_YARN" value="true"/>
     <parameters xmi:id="_ohPRBEF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="52.170.94.156:8030"/>
