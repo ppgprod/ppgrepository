@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_uwlv8EbxEeeqcJmE5iWebw" name="MYSQLDB" id="_l0sL8EbxEeeqcJmE5iWebw" label="MYSQLDB" dataPackage="_uxyCwEbxEeeqcJmE5iWebw _uxyCwUbxEeeqcJmE5iWebw _uxyCwkbxEeeqcJmE5iWebw _uxyCw0bxEeeqcJmE5iWebw _uxyCxEbxEeeqcJmE5iWebw _uxyCxUbxEeeqcJmE5iWebw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://:3306/?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="Ok+OYG36hRUIzzlonTJOSQ==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
-    <taggedValue xmi:id="_uwlv8UbxEeeqcJmE5iWebw" tag="Is Conn Need Reload" value="false"/>
+  <TalendMetadata:DatabaseConnection xmi:id="_uwlv8EbxEeeqcJmE5iWebw" name="MYSQLDB" id="_l0sL8EbxEeeqcJmE5iWebw" label="MYSQLDB" dataPackage="_sUnnXUbyEeeqcJmE5iWebw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/training?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="Ok+OYG36hRUIzzlonTJOSQ==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="training" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_uwlv8UbxEeeqcJmE5iWebw" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_uxVW0EbxEeeqcJmE5iWebw" tag="package filter" value=""/>
     <taggedValue xmi:id="_uxVW0UbxEeeqcJmE5iWebw" tag="Status" value=""/>
     <taggedValue xmi:id="_uxVW0kbxEeeqcJmE5iWebw" tag="Version" value="0.1"/>
@@ -14,10 +14,5 @@
     <taggedValue xmi:id="_uxegwkbxEeeqcJmE5iWebw" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_uwlv8kbxEeeqcJmE5iWebw" key="CONN_PARA_KEY_USERNAME" value="root"/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_uxyCwEbxEeeqcJmE5iWebw" name="information_schema" dataManager="_uwlv8EbxEeeqcJmE5iWebw"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_uxyCwUbxEeeqcJmE5iWebw" name="mysql" dataManager="_uwlv8EbxEeeqcJmE5iWebw"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_uxyCwkbxEeeqcJmE5iWebw" name="performance_schema" dataManager="_uwlv8EbxEeeqcJmE5iWebw"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_uxyCw0bxEeeqcJmE5iWebw" name="sakila" dataManager="_uwlv8EbxEeeqcJmE5iWebw"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_uxyCxEbxEeeqcJmE5iWebw" name="sys" dataManager="_uwlv8EbxEeeqcJmE5iWebw"/>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_uxyCxUbxEeeqcJmE5iWebw" name="world" dataManager="_uwlv8EbxEeeqcJmE5iWebw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_sUnnXUbyEeeqcJmE5iWebw" name="training" dataManager="_uwlv8EbxEeeqcJmE5iWebw"/>
 </xmi:XMI>
