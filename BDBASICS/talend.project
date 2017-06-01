@@ -811,6 +811,7 @@
       <relatedItems xmi:id="_9Kv3AUbyEeeqcJmE5iWebw" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_9Kv3AkbyEeeqcJmE5iWebw" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_9Kv3A0byEeeqcJmE5iWebw" id="_8cpRgEFlEeeXdY0mEnimqw - customersdata_auto" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_vUgN8Eb0EeeqcJmE5iWebw" id="_wPTl8EbLEeeyZPtgxnluzw" version="Latest" type="context"/>
     </ItemsRelations>
     <deletedFolders>process/User2/BDBasics</deletedFolders>
     <deletedFolders>process/User2</deletedFolders>
