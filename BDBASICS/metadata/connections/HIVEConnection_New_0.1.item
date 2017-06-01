@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_BmuJsEFmEeeXdY0mEnimqw" name="HIVEConnection_New" id="_8cpRgEFlEeeXdY0mEnimqw" label="HIVEConnection_New" dataPackage="_eLSQYEaKEeeq2ryjAzpGRg" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://52.170.94.156:10000/default" dbVersionString="STANDALONE" Port="10000" Username="root" Password="Ok+OYG36hRUIzzlonTJOSQ==" ServerName="52.170.94.156" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" StandardSQL="true">
     <taggedValue xmi:id="_Bmv-4EFmEeeXdY0mEnimqw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_BnGkMEFmEeeXdY0mEnimqw" tag="package filter" value=""/>
@@ -50,5 +50,8 @@
     <parameters xmi:id="_UGoUkEaKEeeq2ryjAzpGRg" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
     <parameters xmi:id="_UGoUkUaKEeeq2ryjAzpGRg" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Schema xmi:id="_eLSQYEaKEeeq2ryjAzpGRg" name="default" dataManager="_BmuJsEFmEeeXdY0mEnimqw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_eLSQYEaKEeeq2ryjAzpGRg" name="default" dataManager="_BmuJsEFmEeeXdY0mEnimqw">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_nRn7EEaQEeeq2ryjAzpGRg" name="customersdata_auto" id="_nMQS4EaQEeeq2ryjAzpGRg" label="customersdata_auto" tableType="TABLE"/>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_nRn7EUaQEeeq2ryjAzpGRg" name="customersdata" id="_nOo4gEaQEeeq2ryjAzpGRg" label="customersdata" tableType="TABLE"/>
+  </orgomg.cwm.resource.relational:Schema>
 </xmi:XMI>
