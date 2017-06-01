@@ -5,8 +5,10 @@
     <taggedValue xmi:id="_oh-34EF7Eee8ceayjS1uZQ" tag="package filter" value=""/>
     <taggedValue xmi:id="_SsQvsEaHEeeq2ryjAzpGRg" tag="Purpose" value=""/>
     <taggedValue xmi:id="_SsQvsUaHEeeq2ryjAzpGRg" tag="Description" value=""/>
-    <taggedValue xmi:id="_SsQvskaHEeeq2ryjAzpGRg" tag="Author" value="user1@company.com"/>
+    <taggedValue xmi:id="_SsQvskaHEeeq2ryjAzpGRg" tag="Author" value=""/>
     <taggedValue xmi:id="_SsQvs0aHEeeq2ryjAzpGRg" tag="Status" value=""/>
+    <taggedValue xmi:id="_hpYPQEaHEeeq2ryjAzpGRg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_hpYPQUaHEeeq2ryjAzpGRg" tag="otherParameter"/>
     <parameters xmi:id="_ohPRAkF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_DB_PORT" value="2181"/>
     <parameters xmi:id="_ohPRA0F7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_USE_YARN" value="true"/>
     <parameters xmi:id="_ohPRBEF7Eee8ceayjS1uZQ" key="CONN_PARA_KEY_RESOURCEMANAGER_SCHEDULER_ADDRESS" value="52.170.94.156:8030"/>
