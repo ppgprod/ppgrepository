@@ -4,13 +4,17 @@
     <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="local.txt"/>
     <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\OUT\&quot;"/>
   </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="dev-remote.txt"/>
+    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\Dev\&quot;"/>
+  </context>
+  <context confirmationNeeded="false" name="QA">
+    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="qa-remote.txt"/>
+    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\QA\&quot;"/>
+  </context>
   <context confirmationNeeded="false" name="Remote">
     <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="remote.txt"/>
     <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\OUT\&quot;"/>
-  </context>
-  <context confirmationNeeded="false" name="Dev">
-    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="local.txt"/>
-    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\Dev\&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
