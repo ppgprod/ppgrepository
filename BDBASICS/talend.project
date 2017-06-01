@@ -791,6 +791,8 @@
       <relatedItems xmi:id="_mFiJkUbfEeeyZPtgxnluzw" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_mFiJkkbfEeeyZPtgxnluzw" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
+    <deletedFolders>process/User2/BDBasics</deletedFolders>
+    <deletedFolders>process/User2</deletedFolders>
     <migrationTask xmi:id="_hi4nUEFFEeevV6IQVrv63w" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_hi4nUUFFEeevV6IQVrv63w" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_hi4nUkFFEeevV6IQVrv63w" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
