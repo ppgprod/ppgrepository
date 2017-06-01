@@ -87,7 +87,7 @@
         <initialValue xsi:type="relational:TdExpression" xmi:id="_9mIfCkaQEeeq2ryjAzpGRg" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_9mIfC0aQEeeq2ryjAzpGRg" name="STRING" javaDataType="12" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_9mIfDEaQEeeq2ryjAzpGRg" name="purchasedate" label="purchasedate" length="10" sourceType="TIMESTAMP" talendType="id_Date">
+      <feature xsi:type="relational:TdColumn" xmi:id="_9mIfDEaQEeeq2ryjAzpGRg" name="purchasedate" label="purchasedate" length="10" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
         <taggedValue xmi:id="_9mIfDUaQEeeq2ryjAzpGRg" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_9mIfDkaQEeeq2ryjAzpGRg" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_9mIfD0aQEeeq2ryjAzpGRg" name="DATE" javaDataType="91" nullable="columnNullable"/>
