@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_RI0ocEYCEeeL0pM9jjZ-Tg" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_RI0ocUYCEeeL0pM9jjZ-Tg" comment="" name="refCustomers_Encoding" prompt="refCustomers_Encoding?" promptNeeded="false" type="id_String" value="US-ASCII"/>
-  <contextParameter xmi:id="_RI0ockYCEeeL0pM9jjZ-Tg" comment="" name="refCustomers_FieldSeparator" prompt="refCustomers_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
-  <contextParameter xmi:id="_RI0oc0YCEeeL0pM9jjZ-Tg" comment="" name="refCustomers_Header" prompt="refCustomers_Header?" promptNeeded="false" type="id_Integer" value="6"/>
-  <contextParameter xmi:id="_RI0odEYCEeeL0pM9jjZ-Tg" comment="" name="refCustomers_RowSeparator" prompt="refCustomers_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
-  <contextParameter xmi:id="_RI0odUYCEeeL0pM9jjZ-Tg" comment="" name="refCustomers_File" prompt="refCustomers_File?" promptNeeded="false" type="id_File" value="C:/StudentFiles/DIBasics/refCustomer.csv"/>
-</talendfile:ContextType>
