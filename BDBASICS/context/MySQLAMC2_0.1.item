@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_enhKcEd8EeeFRoGXxgXtzg" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_enhKcUd8EeeFRoGXxgXtzg" comment="" name="MySQLAMC2_Port" prompt="MySQLAMC2_Port?" promptNeeded="false" type="id_String" value="3306"/>
-  <contextParameter xmi:id="_enhKckd8EeeFRoGXxgXtzg" comment="" name="MySQLAMC2_AdditionalParams" prompt="MySQLAMC2_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
-  <contextParameter xmi:id="_enhKc0d8EeeFRoGXxgXtzg" comment="" name="MySQLAMC2_Password" prompt="MySQLAMC2_Password?" promptNeeded="false" type="id_Password" value="Ok+OYG36hRUIzzlonTJOSQ=="/>
-  <contextParameter xmi:id="_enhKdEd8EeeFRoGXxgXtzg" comment="" name="MySQLAMC2_Server" prompt="MySQLAMC2_Server?" promptNeeded="false" type="id_String" value="localhost"/>
-  <contextParameter xmi:id="_enhKdUd8EeeFRoGXxgXtzg" comment="" name="MySQLAMC2_Database" prompt="MySQLAMC2_Database?" promptNeeded="false" type="id_String" value="amc"/>
-  <contextParameter xmi:id="_enhKdkd8EeeFRoGXxgXtzg" comment="" name="MySQLAMC2_Login" prompt="MySQLAMC2_Login?" promptNeeded="false" type="id_String" value="root"/>
-</talendfile:ContextType>
