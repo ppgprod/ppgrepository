@@ -213,7 +213,6 @@
       <column comment="" key="false" length="50" name="state" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
     </metadata>
     <metadata connector="FLOW" name="SecondOutFile">
-      <column comment="" key="false" length="50" name="FullName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="Firstname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="Lastname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="number" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
@@ -233,8 +232,7 @@
         <mapperTableEntries name="state" expression="StringHandling.UPCASE(row1.state) " type="id_String" nullable="true"/>
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="SecondOutFile">
-        <mapperTableEntries name="FullName" expression="row1.Firstname + &quot; &quot; row1.Lastname " type="id_String" nullable="true"/>
-        <mapperTableEntries name="Firstname" expression="row1.Firstname " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Firstname" expression="row1.Firstname + &quot; &quot; row1.Lastname " type="id_String" nullable="true"/>
         <mapperTableEntries name="Lastname" expression="row1.Lastname " type="id_String" nullable="true"/>
         <mapperTableEntries name="number" expression="row1.number " type="id_String" nullable="true"/>
         <mapperTableEntries name="street" expression="row1.street " type="id_String" nullable="true"/>
@@ -303,8 +301,6 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="FullName"/>
-      <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Firstname"/>
       <elementValue elementRef="LENGTH" value="10"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Lastname"/>
@@ -322,7 +318,6 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_1">
-      <column comment="" key="false" length="50" name="FullName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="Firstname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="Lastname" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
       <column comment="" key="false" length="50" name="number" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="50" usefulColumn="true"/>
