@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="prod" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" type="id_String" value="&quot;C:/StudentFiles/DIBasics/&quot;"/>
     <contextParameter comment="" name="CustomerFile" prompt="CustomerFile?" promptNeeded="false" type="id_String" value="&quot;Custs.csv&quot;"/>
     <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" type="id_String" value="&quot;C:/StudentFiles/DIBasics/OUT/&quot;"/>
+  </context>
+  <context confirmationNeeded="false" name="prod">
+    <contextParameter comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" type="id_String" value="&quot;C:/StudentFiles/DIBasics/PROD/&quot;"/>
+    <contextParameter comment="" name="CustomerFile" prompt="CustomerFile?" promptNeeded="false" type="id_String" value="&quot;Custs.csv&quot;"/>
+    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" type="id_String" value="&quot;C:/StudentFiles/DIBasics/PROD/OUT/&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
