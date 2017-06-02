@@ -48,8 +48,8 @@
     <parameters xmi:id="_Bmv_A0FmEeeXdY0mEnimqw" key="HIVE_EXECUTION_ENGINE" value="mr"/>
     <parameters xmi:id="_Bmv_BEFmEeeXdY0mEnimqw" key="CONN_PARA_KEY_USE_SSL" value="false"/>
     <parameters xmi:id="_vAULYEdcEeeqcJmE5iWebw" key="CONN_PARA_KEY_HIVE_ADDITIONAL_JDBC_SETTINGS" value=""/>
-    <parameters xmi:id="_xPicAEdcEeeqcJmE5iWebw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
-    <parameters xmi:id="_xPicAUdcEeeqcJmE5iWebw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+    <parameters xmi:id="_x5B-wEd5EeeFRoGXxgXtzg" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
+    <parameters xmi:id="_x5B-wUd5EeeFRoGXxgXtzg" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Schema xmi:id="_eLSQYEaKEeeq2ryjAzpGRg" name="default" dataManager="_BmuJsEFmEeeXdY0mEnimqw">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_nRn7EEaQEeeq2ryjAzpGRg" name="customersdata_auto" id="_nMQS4EaQEeeq2ryjAzpGRg" label="customersdata_auto" tableType="TABLE">
