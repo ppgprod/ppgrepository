@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" type="id_String" value="&quot;C:/StudentFiles/DIBasics/&quot;"/>
-    <contextParameter comment="" name="CustomerFile" prompt="CustomerFile?" promptNeeded="false" type="id_String" value="&quot;Custs.csv&quot;"/>
-    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" type="id_String" value="&quot;C:/StudentFiles/DIBasics/OUT/&quot;"/>
-    <contextParameter comment="" name="TargetFile" prompt="TargetFile?" promptNeeded="true" type="id_String" value=""/>
+    <contextParameter comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\&quot;"/>
+    <contextParameter comment="" name="SourceName" prompt="SourceName?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;in.csv&quot;"/>
+    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\OUT\&quot;"/>
+    <contextParameter comment="" name="Targetname" prompt="Targetname?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;out.csv&quot;"/>
   </context>
   <context confirmationNeeded="false" name="prod">
-    <contextParameter comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" type="id_String" value="&quot;C:/StudentFiles/DIBasics/PROD/&quot;"/>
-    <contextParameter comment="" name="CustomerFile" prompt="CustomerFile?" promptNeeded="false" type="id_String" value="&quot;Custs.csv&quot;"/>
-    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" type="id_String" value="&quot;C:/StudentFiles/DIBasics/PROD/OUT/&quot;"/>
-    <contextParameter comment="" name="TargetFile" prompt="TargetFile?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\&quot;"/>
+    <contextParameter comment="" name="SourceName" prompt="SourceName?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;in.csv&quot;"/>
+    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\OUT\&quot;"/>
+    <contextParameter comment="" name="Targetname" prompt="Targetname?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;out.csv&quot;"/>
+  </context>
+  <context confirmationNeeded="false" name="QA">
+    <contextParameter comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\&quot;"/>
+    <contextParameter comment="" name="SourceName" prompt="SourceName?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;in.csv&quot;"/>
+    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\QA\&quot;"/>
+    <contextParameter comment="" name="Targetname" prompt="Targetname?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;out.csv&quot;"/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\&quot;"/>
+    <contextParameter comment="" name="SourceName" prompt="SourceName?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;in.csv&quot;"/>
+    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\Dev\&quot;"/>
+    <contextParameter comment="" name="Targetname" prompt="Targetname?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;out.csv&quot;"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -128,7 +140,7 @@
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.SourceFolder+context.CustomerFile"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.SourceFolder+&quot;Custs.csv&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
@@ -249,7 +261,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.TargetFolder+&quot;CappedOut.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.TargetFolder+context.Targetname"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
