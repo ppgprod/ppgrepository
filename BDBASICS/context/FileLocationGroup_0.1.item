@@ -13,7 +13,7 @@
     <contextParameter xmi:id="_XRBfyUWUEeebkoSoLoPs2Q" comment="" name="Targetname" prompt="Targetname?" promptNeeded="false" type="id_String" value="&quot;out.csv&quot;"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_XRBfykWUEeebkoSoLoPs2Q" confirmationNeeded="false" name="Prod">
-    <contextParameter xmi:id="_XRBfy0WUEeebkoSoLoPs2Q" comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" type="id_String" value="&quot;C:\StudentFiles\DIBasics\&quot;"/>
+    <contextParameter xmi:id="_XRBfy0WUEeebkoSoLoPs2Q" comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" type="id_String" value="&quot;C:\StudentFiles\DIBasics\prod&quot;"/>
     <contextParameter xmi:id="_XRBfzEWUEeebkoSoLoPs2Q" comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" type="id_String" value="&quot;C:\StudentFiles\DIBasics\Prod\&quot;"/>
     <contextParameter xmi:id="_XRBfzUWUEeebkoSoLoPs2Q" comment="" name="SourceName" prompt="SourceName?" promptNeeded="false" type="id_String" value="&quot;in.csv&quot;"/>
     <contextParameter xmi:id="_XRBfzkWUEeebkoSoLoPs2Q" comment="" name="Targetname" prompt="Targetname?" promptNeeded="false" type="id_String" value="&quot;out.csv&quot;"/>
