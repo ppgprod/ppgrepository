@@ -78,15 +78,15 @@
     <elementParameter field="TEXT" name="URL" value="" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC1_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC1_Port"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC3_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC3_Port"/>
     <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC1_Database"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC3_Database"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC1_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC3_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWehIzZ+1ieqn0yE6XH7QoQE="/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC3_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWS23xO8NXsAcQWLT4Zvs4kM="/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statcatcher&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logcatcher&quot;"/>

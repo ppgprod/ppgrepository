@@ -13,6 +13,12 @@
     <contextParameter comment="" name="MySQLAMC1_Server" prompt="MySQLAMC1_Server?" promptNeeded="false" repositoryContextId="_7_jQ4Ed7EeeFRoGXxgXtzg" type="id_String" value="localhost"/>
     <contextParameter comment="" name="MySQLAMC1_AdditionalParams" prompt="MySQLAMC1_AdditionalParams?" promptNeeded="false" repositoryContextId="_7_jQ4Ed7EeeFRoGXxgXtzg" type="id_String" value="noDatetimeStringSync=true"/>
     <contextParameter comment="" name="MySQLAMC1_Password" prompt="MySQLAMC1_Password?" promptNeeded="false" repositoryContextId="_7_jQ4Ed7EeeFRoGXxgXtzg" type="id_Password" value="Ok+OYG36hRUIzzlonTJOSQ=="/>
+    <contextParameter comment="" name="MySQLAMC3_AdditionalParams" prompt="MySQLAMC3_AdditionalParams?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MySQLAMC3_Server" prompt="MySQLAMC3_Server?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="MySQLAMC3_Login" prompt="MySQLAMC3_Login?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="root"/>
+    <contextParameter comment="" name="MySQLAMC3_Port" prompt="MySQLAMC3_Port?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MySQLAMC3_Database" prompt="MySQLAMC3_Database?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="amc"/>
+    <contextParameter comment="" name="MySQLAMC3_Password" prompt="MySQLAMC3_Password?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_Password" value="NZNgK6DuncI="/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -84,15 +90,15 @@
     <elementParameter field="TEXT" name="URL" value="" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC1_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC1_Port"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC3_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC3_Port"/>
     <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC1_Database"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC3_Database"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC1_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC3_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWehIzZ+1ieqn0yE6XH7QoQE="/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC3_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWS23xO8NXsAcQWLT4Zvs4kM="/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statcatcher&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logcatcher&quot;"/>
@@ -144,13 +150,13 @@
     <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="DROP_IF_EXIST_CREATE"/>
     <elementParameter field="CHECK" name="CASESENSITIVE" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC1_Server"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC1_Database"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC3_Server"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC3_Database"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.MySQLAMC_Database" show="false"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@db10g_test&quot;" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWehIzZ+1ieqn0yE6XH7QoQE="/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC1_Port"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC3_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWS23xO8NXsAcQWLT4Zvs4kM="/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC3_Port"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION_ACCESS" value="" show="false"/>
     <elementParameter field="FILE" name="DBFILE_ACCESS" value="&quot;&quot;" show="false"/>
@@ -310,11 +316,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC1_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC1_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC1_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWehIzZ+1ieqn0yE6XH7QoQE="/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC3_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC3_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC3_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC3_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWS23xO8NXsAcQWLT4Zvs4kM="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;testamc&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -323,7 +329,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC1_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC3_AdditionalParams"/>
     <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
     <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
     <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
@@ -393,11 +399,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC1_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC1_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC1_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWehIzZ+1ieqn0yE6XH7QoQE="/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC3_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC3_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC3_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC3_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWS23xO8NXsAcQWLT4Zvs4kM="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;testamc&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -406,7 +412,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC1_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC3_AdditionalParams"/>
     <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
     <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
     <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
@@ -476,11 +482,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC1_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC1_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC1_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC1_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWehIzZ+1ieqn0yE6XH7QoQE="/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC3_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC3_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC3_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC3_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWS23xO8NXsAcQWLT4Zvs4kM="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;testamc&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -489,7 +495,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC1_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC3_AdditionalParams"/>
     <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
     <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
     <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
