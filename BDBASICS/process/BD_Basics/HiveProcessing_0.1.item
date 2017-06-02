@@ -396,7 +396,7 @@
     <elementParameter field="TABLE" name="OPERATIONS">
       <elementValue elementRef="OUTPUT_COLUMN" value="count"/>
       <elementValue elementRef="FUNCTION" value="count"/>
-      <elementValue elementRef="INPUT_COLUMN" value="id"/>
+      <elementValue elementRef="INPUT_COLUMN" value="productcategory"/>
       <elementValue elementRef="IGNORE_NULL" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIST_DELIMITER" value="&quot;,&quot;"/>
@@ -679,7 +679,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="LABEL" name="PARQUET_NOTE" value="Parquet is only supported if the distribution uses embedded Hive version 0.10 or later." show="false"/>
     <elementParameter field="CHECK" name="USE_PARQUET" value="false"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;LOAD DATA INPATH &#xD;&#xA;'/user/student/BDBasics/Hive/agg_results' OVERWRITE INTO TABLE AggResults &quot;&#xD;&#xA;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;LOAD DATA INPATH &#xD;&#xA;'/user/student/BDBasics/Hive/agg_results' OVERWRITE INTO TABLE AggResults&quot;&#xD;&#xA;"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="STORE_BY_HBASE" value="false"/>
     <elementParameter field="TEXT" name="ZOOKEEPER_QUORUM" value="&quot;localhost&quot;" show="false"/>
