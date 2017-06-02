@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="MySQLAMC_Database" prompt="MySQLAMC_Database?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="amc"/>
+    <contextParameter comment="" name="MySQLAMC_Password" prompt="MySQLAMC_Password?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter comment="" name="MySQLAMC_Server" prompt="MySQLAMC_Server?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="MySQLAMC_AdditionalParams" prompt="MySQLAMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MySQLAMC_Login" prompt="MySQLAMC_Login?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="root"/>
+    <contextParameter comment="" name="MySQLAMC_Port" prompt="MySQLAMC_Port?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="3306"/>
+  </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -72,15 +79,15 @@
     <elementParameter field="TEXT" name="URL" value="" show="false"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" value="" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC3_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC3_Port"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC_Port"/>
     <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC3_Database"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC_Database"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC3_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC_AdditionalParams"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC3_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWS23xO8NXsAcQWLT4Zvs4kM="/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWeSWzGah0Ji6HP+rXEX6RBg="/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;statcatcher&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;logcatcher&quot;"/>
