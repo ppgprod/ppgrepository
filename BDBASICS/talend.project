@@ -450,6 +450,7 @@
       <relatedItems xmi:id="_d1lY_0WUEeebkoSoLoPs2Q" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_d1lZAEWUEeebkoSoLoPs2Q" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_xZKtUEWUEeebkoSoLoPs2Q" id="_XQ3HsEWUEeebkoSoLoPs2Q" version="Latest" type="context"/>
+      <relatedItems xmi:id="_30YwoEd-EeeFRoGXxgXtzg" id="_hYSHUEbLEeeyZPtgxnluzw" version="Latest" type="property"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_QEE7cEWVEeebkoSoLoPs2Q">
       <baseItem xmi:id="_QEE7cUWVEeebkoSoLoPs2Q" id="_QD2R8EWVEeebkoSoLoPs2Q" version="0.1" type="job"/>
