@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_LyqsQEfoEeeJ6pJFpKzm5A" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_LyqsQUfoEeeJ6pJFpKzm5A" comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" type="id_String" value="&quot;C:\StudentFiles\DIBasics\&quot;"/>
+    <contextParameter xmi:id="_LyqsQkfoEeeJ6pJFpKzm5A" comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" type="id_String" value="&quot;C:\StudentFiles\DIBasics\OUT\&quot;"/>
+    <contextParameter xmi:id="_LyqsQ0foEeeJ6pJFpKzm5A" comment="" name="SourceName" prompt="SourceName?" promptNeeded="false" type="id_String" value="&quot;in.csv&quot;"/>
+    <contextParameter xmi:id="_LyqsREfoEeeJ6pJFpKzm5A" comment="" name="Targetname" prompt="Targetname?" promptNeeded="false" type="id_String" value="&quot;out.csv&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_LyqsRUfoEeeJ6pJFpKzm5A" confirmationNeeded="false" name="Dev">
+    <contextParameter xmi:id="_LyqsRkfoEeeJ6pJFpKzm5A" comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" type="id_String" value="&quot;C:\StudentFiles\DIBasics\&quot;"/>
+    <contextParameter xmi:id="_LyqsR0foEeeJ6pJFpKzm5A" comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" type="id_String" value="&quot;C:\StudentFiles\DIBasics\Dev\&quot;"/>
+    <contextParameter xmi:id="_LyqsSEfoEeeJ6pJFpKzm5A" comment="" name="SourceName" prompt="SourceName?" promptNeeded="false" type="id_String" value="&quot;in.csv&quot;"/>
+    <contextParameter xmi:id="_LyqsSUfoEeeJ6pJFpKzm5A" comment="" name="Targetname" prompt="Targetname?" promptNeeded="false" type="id_String" value="&quot;out.csv&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_LyqsSkfoEeeJ6pJFpKzm5A" confirmationNeeded="false" name="Prod">
+    <contextParameter xmi:id="_LyqsS0foEeeJ6pJFpKzm5A" comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" type="id_String" value="&quot;C:\StudentFiles\DIBasics\&quot;"/>
+    <contextParameter xmi:id="_LyqsTEfoEeeJ6pJFpKzm5A" comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" type="id_String" value="&quot;C:\StudentFiles\DIBasics\Prod\&quot;"/>
+    <contextParameter xmi:id="_LyqsTUfoEeeJ6pJFpKzm5A" comment="" name="SourceName" prompt="SourceName?" promptNeeded="false" type="id_String" value="&quot;in.csv&quot;"/>
+    <contextParameter xmi:id="_LyqsTkfoEeeJ6pJFpKzm5A" comment="" name="Targetname" prompt="Targetname?" promptNeeded="false" type="id_String" value="&quot;out.csv&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_LyqsT0foEeeJ6pJFpKzm5A" confirmationNeeded="false" name="QA">
+    <contextParameter xmi:id="_LyqsUEfoEeeJ6pJFpKzm5A" comment="" name="SourceFolder" prompt="SourceFolder?" promptNeeded="false" type="id_String" value="&quot;C:\StudentFiles\DIBasics\&quot;"/>
+    <contextParameter xmi:id="_LyqsUUfoEeeJ6pJFpKzm5A" comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" type="id_String" value="&quot;C:\StudentFiles\DIBasics\QA\&quot;"/>
+    <contextParameter xmi:id="_LyqsUkfoEeeJ6pJFpKzm5A" comment="" name="SourceName" prompt="SourceName?" promptNeeded="false" type="id_String" value="&quot;in.csv&quot;"/>
+    <contextParameter xmi:id="_LyqsU0foEeeJ6pJFpKzm5A" comment="" name="Targetname" prompt="Targetname?" promptNeeded="false" type="id_String" value="&quot;out.csv&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>
