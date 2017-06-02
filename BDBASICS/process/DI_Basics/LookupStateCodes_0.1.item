@@ -249,7 +249,7 @@
         <mapperTableEntries name="CustomerAddress" expression="row1.CustomerAddress " type="id_String" nullable="true"/>
         <mapperTableEntries name="StateCode" expression="row2.StateCode " type="id_String" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="GA_Customers" expressionFilter="&quot;GA&quot;.equals(  row2.StateCode )" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="GA_Customers" expressionFilter="&quot;ga&quot;.equals(  row2.StateCode )" activateExpressionFilter="true">
         <mapperTableEntries name="ID" expression="row1.ID " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="CustomerName" expression="row1.CustomerName " type="id_String" nullable="true"/>
         <mapperTableEntries name="CustomerAddress" expression="row1.CustomerAddress " type="id_String" nullable="true"/>
