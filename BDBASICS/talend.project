@@ -412,30 +412,6 @@
       <relatedItems xmi:id="_k2jDpUY_EeeAbKFGaICvlw" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_QHDfwEd-EeeFRoGXxgXtzg" id="_hYSHUEbLEeeyZPtgxnluzw" version="Latest" type="property"/>
     </ItemsRelations>
-    <ItemsRelations xmi:id="_KTSqgEZDEeeAbKFGaICvlw">
-      <baseItem xmi:id="_KTSqgUZDEeeAbKFGaICvlw" id="_KShOcEZDEeeAbKFGaICvlw" version="0.1" type="job"/>
-      <relatedItems xmi:id="_KTSqgkZDEeeAbKFGaICvlw" id="_cNLWoEYWEeeZO6otuELF0Q" version="Latest" type="context"/>
-      <relatedItems xmi:id="_KTSqg0ZDEeeAbKFGaICvlw" id="_Nl2g4EYWEeeZO6otuELF0Q" version="Latest" type="property"/>
-      <relatedItems xmi:id="_KTSqhEZDEeeAbKFGaICvlw" id="SQLike" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqhUZDEeeAbKFGaICvlw" id="Numeric" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqhkZDEeeAbKFGaICvlw" id="TalendString" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqh0ZDEeeAbKFGaICvlw" id="DataMasking" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqiEZDEeeAbKFGaICvlw" id="DataOperation" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqiUZDEeeAbKFGaICvlw" id="DqStringHandling" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqikZDEeeAbKFGaICvlw" id="StringHandling" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqi0ZDEeeAbKFGaICvlw" id="TalendDataGenerator" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqjEZDEeeAbKFGaICvlw" id="TalendDate" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqjUZDEeeAbKFGaICvlw" id="DataQuality" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqjkZDEeeAbKFGaICvlw" id="Mathematical" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqj0ZDEeeAbKFGaICvlw" id="Relational" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqkEZDEeeAbKFGaICvlw" id="DQTechnical" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqkUZDEeeAbKFGaICvlw" id="DataQualityDependencies" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqkkZDEeeAbKFGaICvlw" id="MDM" version="Latest" type="routine"/>
-      <relatedItems xmi:id="_KTSqk0ZDEeeAbKFGaICvlw" id="_Nl2g4EYWEeeZO6otuELF0Q - refcustomers" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_KTSqlEZDEeeAbKFGaICvlw" id="_Nl2g4EYWEeeZO6otuELF0Q - salesstaging" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_KTSqlUZDEeeAbKFGaICvlw" id="_Nl2g4EYWEeeZO6otuELF0Q - retailproducts" version="Latest" type="schema"/>
-      <relatedItems xmi:id="_T5TCUEd-EeeFRoGXxgXtzg" id="_hYSHUEbLEeeyZPtgxnluzw" version="Latest" type="property"/>
-    </ItemsRelations>
     <ItemsRelations xmi:id="_G_cqcEZfEeeIwvN8Lj_eRw">
       <baseItem xmi:id="_G_cqcUZfEeeIwvN8Lj_eRw" id="_xjll0EZeEeeIwvN8Lj_eRw" version="0.1" type="job"/>
       <relatedItems xmi:id="_G_cqckZfEeeIwvN8Lj_eRw" id="_XQ3HsEWUEeebkoSoLoPs2Q" version="Latest" type="context"/>
@@ -925,6 +901,31 @@
       <relatedItems xmi:id="_jzj5hkfoEeeJ6pJFpKzm5A" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_jzj5h0foEeeJ6pJFpKzm5A" id="MDM" version="Latest" type="routine"/>
       <relatedItems xmi:id="_jzj5iEfoEeeJ6pJFpKzm5A" id="_tDFecEYDEeeZO6otuELF0Q - ProductsMetadata" version="Latest" type="schema"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_lTYGYEfoEeeJ6pJFpKzm5A">
+      <baseItem xmi:id="_lTYGYUfoEeeJ6pJFpKzm5A" id="_NBpKIEYiEeeZO6otuELF0Q" version="0.1" type="job"/>
+      <relatedItems xmi:id="_lTYGYkfoEeeJ6pJFpKzm5A" id="_wPTl8EbLEeeyZPtgxnluzw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_lTYGY0foEeeJ6pJFpKzm5A" id="_cNLWoEYWEeeZO6otuELF0Q" version="Latest" type="context"/>
+      <relatedItems xmi:id="_lTYGZEfoEeeJ6pJFpKzm5A" id="_Nl2g4EYWEeeZO6otuELF0Q" version="Latest" type="property"/>
+      <relatedItems xmi:id="_lTYGZUfoEeeJ6pJFpKzm5A" id="_hYSHUEbLEeeyZPtgxnluzw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_lTYGZkfoEeeJ6pJFpKzm5A" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGZ0foEeeJ6pJFpKzm5A" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGaEfoEeeJ6pJFpKzm5A" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGaUfoEeeJ6pJFpKzm5A" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGakfoEeeJ6pJFpKzm5A" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGa0foEeeJ6pJFpKzm5A" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGbEfoEeeJ6pJFpKzm5A" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGbUfoEeeJ6pJFpKzm5A" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGbkfoEeeJ6pJFpKzm5A" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGb0foEeeJ6pJFpKzm5A" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGcEfoEeeJ6pJFpKzm5A" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGcUfoEeeJ6pJFpKzm5A" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGckfoEeeJ6pJFpKzm5A" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGc0foEeeJ6pJFpKzm5A" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGdEfoEeeJ6pJFpKzm5A" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_lTYGdUfoEeeJ6pJFpKzm5A" id="_Nl2g4EYWEeeZO6otuELF0Q - refcustomers" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_lTYGdkfoEeeJ6pJFpKzm5A" id="_Nl2g4EYWEeeZO6otuELF0Q - salesstaging" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_lTYGd0foEeeJ6pJFpKzm5A" id="_Nl2g4EYWEeeZO6otuELF0Q - retailproducts" version="Latest" type="schema"/>
     </ItemsRelations>
     <deletedFolders>process/User2/BDBasics</deletedFolders>
     <deletedFolders>process/User2</deletedFolders>
