@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_fUtfkEFFEeevV6IQVrv63w" label="BDBasics" description="Development Project" language="java" technicalLabel="BDBASICS" creationDate="2017-05-25T15:53:13.866+0530" author="_fUtfkUFFEeevV6IQVrv63w" productVersion="Talend Data Fabric-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/ppgprod/ppgrepository.git&quot;,&quot;login&quot;:&quot;ppgprod&quot;,&quot;passwd&quot;:&quot;yTUTP5eyiZbJnYYBtSxuyg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" itemsRelationVersion="1.3">
+  <TalendProperties:Project xmi:id="_fUtfkEFFEeevV6IQVrv63w" label="BDBasics" description="Development Project" language="java" technicalLabel="BDBASICS" creationDate="2017-05-25T06:23:13.866-0400" author="_fUtfkUFFEeevV6IQVrv63w" productVersion="Talend Data Fabric-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/ppgprod/ppgrepository.git&quot;,&quot;login&quot;:&quot;ppgprod&quot;,&quot;passwd&quot;:&quot;yTUTP5eyiZbJnYYBtSxuyg==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" itemsRelationVersion="1.3">
     <technicalStatus xmi:id="_hlGN0EFFEeevV6IQVrv63w" label="development" code="DEV"/>
     <technicalStatus xmi:id="_hlGN0UFFEeevV6IQVrv63w" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_hlGN0kFFEeevV6IQVrv63w" label="production" code="PROD"/>
@@ -877,6 +877,25 @@
       <relatedItems xmi:id="_2AFFcEcFEeeKjfKrT10Huw" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_2AFFcUcFEeeKjfKrT10Huw" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_2AFFckcFEeeKjfKrT10Huw" id="MDM" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_QK8W4EeiEeeOPcKmfFY-ug">
+      <baseItem xmi:id="_QK8W4UeiEeeOPcKmfFY-ug" id="_Co2gUEehEeeOPcKmfFY-ug" version="0.1" type="job"/>
+      <relatedItems xmi:id="_QK8W4keiEeeOPcKmfFY-ug" id="_hYSHUEbLEeeyZPtgxnluzw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_QK8W40eiEeeOPcKmfFY-ug" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W5EeiEeeOPcKmfFY-ug" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W5UeiEeeOPcKmfFY-ug" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W5keiEeeOPcKmfFY-ug" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W50eiEeeOPcKmfFY-ug" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W6EeiEeeOPcKmfFY-ug" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W6UeiEeeOPcKmfFY-ug" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W6keiEeeOPcKmfFY-ug" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W60eiEeeOPcKmfFY-ug" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W7EeiEeeOPcKmfFY-ug" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W7UeiEeeOPcKmfFY-ug" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W7keiEeeOPcKmfFY-ug" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W70eiEeeOPcKmfFY-ug" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W8EeiEeeOPcKmfFY-ug" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_QK8W8UeiEeeOPcKmfFY-ug" id="MDM" version="Latest" type="routine"/>
     </ItemsRelations>
     <deletedFolders>process/User2/BDBasics</deletedFolders>
     <deletedFolders>process/User2</deletedFolders>
