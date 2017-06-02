@@ -737,6 +737,10 @@
       <relatedItems xmi:id="_f9e_0EfoEeeJ6pJFpKzm5A" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_f9e_0UfoEeeJ6pJFpKzm5A" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_f9e_0kfoEeeJ6pJFpKzm5A" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_N_-7kEfsEeeJ6pJFpKzm5A" id="_oiOJgEWOEeebkoSoLoPs2Q" version="Latest" type="property"/>
+      <relatedItems xmi:id="_N_-7kUfsEeeJ6pJFpKzm5A" id="_-fc10EWOEeebkoSoLoPs2Q" version="Latest" type="property"/>
+      <relatedItems xmi:id="_N_-7kkfsEeeJ6pJFpKzm5A" id="_oiOJgEWOEeebkoSoLoPs2Q - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_N_-7k0fsEeeJ6pJFpKzm5A" id="_-fc10EWOEeebkoSoLoPs2Q - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_hJanYEfoEeeJ6pJFpKzm5A">
       <baseItem xmi:id="_hJanYUfoEeeJ6pJFpKzm5A" id="_jk_mAEZIEeeAbKFGaICvlw" version="0.1" type="job"/>
