@@ -627,6 +627,7 @@
       <relatedItems xmi:id="_wEoWY0YjEeeZO6otuELF0Q" id="_Nl2g4EYWEeeZO6otuELF0Q - refcustomers" version="Latest" type="schema"/>
       <relatedItems xmi:id="_wEoWZEYjEeeZO6otuELF0Q" id="_Nl2g4EYWEeeZO6otuELF0Q - salesstaging" version="Latest" type="schema"/>
       <relatedItems xmi:id="_wEoWZUYjEeeZO6otuELF0Q" id="_Nl2g4EYWEeeZO6otuELF0Q - retailproducts" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_l_jdEEd-EeeFRoGXxgXtzg" id="_hYSHUEbLEeeyZPtgxnluzw" version="Latest" type="property"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_k2jDkEY_EeeAbKFGaICvlw">
       <baseItem xmi:id="_k2jDkUY_EeeAbKFGaICvlw" id="_GuBmQEY-EeeAbKFGaICvlw" version="0.1" type="job"/>
