@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
-  <TalendMetadata:DatabaseConnection xmi:id="_fpGFEEFOEeeSw-3lHVvc-w" name="hdpcluster_HIVE" id="_fnFS4EFOEeeSw-3lHVvc-w" label="hdpcluster_HIVE" dataPackage="_1Ms7gEdkEeeqcJmE5iWebw" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://vmtalend4bdhdp:10000/default" dbVersionString="STANDALONE" Port="10000" Username="root" Password="Ok+OYG36hRUIzzlonTJOSQ==" ServerName="vmtalend4bdhdp" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" StandardSQL="true">
+  <TalendMetadata:DatabaseConnection xmi:id="_fpGFEEFOEeeSw-3lHVvc-w" name="hdpcluster_HIVE" id="_fnFS4EFOEeeSw-3lHVvc-w" label="hdpcluster_HIVE" dataPackage="_-l77wEdkEeeqcJmE5iWebw" DatabaseType="Hive" DriverClass="org.apache.hadoop.hive.jdbc.HiveDriver" URL="jdbc:hive2://vmtalend4bdhdp:10000/default" dbVersionString="STANDALONE" Port="10000" Username="root" Password="" ServerName="vmtalend4bdhdp" SID="default" SqlSynthax="SQL Syntax" DbmsId="hive_id" ProductId="HIVE" StandardSQL="true">
     <taggedValue xmi:id="_G61DwEddEeeqcJmE5iWebw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_LMoQIEddEeeqcJmE5iWebw" tag="Status" value=""/>
     <taggedValue xmi:id="_LMoQIUddEeeqcJmE5iWebw" tag="Version" value="0.1"/>
@@ -44,8 +44,8 @@
     <parameters xmi:id="_G5DiJUddEeeqcJmE5iWebw" key="CONN_PARA_KEY_KEYTAB" value=""/>
     <parameters xmi:id="_G5DiJkddEeeqcJmE5iWebw" key="HIVE_EXECUTION_ENGINE" value="tez"/>
     <parameters xmi:id="_G5OhQEddEeeqcJmE5iWebw" key="CONN_PARA_KEY_USE_SSL" value="false"/>
-    <parameters xmi:id="_x9PV4EdkEeeqcJmE5iWebw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
-    <parameters xmi:id="_x9PV4UdkEeeqcJmE5iWebw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
+    <parameters xmi:id="_6RDmMEdkEeeqcJmE5iWebw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PATH" value=""/>
+    <parameters xmi:id="_6RDmMUdkEeeqcJmE5iWebw" key="CONN_PARA_KEY_SSL_TRUST_STORE_PASSWORD" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Schema xmi:id="_1Ms7gEdkEeeqcJmE5iWebw" name="default" dataManager="_fpGFEEFOEeeSw-3lHVvc-w"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_-l77wEdkEeeqcJmE5iWebw" name="default" dataManager="_fpGFEEFOEeeSw-3lHVvc-w"/>
 </xmi:XMI>
