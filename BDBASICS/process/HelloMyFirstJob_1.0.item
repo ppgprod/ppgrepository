@@ -120,7 +120,7 @@
     <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
     <elementParameter field="TABLE" name="VALUES">
       <elementValue elementRef="SCHEMA_COLUMN" value="Message"/>
-      <elementValue elementRef="VALUE" value="&quot;My first day .... Job 1&quot;"/>
+      <elementValue elementRef="VALUE" value="&quot;My Second Day...2&quot;"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
