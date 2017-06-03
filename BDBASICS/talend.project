@@ -1108,6 +1108,24 @@
       <relatedItems xmi:id="_5fE1IEhgEeeJ6pJFpKzm5A" id="_MH_KoEhZEeeJ6pJFpKzm5A" version="Latest" type="property"/>
       <relatedItems xmi:id="_5fE1IUhgEeeJ6pJFpKzm5A" id="_MH_KoEhZEeeJ6pJFpKzm5A - customers" version="Latest" type="schema"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_5wH8UEh1Eee7r7imj3PuKA">
+      <baseItem xmi:id="_5wH8UUh1Eee7r7imj3PuKA" id="_3kyGIEh1Eee7r7imj3PuKA" version="0.1" type="joblet"/>
+      <relatedItems xmi:id="_5wH8Ukh1Eee7r7imj3PuKA" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8U0h1Eee7r7imj3PuKA" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8VEh1Eee7r7imj3PuKA" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8VUh1Eee7r7imj3PuKA" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8Vkh1Eee7r7imj3PuKA" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8V0h1Eee7r7imj3PuKA" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8WEh1Eee7r7imj3PuKA" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8WUh1Eee7r7imj3PuKA" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8Wkh1Eee7r7imj3PuKA" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8W0h1Eee7r7imj3PuKA" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8XEh1Eee7r7imj3PuKA" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8XUh1Eee7r7imj3PuKA" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8Xkh1Eee7r7imj3PuKA" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8X0h1Eee7r7imj3PuKA" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_5wH8YEh1Eee7r7imj3PuKA" id="MDM" version="Latest" type="routine"/>
+    </ItemsRelations>
     <deletedFolders>process/User2</deletedFolders>
     <migrationTask xmi:id="_hi4nUEFFEeevV6IQVrv63w" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_hi4nUUFFEeevV6IQVrv63w" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
