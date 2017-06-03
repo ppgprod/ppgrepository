@@ -19,12 +19,38 @@
           <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_A1tvtUhaEeeJ6pJFpKzm5A" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
           <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_A1tvtkhaEeeJ6pJFpKzm5A" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
         </subscribers>
+        <subscribers xmi:id="_wpyeMkhaEeeJ6pJFpKzm5A" name="TCDC_customers" id="_wpyeMEhaEeeJ6pJFpKzm5A" label="TCDC_customers">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyeM0haEeeJ6pJFpKzm5A" name="TALEND_CDC_SUBSCRIBERS_NAME" label="TALEND_CDC_SUBSCRIBERS_NAME" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyeNEhaEeeJ6pJFpKzm5A" name="TALEND_CDC_STATE" label="TALEND_CDC_STATE" length="1" sourceType="VARCHAR" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyeNUhaEeeJ6pJFpKzm5A" name="TALEND_CDC_TYPE" label="TALEND_CDC_TYPE" length="1" sourceType="VARCHAR" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyeNkhaEeeJ6pJFpKzm5A" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyeN0haEeeJ6pJFpKzm5A" name="ID" label="ID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+            <initialValue xmi:id="_wpyeOEhaEeeJ6pJFpKzm5A"/>
+          </feature>
+        </subscribers>
+        <subscribers xmi:id="_wpyeOUhaEeeJ6pJFpKzm5A" name="TCDC_VIEW_customers" id="_wpyeMUhaEeeJ6pJFpKzm5A" label="TCDC_VIEW_customers">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyeOkhaEeeJ6pJFpKzm5A" name="TALEND_CDC_SUBSCRIBERS_NAME" label="TALEND_CDC_SUBSCRIBERS_NAME" length="50" sourceType="VARCHAR" talendType="id_String" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyeO0haEeeJ6pJFpKzm5A" name="TALEND_CDC_TYPE" label="TALEND_CDC_TYPE" length="1" sourceType="VARCHAR" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyePEhaEeeJ6pJFpKzm5A" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyePUhaEeeJ6pJFpKzm5A" name="ID" label="ID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+            <initialValue xmi:id="_wpyePkhaEeeJ6pJFpKzm5A"/>
+          </feature>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyeP0haEeeJ6pJFpKzm5A" name="FirstName" label="FirstName" length="50" sourceType="VARCHAR" talendType="id_String">
+            <initialValue xmi:id="_wpyeQEhaEeeJ6pJFpKzm5A"/>
+          </feature>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyeQUhaEeeJ6pJFpKzm5A" name="LastName" label="LastName" length="50" sourceType="VARCHAR" talendType="id_String">
+            <initialValue xmi:id="_wpyeQkhaEeeJ6pJFpKzm5A"/>
+          </feature>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wpyeQ0haEeeJ6pJFpKzm5A" name="Age" label="Age" length="10" sourceType="INT" talendType="id_Integer">
+            <initialValue xmi:id="_wpyeREhaEeeJ6pJFpKzm5A"/>
+          </feature>
+        </subscribers>
       </cdcTypes>
     </cdcConns>
     <parameters xmi:id="_KjPaYkhZEeeJ6pJFpKzm5A" key="CONN_PARA_KEY_USERNAME" value="root"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_KkZ4AEhZEeeJ6pJFpKzm5A" name="unit_data_new" dataManager="_KjPaYEhZEeeJ6pJFpKzm5A">
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_fILeEUhZEeeJ6pJFpKzm5A" name="customers" id="_fILeEEhZEeeJ6pJFpKzm5A" label="customers" tableType="TABLE">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_fILeEUhZEeeJ6pJFpKzm5A" name="customers" id="_fILeEEhZEeeJ6pJFpKzm5A" label="customers" tableType="TABLE" attachedCDC="true" activatedCDC="true">
       <taggedValue xmi:id="_fILeEkhZEeeJ6pJFpKzm5A" tag="Comment" value=""/>
       <taggedValue xmi:id="_fILeE0hZEeeJ6pJFpKzm5A" tag="Comment" value=""/>
       <feature xsi:type="relational:TdColumn" xmi:id="_fILeFEhZEeeJ6pJFpKzm5A" name="ID" label="ID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
