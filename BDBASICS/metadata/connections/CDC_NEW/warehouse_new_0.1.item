@@ -12,6 +12,9 @@
     <taggedValue xmi:id="_QdqxcEhZEeeJ6pJFpKzm5A" tag="DB ProductName" value="MySQL"/>
     <taggedValue xmi:id="_QdqxcUhZEeeJ6pJFpKzm5A" tag="DB ProductVersion" value="5.7.18-log"/>
     <taggedValue xmi:id="_QdqxckhZEeeJ6pJFpKzm5A" tag="DB IdentifierQuoteString" value="`"/>
+    <queries xmi:id="_vIhVMEhZEeeJ6pJFpKzm5A">
+      <query xmi:id="_vIhVMkhZEeeJ6pJFpKzm5A" id="_vIhVMUhZEeeJ6pJFpKzm5A" label="SelectAll" value="select customers.ID,customers.FirstName,customers.LastName,customers.Age &#xA;from customers"/>
+    </queries>
     <parameters xmi:id="_Qc7KkkhZEeeJ6pJFpKzm5A" key="CONN_PARA_KEY_USERNAME" value="root"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_Qd0icEhZEeeJ6pJFpKzm5A" name="warehouse_new" dataManager="_Qc7KkEhZEeeJ6pJFpKzm5A">
