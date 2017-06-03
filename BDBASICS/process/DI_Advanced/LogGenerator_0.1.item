@@ -292,7 +292,7 @@
         <mapperTableEntries name="date" expression="row1.date " type="id_Date" nullable="true"/>
         <mapperTableEntries name="country" expression="row1.country " type="id_String" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="filter3" expressionFilter="row1.randcount > 60000" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="filter3" expressionFilter="row1.randcount > 6000" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="row1.id " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="randstring" expression="row1.randstring " type="id_String" nullable="true"/>
         <mapperTableEntries name="randcount" expression="row1.randcount " type="id_Integer" nullable="true"/>
