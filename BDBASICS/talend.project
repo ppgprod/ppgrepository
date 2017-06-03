@@ -913,6 +913,7 @@
       <relatedItems xmi:id="_KKNOz0fqEeeJ6pJFpKzm5A" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_KKNO0EfqEeeJ6pJFpKzm5A" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_KKNO0UfqEeeJ6pJFpKzm5A" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_IBfJIEh2Eee7r7imj3PuKA" id="_3kyGIEh1Eee7r7imj3PuKA" version="Latest" type="joblet"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_i9EuoEfuEeeJ6pJFpKzm5A">
       <baseItem xmi:id="_i9EuoUfuEeeJ6pJFpKzm5A" id="_i8xzsEfuEeeJ6pJFpKzm5A" version="0.1" type="job"/>

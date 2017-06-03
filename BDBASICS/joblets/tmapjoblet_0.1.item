@@ -84,11 +84,12 @@
       <elementParameter field="EXTERNAL" name="MAP" value=""/>
       <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
       <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-      <elementParameter field="IMAGE" name="PREVIEW" value="_KJ6T0EfqEeeJ6pJFpKzm5A-tMap_1-PREVIEW.bmp"/>
+      <elementParameter field="IMAGE" name="PREVIEW" value="_3kyGIEh1Eee7r7imj3PuKA-tMap_1-PREVIEW.bmp"/>
       <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
       <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
       <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
       <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="tMap_1"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <metadata connector="FLOW" name="CustomerswithStateName">
         <column comment="" key="false" length="-1" name="ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
@@ -145,7 +146,7 @@
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_1"/>
       <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
       <elementParameter field="CHECK" name="START" value="true" show="false"/>
-      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="LABEL" value="INPUT_1"/>
       <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <elementParameter field="CHECK" name="INFORMATION" value="false"/>
@@ -163,7 +164,7 @@
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_2"/>
       <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
       <elementParameter field="CHECK" name="START" value="false" show="false"/>
-      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="LABEL" value="INPUT_2"/>
       <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <elementParameter field="CHECK" name="INFORMATION" value="false"/>
@@ -178,7 +179,7 @@
       <elementParameter field="TEXT" name="UNIQUE_NAME" value="OUTPUT_1"/>
       <elementParameter field="CHECK" name="STARTABLE" value="false" show="false"/>
       <elementParameter field="CHECK" name="START" value="false" show="false"/>
-      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="LABEL" value="OUTPUT_1"/>
       <elementParameter field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
       <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
       <elementParameter field="CHECK" name="INFORMATION" value="false"/>
