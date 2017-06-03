@@ -101,7 +101,7 @@
         <column comment="" key="false" length="11" name="Sum" nullable="true" pattern="" precision="2" sourceType="" type="id_Float" originalLength="11" usefulColumn="true"/>
       </metadata>
       <nodeData xsi:type="MapperData">
-        <uiProperties/>
+        <uiProperties shellMaximized="true"/>
         <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
         <outputTables sizeState="INTERMEDIATE" name="CustomerswithStateName">
           <mapperTableEntries name="ID" expression="row1.ID " type="id_Integer" nullable="true"/>
