@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="MySQLAMC_Database" prompt="MySQLAMC_Database?" promptNeeded="false" repositoryContextId="_wPTl8EbLEeeyZPtgxnluzw" type="id_String" value="amc"/>
-    <contextParameter comment="" name="MySQLAMC_Password" prompt="MySQLAMC_Password?" promptNeeded="false" repositoryContextId="_wPTl8EbLEeeyZPtgxnluzw" type="id_Password" value="NZNgK6DuncI="/>
-    <contextParameter comment="" name="MySQLAMC_Server" prompt="MySQLAMC_Server?" promptNeeded="false" repositoryContextId="_wPTl8EbLEeeyZPtgxnluzw" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="MySQLAMC_AdditionalParams" prompt="MySQLAMC_AdditionalParams?" promptNeeded="false" repositoryContextId="_wPTl8EbLEeeyZPtgxnluzw" type="id_String" value="noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="MySQLAMC_Login" prompt="MySQLAMC_Login?" promptNeeded="false" repositoryContextId="_wPTl8EbLEeeyZPtgxnluzw" type="id_String" value="root"/>
-    <contextParameter comment="" name="MySQLAMC_Port" prompt="MySQLAMC_Port?" promptNeeded="false" repositoryContextId="_wPTl8EbLEeeyZPtgxnluzw" type="id_String" value="3306"/>
-    <contextParameter comment="" name="MySQLAMC1_Database" prompt="MySQLAMC1_Database?" promptNeeded="false" repositoryContextId="_7_jQ4Ed7EeeFRoGXxgXtzg" type="id_String" value="amc"/>
-    <contextParameter comment="" name="MySQLAMC1_Port" prompt="MySQLAMC1_Port?" promptNeeded="false" repositoryContextId="_7_jQ4Ed7EeeFRoGXxgXtzg" type="id_String" value="3306"/>
-    <contextParameter comment="" name="MySQLAMC1_Login" prompt="MySQLAMC1_Login?" promptNeeded="false" repositoryContextId="_7_jQ4Ed7EeeFRoGXxgXtzg" type="id_String" value="root"/>
-    <contextParameter comment="" name="MySQLAMC1_Server" prompt="MySQLAMC1_Server?" promptNeeded="false" repositoryContextId="_7_jQ4Ed7EeeFRoGXxgXtzg" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="MySQLAMC1_AdditionalParams" prompt="MySQLAMC1_AdditionalParams?" promptNeeded="false" repositoryContextId="_7_jQ4Ed7EeeFRoGXxgXtzg" type="id_String" value="noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="MySQLAMC1_Password" prompt="MySQLAMC1_Password?" promptNeeded="false" repositoryContextId="_7_jQ4Ed7EeeFRoGXxgXtzg" type="id_Password" value="Ok+OYG36hRUIzzlonTJOSQ=="/>
-    <contextParameter comment="" name="MySQLAMC3_AdditionalParams" prompt="MySQLAMC3_AdditionalParams?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="MySQLAMC3_Server" prompt="MySQLAMC3_Server?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="MySQLAMC3_Login" prompt="MySQLAMC3_Login?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="root"/>
-    <contextParameter comment="" name="MySQLAMC3_Port" prompt="MySQLAMC3_Port?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="3306"/>
-    <contextParameter comment="" name="MySQLAMC3_Database" prompt="MySQLAMC3_Database?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_String" value="amc"/>
-    <contextParameter comment="" name="MySQLAMC3_Password" prompt="MySQLAMC3_Password?" promptNeeded="false" repositoryContextId="_h_7QsEd8EeeFRoGXxgXtzg" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter comment="" name="MySQLAMC_Database" prompt="MySQLAMC_Database?" promptNeeded="false" type="id_String" value="amc"/>
+    <contextParameter comment="" name="MySQLAMC_Password" prompt="MySQLAMC_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
+    <contextParameter comment="" name="MySQLAMC_Server" prompt="MySQLAMC_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="MySQLAMC_AdditionalParams" prompt="MySQLAMC_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MySQLAMC_Login" prompt="MySQLAMC_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter comment="" name="MySQLAMC_Port" prompt="MySQLAMC_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MySQLAMC1_Database" prompt="MySQLAMC1_Database?" promptNeeded="false" type="id_String" value="amc"/>
+    <contextParameter comment="" name="MySQLAMC1_Port" prompt="MySQLAMC1_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MySQLAMC1_Login" prompt="MySQLAMC1_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter comment="" name="MySQLAMC1_Server" prompt="MySQLAMC1_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="MySQLAMC1_AdditionalParams" prompt="MySQLAMC1_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MySQLAMC1_Password" prompt="MySQLAMC1_Password?" promptNeeded="false" type="id_Password" value="Ok+OYG36hRUIzzlonTJOSQ=="/>
+    <contextParameter comment="" name="MySQLAMC3_AdditionalParams" prompt="MySQLAMC3_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
+    <contextParameter comment="" name="MySQLAMC3_Server" prompt="MySQLAMC3_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="MySQLAMC3_Login" prompt="MySQLAMC3_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter comment="" name="MySQLAMC3_Port" prompt="MySQLAMC3_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter comment="" name="MySQLAMC3_Database" prompt="MySQLAMC3_Database?" promptNeeded="false" type="id_String" value="amc"/>
+    <contextParameter comment="" name="MySQLAMC3_Password" prompt="MySQLAMC3_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -76,12 +76,12 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/vvelugur/Downloads/TalendStudio621/workspace/.metadata&quot;"/>
-    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
-    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;"/>
-    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/vvelugur/Downloads/TalendStudio621/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
     <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="true"/>
     <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="_hYSHUEbLEeeyZPtgxnluzw" show="false"/>
@@ -117,9 +117,6 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
-    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
-    <elementParameter field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true"/>
-    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE" value=""/>
     <routinesParameter id="_h3zucEFFEeevV6IQVrv63w" name="DQTechnical"/>
     <routinesParameter id="_h3Y3sEFFEeevV6IQVrv63w" name="DataMasking"/>
     <routinesParameter id="_h4C_AEFFEeevV6IQVrv63w" name="DataOperation"/>
@@ -144,7 +141,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tWarn_1"/>
   </node>
-  <node componentName="tCreateTable" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="64">
+  <node componentName="tCreateTable" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCreateTable_1" show="false"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
@@ -153,13 +150,13 @@
     <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="DROP_IF_EXIST_CREATE"/>
     <elementParameter field="CHECK" name="CASESENSITIVE" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC3_Server"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC3_Database"/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC_Server"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC_Database"/>
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="context.MySQLAMC_Database" show="false"/>
     <elementParameter field="TEXT" name="JDBC_URL" value="&quot;jdbc:oracle:oci:/@db10g_test&quot;" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC3_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWS23xO8NXsAcQWLT4Zvs4kM="/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC3_Port"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWeSWzGah0Ji6HP+rXEX6RBg="/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC_Port"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION_ACCESS" value="" show="false"/>
     <elementParameter field="FILE" name="DBFILE_ACCESS" value="&quot;&quot;" show="false"/>
@@ -219,10 +216,10 @@
       <column comment="" key="false" length="50" name="country" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="50" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="64">
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRowGenerator_1" show="false"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
-    <elementParameter field="TEXT" name="NB_ROWS" value="1000" show="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="100000" show="false"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="id"/>
       <elementValue elementRef="ARRAY" value="Numeric.sequence(&quot;s1&quot; ,1 ,1 )"/>
@@ -245,7 +242,7 @@
       <column comment="" key="false" length="-1" name="country" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="64">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
@@ -279,7 +276,7 @@
       <column comment="" key="false" length="-1" name="country" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="filter1" expressionFilter="row1.randcount &lt; 30000" activateExpressionFilter="true">
         <mapperTableEntries name="id" expression="row1.id " type="id_Integer" nullable="true"/>
@@ -311,7 +308,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="64">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="768" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlOutput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_hYSHUEbLEeeyZPtgxnluzw" show="false"/>
@@ -319,11 +316,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC3_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC3_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC3_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC3_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWS23xO8NXsAcQWLT4Zvs4kM="/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWeSWzGah0Ji6HP+rXEX6RBg="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;testamc&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -332,7 +329,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC3_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC_AdditionalParams"/>
     <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
     <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
     <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
@@ -394,7 +391,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="160">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="768" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlOutput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_hYSHUEbLEeeyZPtgxnluzw" show="false"/>
@@ -402,11 +399,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC3_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC3_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC3_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC3_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWS23xO8NXsAcQWLT4Zvs4kM="/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWeSWzGah0Ji6HP+rXEX6RBg="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;testamc&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -415,7 +412,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC3_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC_AdditionalParams"/>
     <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
     <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
     <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
@@ -477,7 +474,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="224">
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="768" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMysqlOutput_3" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_hYSHUEbLEeeyZPtgxnluzw" show="false"/>
@@ -485,11 +482,11 @@
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC3_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC3_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC3_Database"/>
-    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC3_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWS23xO8NXsAcQWLT4Zvs4kM="/>
+    <elementParameter field="TEXT" name="HOST" value="context.MySQLAMC_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.MySQLAMC_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.MySQLAMC_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.MySQLAMC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kufBGNLqdpPjWeSWzGah0Ji6HP+rXEX6RBg="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;testamc&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
@@ -498,7 +495,7 @@
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="mysql_id" show="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC3_AdditionalParams"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.MySQLAMC_AdditionalParams"/>
     <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
     <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
     <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
@@ -560,7 +557,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="256">
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;End of the Job&quot;"/>
     <elementParameter field="TEXT" name="CODE" value="42"/>
