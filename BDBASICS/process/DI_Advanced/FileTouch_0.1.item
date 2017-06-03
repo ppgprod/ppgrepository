@@ -1,44 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="local.txt"/>
-    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\OUT\&quot;"/>
-    <contextParameter comment="" name="MySQLAMC_Database" prompt="MySQLAMC_Database?" promptNeeded="false" type="id_String" value="amc"/>
-    <contextParameter comment="" name="MySQLAMC_Password" prompt="MySQLAMC_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
-    <contextParameter comment="" name="MySQLAMC_Server" prompt="MySQLAMC_Server?" promptNeeded="false" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="MySQLAMC_AdditionalParams" prompt="MySQLAMC_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="MySQLAMC_Login" prompt="MySQLAMC_Login?" promptNeeded="false" type="id_String" value="root"/>
-    <contextParameter comment="" name="MySQLAMC_Port" prompt="MySQLAMC_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter comment="" name="LocalFile" prompt="LocalFile?" promptNeeded="false" type="id_String" value="local.txt"/>
+    <contextParameter comment="" name="RemoteFile" prompt="RemoteFile?" promptNeeded="false" type="id_String" value="remote.txt"/>
   </context>
   <context confirmationNeeded="false" name="Dev">
-    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="dev-remote.txt"/>
-    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\Dev\&quot;"/>
-    <contextParameter comment="" name="MySQLAMC_Database" prompt="MySQLAMC_Database?" promptNeeded="false" type="id_String" value="amc"/>
-    <contextParameter comment="" name="MySQLAMC_Password" prompt="MySQLAMC_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
-    <contextParameter comment="" name="MySQLAMC_Server" prompt="MySQLAMC_Server?" promptNeeded="false" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="MySQLAMC_AdditionalParams" prompt="MySQLAMC_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="MySQLAMC_Login" prompt="MySQLAMC_Login?" promptNeeded="false" type="id_String" value="root"/>
-    <contextParameter comment="" name="MySQLAMC_Port" prompt="MySQLAMC_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter comment="" name="LocalFile" prompt="LocalFile?" promptNeeded="false" type="id_String" value="dev-remote.txt"/>
+    <contextParameter comment="" name="RemoteFile" prompt="RemoteFile?" promptNeeded="false" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="QA">
-    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="qa-remote.txt"/>
-    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\QA\&quot;"/>
-    <contextParameter comment="" name="MySQLAMC_Database" prompt="MySQLAMC_Database?" promptNeeded="false" type="id_String" value="amc"/>
-    <contextParameter comment="" name="MySQLAMC_Password" prompt="MySQLAMC_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
-    <contextParameter comment="" name="MySQLAMC_Server" prompt="MySQLAMC_Server?" promptNeeded="false" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="MySQLAMC_AdditionalParams" prompt="MySQLAMC_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="MySQLAMC_Login" prompt="MySQLAMC_Login?" promptNeeded="false" type="id_String" value="root"/>
-    <contextParameter comment="" name="MySQLAMC_Port" prompt="MySQLAMC_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter comment="" name="LocalFile" prompt="LocalFile?" promptNeeded="false" type="id_String" value="qa-remote.txt"/>
+    <contextParameter comment="" name="RemoteFile" prompt="RemoteFile?" promptNeeded="false" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="Remote">
-    <contextParameter comment="" name="FileName" prompt="FileName?" promptNeeded="false" type="id_String" value="remote.txt"/>
-    <contextParameter comment="" name="TargetFolder" prompt="TargetFolder?" promptNeeded="false" repositoryContextId="_XQ3HsEWUEeebkoSoLoPs2Q" type="id_String" value="&quot;C:\StudentFiles\DIBasics\OUT\&quot;"/>
-    <contextParameter comment="" name="MySQLAMC_Database" prompt="MySQLAMC_Database?" promptNeeded="false" type="id_String" value="amc"/>
-    <contextParameter comment="" name="MySQLAMC_Password" prompt="MySQLAMC_Password?" promptNeeded="false" type="id_Password" value="NZNgK6DuncI="/>
-    <contextParameter comment="" name="MySQLAMC_Server" prompt="MySQLAMC_Server?" promptNeeded="false" type="id_String" value="localhost"/>
-    <contextParameter comment="" name="MySQLAMC_AdditionalParams" prompt="MySQLAMC_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true"/>
-    <contextParameter comment="" name="MySQLAMC_Login" prompt="MySQLAMC_Login?" promptNeeded="false" type="id_String" value="root"/>
-    <contextParameter comment="" name="MySQLAMC_Port" prompt="MySQLAMC_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter comment="" name="LocalFile" prompt="LocalFile?" promptNeeded="false" type="id_String" value="remote.txt"/>
+    <contextParameter comment="" name="RemoteFile" prompt="RemoteFile?" promptNeeded="false" type="id_String" value=""/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -155,7 +131,7 @@
   </parameters>
   <node componentName="tFileTouch" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileTouch_1" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;/home/talend4bd/&quot;+ context.FileName"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;/home/talend4bd/&quot;+ context.LocalFile"/>
     <elementParameter field="CHECK" name="CREATEDIR" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileTouch_1"/>
