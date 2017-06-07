@@ -11,10 +11,31 @@
     <analysedElements xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/LocalMySQL_0.1.item#_cpiigEYWEeeZO6otuELF0Q"/>
   </context>
   <results xmi:id="_dh8Wd0uCEeer3OtSZmEfDw">
-    <resultMetadata xmi:id="_dh8WeEuCEeer3OtSZmEfDw"/>
-    <indicators xsi:type="dataquality.indicators.schema:CatalogIndicator" xmi:id="_dh8WeUuCEeer3OtSZmEfDw">
+    <resultMetadata xmi:id="_dh8WeEuCEeer3OtSZmEfDw" executionDate="2017-06-07T09:09:18.618-0400" executionDuration="1289" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+    <indicators xsi:type="dataquality.indicators.schema:CatalogIndicator" xmi:id="_dh8WeUuCEeer3OtSZmEfDw" computed="true" tableCount="7" keyCount="2" indexCount="2" tableRowCount="2035050">
       <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/LocalMySQL_0.1.item#_cpiigEYWEeeZO6otuELF0Q"/>
       <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+      <tableIndicators xmi:id="_hCLjAEuCEeer3OtSZmEfDw" rowCount="1000000" tableName="customersdata" keyCount="1" indexCount="1">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_hHGfQEuCEeer3OtSZmEfDw" rowCount="1000000" tableName="customersdata_new" keyCount="1" indexCount="1">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_hHZaMEuCEeer3OtSZmEfDw" rowCount="5000" tableName="refcustomers">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_hHikIEuCEeer3OtSZmEfDw" rowCount="50" tableName="retailproducts">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_hHikIUuCEeer3OtSZmEfDw" rowCount="5708" tableName="retailsales">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_hH2GIEuCEeer3OtSZmEfDw" rowCount="15000" tableName="salesstaging">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
+      <tableIndicators xmi:id="_hH_QEEuCEeer3OtSZmEfDw" rowCount="9292" tableName="totalsales">
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+      </tableIndicators>
     </indicators>
   </results>
   <parameters xmi:id="_dh8WekuCEeer3OtSZmEfDw" analysisType="Catalog Analysis"/>
