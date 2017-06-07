@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:id="_dh8WcEuCEeer3OtSZmEfDw" name="trainingCataloganalysis" creationDate="2017-06-07T09:08:52.180-0400">
+  <clientDependency href="../../metadata/connections/LocalMySQL_0.1.item#_dD6WoEuCEeer3OtSZmEfDw"/>
+  <taggedValue xmi:id="_dh8WcUuCEeer3OtSZmEfDw" tag="Status" value="development"/>
+  <taggedValue xmi:id="_dh8WckuCEeer3OtSZmEfDw" tag="Author" value="user1@company.com"/>
+  <taggedValue xmi:id="_dh8Wc0uCEeer3OtSZmEfDw" tag="Purpose" value="trainingCataloganalysis"/>
+  <taggedValue xmi:id="_dh8WdEuCEeer3OtSZmEfDw" tag="Description" value="trainingCataloganalysis"/>
+  <taggedValue xmi:id="_dh8WdUuCEeer3OtSZmEfDw" tag="Version" value="0.1"/>
+  <context xmi:id="_dh8WdkuCEeer3OtSZmEfDw">
+    <connection href="../../metadata/connections/LocalMySQL_0.1.item#_cn0rQEYWEeeZO6otuELF0Q"/>
+    <analysedElements xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/LocalMySQL_0.1.item#_cpiigEYWEeeZO6otuELF0Q"/>
+  </context>
+  <results xmi:id="_dh8Wd0uCEeer3OtSZmEfDw">
+    <resultMetadata xmi:id="_dh8WeEuCEeer3OtSZmEfDw"/>
+    <indicators xsi:type="dataquality.indicators.schema:CatalogIndicator" xmi:id="_dh8WeUuCEeer3OtSZmEfDw">
+      <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/LocalMySQL_0.1.item#_cpiigEYWEeeZO6otuELF0Q"/>
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_dh8WekuCEeer3OtSZmEfDw" analysisType="Catalog Analysis"/>
+</dataquality.analysis:Analysis>
